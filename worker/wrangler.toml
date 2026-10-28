@@ -1,9 +1,0 @@
-name = "zio-tv"
-main = "src/worker.js"
-compatibility_date = "2024-11-01"
-
-# Free plan is fine. After `wrangler deploy` your proxy is live at:
-#   https://zio-tv.<your-subdomain>.workers.dev
-#
-# Then set that URL as ZIO_PROXY_BASE in the GitHub Action (repo Secret) so the
-# hosted playlists point at it. See worker/README.md.

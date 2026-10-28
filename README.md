@@ -1,6 +1,6 @@
 # Zio TV via livetgtv
 
-Generates and keeps up to date **four** IPTV playlists for TiviMate / Televizo,
+Generates and keeps up to date **four** IPTV playlists for TiviMate / OTT Navigator,
 resolved live from the open [`livetgtv`](https://livetgtv.lovable.app/docs) public API.
 
 > **Hosted mode (recommended):** push this folder to a GitHub repo named
@@ -68,7 +68,7 @@ Zio TV — All Channels       http://192.168.29.235:8888/all.m3u
 Zio TV — Kids (Hindi)       http://192.168.29.235:8888/kids-hindi.m3u
 ```
 
-Add those URLs in TiviMate/Televizo (device on the same Wi-Fi). Each fetch
+Add those URLs in TiviMate/OTT Navigator (device on the same Wi-Fi). Each fetch
 re-resolves current tokens + ClearKeys. Responses are cached for 5 min
 (`ZIO_TTL_MS`) so refreshing is fast and easy on the API.
 
@@ -109,10 +109,10 @@ ClearKey and read the `#KODIPROP` tags. **Pick a supported player:**
 
 | Player | Works? | Notes |
 |--------|:------:|-------|
-| **TiviMate** | ✅ | Add playlist → *Enter URL* (hosted) or *Add from file*. Reads `#KODIPROP` ClearKey automatically. |
-| **OTT Navigator** | ✅ | Reads ClearKey `#KODIPROP`. |
-| **Televizo** | ✅ | Add playlist → URL or local file. |
+| **TiviMate** | ✅ | **Recommended.** Add playlist → *Enter URL* (hosted) or *Add from file*. Reads `#KODIPROP` ClearKey and forwards the token to segments. |
+| **OTT Navigator** | ✅ | **Recommended.** Reads ClearKey `#KODIPROP` and honours the segment token. |
 | **Kodi** (inputstream.adaptive) | ✅ | Works as-is. |
+| **Televizo** | ⚠️ | Plays audio but shows a **black screen**: it does not forward the Akamai token to DASH segments, so video segments 403. Needs a token-injection proxy on a **residential Indian IP** (JioTV returns HTTP 450 to cloud/datacenter IPs, so no free cloud host works). Use TiviMate/OTT Navigator instead. |
 | **PotPlayer** | ❌ | **Does not support DRM/ClearKey DASH** and ignores `#KODIPROP`, so it fails with *"Unable to connect to the requested server."* This is expected — it is not a playlist problem. |
 | **VLC** | ❌ | No ClearKey DASH support. |
 
@@ -151,7 +151,7 @@ https://<you>.github.io/zio-tv-via-livetgtv/all.m3u
 https://<you>.github.io/zio-tv-via-livetgtv/kids-hindi.m3u
 ```
 
-Paste any of these into TiviMate/Televizo as a playlist **URL**. The player
+Paste any of these into TiviMate/OTT Navigator as a playlist **URL**. The player
 re-downloads the file periodically and always gets the latest tokens because the
 cron keeps the committed files fresh (tokens last ~6h; refresh runs every 3h).
 

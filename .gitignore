@@ -1,6 +1,5 @@
 node_modules/
 *.log
-.wrangler/
 
 # NOTE: playlists/ is intentionally committed — the generated .m3u files are the
 # artifact served to IPTV players via raw GitHub URLs / GitHub Pages.

@@ -28,10 +28,6 @@ async function runOnce() {
   for (const o of outputs) {
     await writeFile(join(OUT_DIR, o.file), o.text, 'utf8');
     console.log(`  ${o.file}: ok=${o.stats.ok} skipped=${o.stats.skipped} failed=${o.stats.failed}`);
-    if (o.proxyText && o.proxyFile) {
-      await writeFile(join(OUT_DIR, o.proxyFile), o.proxyText, 'utf8');
-      console.log(`  ${o.proxyFile}: (proxy)`);
-    }
   }
   console.log(`[${new Date().toISOString()}] done -> ${OUT_DIR}`);
 }

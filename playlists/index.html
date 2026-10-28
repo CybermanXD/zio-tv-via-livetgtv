@@ -16,18 +16,14 @@
   <h1>Zio TV via livetgtv</h1>
   <p>Copy a playlist URL below into your IPTV player. Playlists auto-refresh every few hours.</p>
 
-  <h2>Direct playlists — for TiviMate / OTT Navigator</h2>
-  <p>Header-based. Work in players that forward stream headers. No proxy needed.</p>
+  <h2>Playlists — for TiviMate / OTT Navigator</h2>
+  <p>Header-based. Work in players that forward stream headers and read ClearKey <code>#KODIPROP</code> tags.</p>
   <ul>
       <li><strong>Zio TV — English</strong> — <a href="./english.m3u">english.m3u</a> <code>./english.m3u</code></li>
       <li><strong>Zio TV — Hindi</strong> — <a href="./hindi.m3u">hindi.m3u</a> <code>./hindi.m3u</code></li>
       <li><strong>Zio TV — All Channels</strong> — <a href="./all.m3u">all.m3u</a> <code>./all.m3u</code></li>
       <li><strong>Zio TV — Kids (Hindi)</strong> — <a href="./kids-hindi.m3u">kids-hindi.m3u</a> <code>./kids-hindi.m3u</code></li>
   </ul>
-
-  <h2>Proxy playlists</h2>
-  <p class="note">Not generated — set the <code>ZIO_PROXY_BASE</code> repository Variable to a deployed
-  proxy (e.g. a Cloudflare Worker) and re-run the workflow to enable Televizo/VLC support.</p>
 
   <p class="note">Streams are geo-restricted to India (use an Indian IP). Tokens refresh automatically on each scheduled rebuild.</p>
 </body>

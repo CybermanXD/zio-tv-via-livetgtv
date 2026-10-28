@@ -1,4 +1,4 @@
-// Builds TiviMate/Televizo-compatible M3U text from resolved channels.
+// Builds TiviMate/OTT Navigator-compatible M3U text from resolved channels.
 
 import { resolveChannel } from './api.js';
 
@@ -34,25 +34,12 @@ function extractHdneaToken(src) {
   return null;
 }
 
-// Optional proxy base (e.g. a Cloudflare Worker) that injects the Akamai token
-// into manifest + segment requests server-side. When set, a parallel "proxy"
-// playlist is produced pointing each channel at `${PROXY_BASE}/mpd/<id>` instead
-// of the raw JioTV manifest, so the stream plays in players that DON'T forward
-// auth headers (Televizo/ExoPlayer, VLC). The stable ClearKey is still embedded
-// for in-player decryption. The DIRECT playlist is always produced too.
-export const PROXY_BASE = (process.env.ZIO_PROXY_BASE || '').replace(/\/+$/, '');
-
 /**
  * Build one #EXTINF block (array of lines) for an already-resolved channel.
  * @param {object} resolved  resolved channel from the API
  * @param {object} fallback  base channel (name/category/logo fallbacks)
- * @param {object} [opts]
- * @param {'direct'|'proxy'} [opts.mode='direct']  URL style to emit
- * @param {string} [opts.proxyBase]  proxy origin for mode='proxy'
  */
-export function channelBlock(resolved, fallback = {}, opts = {}) {
-  const mode = opts.mode || 'direct';
-  const proxyBase = (opts.proxyBase ?? PROXY_BASE) || '';
+export function channelBlock(resolved, fallback = {}) {
   const name = resolved.name || fallback.name || resolved.id;
   const group = resolved.category || fallback.category || 'Live';
   const logo = resolved.logo || fallback.logo || '';
@@ -70,20 +57,8 @@ export function channelBlock(resolved, fallback = {}, opts = {}) {
     lines.push(`#KODIPROP:inputstream.adaptive.license_key=${keyStr}`);
   }
 
-  if (mode === 'proxy') {
-    if (!proxyBase) return null; // can't build a proxy block without a base
-    // Point at the always-on proxy (Worker). It resolves a fresh token per play
-    // and proxies segments, so NO player needs to forward auth headers.
-    lines.push(
-      `#EXTINF:-1 tvg-id="${resolved.id}" tvg-logo="${logo}" group-title="${group}",${name}`,
-    );
-    lines.push(`${proxyBase}/mpd/${encodeURIComponent(resolved.id)}`);
-    return lines;
-  }
-
-  // Direct mode: forward the Akamai token as a Cookie on manifest AND segment
-  // requests. Works in TiviMate/OTT Navigator (which honour stream_headers) but
-  // NOT Televizo/ExoPlayer — use the proxy playlist for universal playback.
+  // Forward the Akamai token as a Cookie on manifest AND segment requests.
+  // Works in TiviMate/OTT Navigator/Kodi (which honour stream_headers).
   const token = extractHdneaToken(src);
   if (token) {
     const cookie = 'Cookie=' + encodeURIComponent(token);
@@ -115,26 +90,20 @@ async function mapLimit(items, limit, fn) {
 
 /**
  * Resolve a list of base channels and build M3U text.
+ * Each channel is resolved ONCE.
  *
- * Each channel is resolved ONCE. We always build the `direct` block, and — when
- * a proxy base is configured (opts.proxyBase or ZIO_PROXY_BASE) — the `proxy`
- * block too, so both playlists come from the same (short-lived) token fetch.
- *
- * Returns { text, proxyText, ok, failed, skipped, total }.
- * `proxyText` is null when no proxy base is set.
+ * Returns { text, ok, failed, skipped, total }.
  */
-export async function buildM3U(channels, { concurrency = 8, onProgress, proxyBase } = {}) {
-  const base = (proxyBase ?? PROXY_BASE) || '';
+export async function buildM3U(channels, { concurrency = 8, onProgress } = {}) {
   let done = 0;
   const results = await mapLimit(channels, concurrency, async (ch) => {
     try {
       const resolved = await resolveChannel(ch.id);
-      const direct = channelBlock(resolved, ch, { mode: 'direct' });
-      const proxy = base ? channelBlock(resolved, ch, { mode: 'proxy', proxyBase: base }) : null;
+      const direct = channelBlock(resolved, ch);
       done++;
       if (onProgress) onProgress(done, channels.length);
       if (!direct) return { status: 'skipped', id: ch.id, name: ch.name };
-      return { status: 'ok', id: ch.id, name: ch.name, direct, proxy };
+      return { status: 'ok', id: ch.id, name: ch.name, direct };
     } catch (e) {
       done++;
       if (onProgress) onProgress(done, channels.length);
@@ -143,14 +112,12 @@ export async function buildM3U(channels, { concurrency = 8, onProgress, proxyBas
   });
 
   const lines = ['#EXTM3U'];
-  const proxyLines = ['#EXTM3U'];
   let ok = 0;
   const failed = [];
   const skipped = [];
   for (const r of results) {
     if (r.status === 'ok') {
       lines.push(...r.direct);
-      if (base && r.proxy) proxyLines.push(...r.proxy);
       ok++;
     } else if (r.status === 'failed') {
       failed.push(r);
@@ -160,7 +127,6 @@ export async function buildM3U(channels, { concurrency = 8, onProgress, proxyBas
   }
   return {
     text: lines.join('\n') + '\n',
-    proxyText: base ? proxyLines.join('\n') + '\n' : null,
     ok,
     failed,
     skipped,
