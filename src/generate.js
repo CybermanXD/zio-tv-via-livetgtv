@@ -1,7 +1,7 @@
 // Core generation: fetch catalog, split into the 4 playlists, resolve & build M3U.
 
 import { listChannels } from './api.js';
-import { PLAYLISTS, getPlaylistByKey } from './playlists.config.js';
+import { PLAYLISTS, getPlaylistByKey, sortByCategory } from './playlists.config.js';
 import { buildM3U } from './m3u.js';
 
 /**
@@ -11,7 +11,13 @@ import { buildM3U } from './m3u.js';
 export async function planPlaylists() {
   const catalog = await listChannels();
   const sets = {};
-  for (const p of PLAYLISTS) sets[p.key] = catalog.filter(p.match);
+  for (const p of PLAYLISTS) {
+    const matched = catalog.filter(p.match);
+    // Group by category (Entertainment, Kids, Infotainment, Lifestyle, ...) so the
+    // numbering players assign follows CATEGORY_ORDER. The curated "kids-hindi"
+    // playlist keeps its explicit hand-picked order instead.
+    sets[p.key] = p.preserveOrder ? matched : sortByCategory(matched);
+  }
   return { catalog, sets };
 }
 

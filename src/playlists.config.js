@@ -72,6 +72,31 @@ export const KIDS_HINDI_IDS = [
 ];
 const KIDS_HINDI_SET = new Set(KIDS_HINDI_IDS);
 
+// Extra channels pinned into the "custom" playlist by explicit ID (they live in
+// the English category, so the Kids/Infotainment category filter wouldn't catch
+// them).
+export const CUSTOM_EXTRA_IDS = [
+  '1158', // Colors Infinity HD
+  '1325', // Colors Infinity SD
+  '2258', // Animax
+];
+const CUSTOM_EXTRA_SET = new Set(CUSTOM_EXTRA_IDS);
+
+/**
+ * "custom" playlist membership: every Kids and Infotainment channel (Hindi/English
+ * only — no Tamil/Telugu/other regional languages) plus the pinned extras above
+ * (Colors Infinity HD/SD, Animax).
+ */
+export function isCustom(ch) {
+  if (CUSTOM_EXTRA_SET.has(String(ch.id))) return true;
+  const cat = (ch.category || '').toLowerCase();
+  if (cat === 'kids' || cat === 'infotainment') {
+    if (nameHasOtherLanguage(ch.name)) return false; // drop Tamil/Telugu/etc.
+    return true;
+  }
+  return false;
+}
+
 export const PLAYLISTS = [
   {
     key: 'english',
@@ -97,8 +122,71 @@ export const PLAYLISTS = [
     title: 'Zio TV — Kids (Hindi)',
     // Curated explicit line-up (16 channels) rather than category heuristic.
     match: (ch) => KIDS_HINDI_SET.has(String(ch.id)),
+    // Keep the hand-picked KIDS_HINDI_IDS order; don't re-sort by category.
+    preserveOrder: true,
+  },
+  {
+    key: 'custom',
+    file: 'custom.m3u',
+    title: 'Zio TV — Custom',
+    // Kids + Infotainment (Hindi/English only) plus Colors Infinity & Animax.
+    match: (ch) => isCustom(ch),
   },
 ];
+
+// ---------------------------------------------------------------------------
+// Category ordering (controls channel numbering inside every playlist).
+//
+// Channels are grouped by their API `category` in this exact order, so the
+// numbering a player assigns follows it: Entertainment first, then Kids,
+// Infotainment, Lifestyle, and so on. Any category NOT listed here is treated
+// as "other" and appended after the listed ones, sorted alphabetically.
+// Within a single category the original catalog order is preserved (stable).
+// ---------------------------------------------------------------------------
+export const CATEGORY_ORDER = [
+  'Entertainment',
+  'Kids',
+  'Infotainment',
+  'Lifestyle',
+  'Movies',
+  'Music',
+  'Sports',
+  'News',
+  'Business News',
+  'Devotional',
+  'Educational',
+];
+
+const CATEGORY_RANK = new Map(CATEGORY_ORDER.map((c, i) => [c.toLowerCase(), i]));
+
+/** Numeric rank for a category; unlisted categories sort to the very end. */
+export function categoryRank(cat) {
+  const key = (cat || '').toLowerCase();
+  return CATEGORY_RANK.has(key) ? CATEGORY_RANK.get(key) : Number.MAX_SAFE_INTEGER;
+}
+
+/**
+ * Return a new array of channels grouped by CATEGORY_ORDER (then unlisted
+ * categories alphabetically), stable within each category. This fixes the
+ * order/numbering the IPTV player shows.
+ */
+export function sortByCategory(channels) {
+  return channels
+    .map((ch, i) => ({ ch, i }))
+    .sort((a, b) => {
+      const ra = categoryRank(a.ch.category);
+      const rb = categoryRank(b.ch.category);
+      if (ra !== rb) return ra - rb;
+      if (ra === Number.MAX_SAFE_INTEGER) {
+        // both unlisted: group alphabetically by category name
+        const ca = (a.ch.category || '').toLowerCase();
+        const cb = (b.ch.category || '').toLowerCase();
+        if (ca !== cb) return ca < cb ? -1 : 1;
+      }
+      return a.i - b.i; // stable: preserve catalog order within a category
+    })
+    .map((x) => x.ch);
+}
 
 export function getPlaylistByKey(key) {
   return PLAYLISTS.find((p) => p.key === key);

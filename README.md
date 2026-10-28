@@ -1,6 +1,6 @@
 # Zio TV via livetgtv
 
-Generates and keeps up to date **four** IPTV playlists for TiviMate / OTT Navigator,
+Generates and keeps up to date **five** IPTV playlists for TiviMate / OTT Navigator,
 resolved live from the open [`livetgtv`](https://livetgtv.lovable.app/docs) public API.
 
 > **Hosted mode (recommended):** push this folder to a GitHub repo named
@@ -12,7 +12,7 @@ The streams are **MPEG-DASH (`.mpd`) with ClearKey DRM**, which standard IPTV
 players support via `inputstream.adaptive`. Each entry carries the correct
 `#KODIPROP` ClearKey tags so the player can decrypt without any extra setup.
 
-## The 4 playlists
+## The 5 playlists
 
 | Key          | File             | Contents                                   |
 |--------------|------------------|--------------------------------------------|
@@ -20,6 +20,24 @@ players support via `inputstream.adaptive`. Each entry carries the correct
 | `hindi`      | `hindi.m3u`      | All **Hindi** channels (heuristic — see below) |
 | `all`        | `all.m3u`        | **Every** channel in the catalog           |
 | `kids-hindi` | `kids-hindi.m3u` | Curated **16 Hindi kids** channels (explicit list) |
+| `custom`     | `custom.m3u`     | All **Kids + Infotainment** (Hindi/English only) **+ Colors Infinity HD/SD + Animax** |
+
+### Channel order (numbering)
+
+Inside every playlist (except the hand-curated `kids-hindi`), channels are
+**grouped by category** in this order, so the numbering your player assigns
+follows it: **Entertainment → Kids → Infotainment → Lifestyle → Movies → Music
+→ Sports → News → Business News → Devotional → Educational → (other categories,
+alphabetical)**. Tune the list via `CATEGORY_ORDER` in
+[`src/playlists.config.js`](src/playlists.config.js).
+
+### EPG (TV guide)
+
+Each playlist's `#EXTM3U` header advertises an XMLTV guide via `url-tvg`, so
+TiviMate / OTT Navigator auto-load and map it by `tvg-id` (our ids are the
+JioTV numeric channel ids the guide uses). Default:
+`https://avkb.short.gy/jioepg.xml.gz` (~1.6 MB, matches ~85% of channels).
+Override with the `ZIO_EPG_URL` env var (comma-separate multiple URLs).
 
 > There is no "Hindi" category in the API (only per-regional-language categories
 > like Tamil/Telugu plus generic ones like News/Movies/Kids). The `hindi` playlist
@@ -179,6 +197,7 @@ git push -u origin main
 | `ZIO_INTERVAL_MS` | `1800000` (30 min)              | watch              |
 | `ZIO_CONCURRENCY` | `8`                             | all                |
 | `ZIO_API_BASE`    | `https://livetgtv.lovable.app/api/public` | all      |
+| `ZIO_EPG_URL`     | `https://avkb.short.gy/jioepg.xml.gz`     | all      |
 
 ## Project layout
 

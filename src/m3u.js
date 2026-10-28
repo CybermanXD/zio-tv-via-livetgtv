@@ -2,6 +2,15 @@
 
 import { resolveChannel } from './api.js';
 
+// EPG (XMLTV) source advertised in the #EXTM3U header via `url-tvg`, so players
+// (TiviMate / OTT Navigator) auto-load the guide and map it by tvg-id. Our
+// tvg-id values are the livetgtv/JioTV numeric channel IDs, which match these
+// JioTV XMLTV guides. Default is the compact avkb mirror (~1.6 MB gzipped,
+// matches ~85% of our channels); override with ZIO_EPG_URL. Multiple URLs can
+// be comma-separated.
+export const EPG_URL =
+  process.env.ZIO_EPG_URL || 'https://avkb.short.gy/jioepg.xml.gz';
+
 /** Normalise DRM into { type, pairs:[[kid,key],...] } or null. */
 export function extractClearKeys(drm) {
   if (!drm) return null;
@@ -67,7 +76,7 @@ export function channelBlock(resolved, fallback = {}) {
   }
 
   lines.push(
-    `#EXTINF:-1 tvg-id="${resolved.id}" tvg-logo="${logo}" group-title="${group}",${name}`,
+    `#EXTINF:-1 tvg-id="${resolved.id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}`,
   );
   lines.push('#EXTVLCOPT:http-user-agent=Mozilla/5.0');
   lines.push(src);
@@ -111,7 +120,7 @@ export async function buildM3U(channels, { concurrency = 8, onProgress } = {}) {
     }
   });
 
-  const lines = ['#EXTM3U'];
+  const lines = [EPG_URL ? `#EXTM3U url-tvg="${EPG_URL}"` : '#EXTM3U'];
   let ok = 0;
   const failed = [];
   const skipped = [];
