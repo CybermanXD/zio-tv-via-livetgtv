@@ -15,6 +15,25 @@ export function extractClearKeys(drm) {
   return null;
 }
 
+/**
+ * JioTV/Akamai protects segments with an `__hdnea__` token. Placed only on the
+ * manifest URL's query string it authorises the .mpd but NOT the relative
+ * segment URLs (which drop the query) -> every segment returns HTTP 403, so the
+ * manifest loads but nothing plays. The token's ACL is `/*`, and Akamai also
+ * accepts it as a Cookie, so sending it as a Cookie header on ALL requests
+ * (manifest + segments) fixes playback. We emit it via inputstream.adaptive
+ * stream/manifest headers so TiviMate/OTT Navigator/Kodi attach it everywhere.
+ */
+function extractHdneaToken(src) {
+  try {
+    const q = new URL(src).search.slice(1); // e.g. __hdnea__=st=...~exp=...~acl=/*~hmac=...
+    if (/__hdnea__=/.test(q)) return q;
+  } catch {
+    /* ignore */
+  }
+  return null;
+}
+
 /** Build one #EXTINF block (array of lines) for an already-resolved channel. */
 export function channelBlock(resolved, fallback = {}) {
   const name = resolved.name || fallback.name || resolved.id;
@@ -33,6 +52,15 @@ export function channelBlock(resolved, fallback = {}) {
     lines.push('#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey');
     lines.push(`#KODIPROP:inputstream.adaptive.license_key=${keyStr}`);
   }
+
+  // Forward the Akamai token as a Cookie on manifest AND segment requests.
+  const token = extractHdneaToken(src);
+  if (token) {
+    const cookie = 'Cookie=' + encodeURIComponent(token);
+    lines.push(`#KODIPROP:inputstream.adaptive.manifest_headers=${cookie}`);
+    lines.push(`#KODIPROP:inputstream.adaptive.stream_headers=${cookie}`);
+  }
+
   lines.push(
     `#EXTINF:-1 tvg-id="${resolved.id}" tvg-logo="${logo}" group-title="${group}",${name}`,
   );
