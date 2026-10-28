@@ -51,6 +51,13 @@ async function cmdGenerate(keys) {
     const target = join(outDir, o.file);
     await writeFile(target, o.text, 'utf8');
     console.log(`WROTE ${target}  (ok=${o.stats.ok} skipped=${o.stats.skipped} failed=${o.stats.failed})`);
+    // When a proxy base is configured, also write the parallel proxy playlist
+    // (…-proxy.m3u) so Televizo/VLC have a GitHub-hosted URL too.
+    if (o.proxyText && o.proxyFile) {
+      const proxyTarget = join(outDir, o.proxyFile);
+      await writeFile(proxyTarget, o.proxyText, 'utf8');
+      console.log(`WROTE ${proxyTarget}  (proxy)`);
+    }
   }
   // Landing page for GitHub Pages hosting.
   await writePagesIndex(outDir);

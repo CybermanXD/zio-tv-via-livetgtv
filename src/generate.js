@@ -15,9 +15,15 @@ export async function planPlaylists() {
   return { catalog, sets };
 }
 
+/** Derive the proxy filename from a direct one: english.m3u -> english-proxy.m3u */
+export function proxyFileName(file) {
+  return file.replace(/\.m3u$/i, '-proxy.m3u');
+}
+
 /**
  * Build M3U text for one playlist key.
- * Returns { key, title, file, text, stats }.
+ * Returns { key, title, file, text, proxyFile, proxyText, stats }.
+ * `proxyText`/`proxyFile` are null unless a proxy base is configured.
  */
 export async function generateOne(key, channels, opts = {}) {
   const def = getPlaylistByKey(key);
@@ -28,6 +34,8 @@ export async function generateOne(key, channels, opts = {}) {
     title: def.title,
     file: def.file,
     text: built.text,
+    proxyFile: built.proxyText ? proxyFileName(def.file) : null,
+    proxyText: built.proxyText,
     stats: { ok: built.ok, failed: built.failed.length, skipped: built.skipped.length, total: built.total },
   };
 }
