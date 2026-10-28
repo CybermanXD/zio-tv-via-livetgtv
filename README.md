@@ -100,8 +100,12 @@ node src/index.js list
 ## Loading in a player
 
 These streams are **DRM-protected DASH** (ClearKey; the manifest also advertises
-a Widevine system-ID). They only play in apps that implement `inputstream.adaptive`
-/ ClearKey and read the `#KODIPROP` tags. **Pick a supported player:**
+a Widevine system-ID) **and** the segments are protected by an Akamai
+`__hdnea__` token. The playlist forwards that token as a `Cookie` header on both
+the manifest and segment requests (`inputstream.adaptive.manifest_headers` /
+`stream_headers`) — without it segments return HTTP 403 and the channel loads
+but never plays. They only play in apps that implement `inputstream.adaptive` /
+ClearKey and read the `#KODIPROP` tags. **Pick a supported player:**
 
 | Player | Works? | Notes |
 |--------|:------:|-------|
