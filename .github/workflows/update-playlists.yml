@@ -1,0 +1,73 @@
+name: Update IPTV playlists
+
+# Regenerates the M3U playlists on a schedule and commits them so they are
+# served via raw GitHub URLs (and/or GitHub Pages). IPTV players point at those
+# URLs directly — no always-on PC required.
+
+on:
+  schedule:
+    # Every 3 hours (UTC). JioTV __hdnea__ tokens last ~6h, so 3h keeps them fresh.
+    - cron: '0 */3 * * *'
+  workflow_dispatch: {} # allow manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - '.github/workflows/update-playlists.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-playlists
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate playlists
+        env:
+          ZIO_CONCURRENCY: '12'
+        run: node src/index.js generate
+
+      - name: Write generated timestamp
+        run: date -u +"%Y-%m-%dT%H:%M:%SZ" > playlists/LAST_UPDATED.txt
+
+      - name: Commit updated playlists
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A playlists
+          if git diff --cached --quiet; then
+            echo "No playlist changes."
+          else
+            git commit -m "chore: refresh playlists $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: playlists
+
+  deploy-pages:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
