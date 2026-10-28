@@ -26,43 +26,43 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKidsHin_MOB/WDVLive/index.mpd?__
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=d19984624fc15209b3cb5cf3bf99232f:baca6aa9494ed43cf02975eda742eeab
-#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793216980~exp%3D1793238580~acl%3D%2F*~hmac%3D4c5e2d88d8c98bc830bd1cc2ebd38431ace8f6fbc07c5fdc4e502aa5aab96f6e
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793216980~exp%3D1793238580~acl%3D%2F*~hmac%3D4c5e2d88d8c98bc830bd1cc2ebd38431ace8f6fbc07c5fdc4e502aa5aab96f6e
 #EXTINF:-1 tvg-id="559" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Pogo_Hindi.png" group-title="Kids",Pogo Hindi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/Pogo_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1793217873~exp=1793239473~acl=/*~hmac=079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
+https://jiotvmblive.cdn.jio.com/bpk-tv/Pogo_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1793216980~exp=1793238580~acl=/*~hmac=4c5e2d88d8c98bc830bd1cc2ebd38431ace8f6fbc07c5fdc4e502aa5aab96f6e
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=14af5805a98f52bdb1001f47ee99a211:fd7eb438ff90f8412832e230dd8db804
-#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
 #EXTINF:-1 tvg-id="815" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="Kids",Sonic Hindi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/sonic_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1793218777~exp=1793240377~acl=/*~hmac=9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+https://jiotvmblive.cdn.jio.com/bpk-tv/sonic_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1793217873~exp=1793239473~acl=/*~hmac=079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=dfdcfe466f865e51ac6b9345a03478fc:4cfddb414841586f0f992f2810ec2931
-#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
 #EXTINF:-1 tvg-id="816" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNHindi.png" group-title="Kids",Cartoon Network Hindi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/CNHindi_MOB/WDVLive/index.mpd?__hdnea__=st=1793218777~exp=1793240377~acl=/*~hmac=9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+https://jiotvmblive.cdn.jio.com/bpk-tv/CNHindi_MOB/WDVLive/index.mpd?__hdnea__=st=1793217873~exp=1793239473~acl=/*~hmac=079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=271a8e6c5d9d5696a11c474a5c18371c:d6e2ece0c28b900dc6a868991cdf2517
-#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793216980~exp%3D1793238580~acl%3D%2F*~hmac%3D4c5e2d88d8c98bc830bd1cc2ebd38431ace8f6fbc07c5fdc4e502aa5aab96f6e
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793216980~exp%3D1793238580~acl%3D%2F*~hmac%3D4c5e2d88d8c98bc830bd1cc2ebd38431ace8f6fbc07c5fdc4e502aa5aab96f6e
 #EXTINF:-1 tvg-id="872" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYHin.png" group-title="Kids",Sony Yay Hindi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYHin_MOB/WDVLive/index.mpd?__hdnea__=st=1793217873~exp=1793239473~acl=/*~hmac=079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYHin_MOB/WDVLive/index.mpd?__hdnea__=st=1793216980~exp=1793238580~acl=/*~hmac=4c5e2d88d8c98bc830bd1cc2ebd38431ace8f6fbc07c5fdc4e502aa5aab96f6e
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=400d0f354dca5d44a540cd80db766f4c:22da170bb5ae36ef5cab42b3842658d8
-#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
 #EXTINF:-1 tvg-id="1373" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Channel.png" group-title="Kids",Disney Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Channel_MOB/WDVLive/index.mpd?__hdnea__=st=1793218777~exp=1793240377~acl=/*~hmac=9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Channel_MOB/WDVLive/index.mpd?__hdnea__=st=1793217873~exp=1793239473~acl=/*~hmac=079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=a92e184d07a75cb6817cee9f0a677b47:d9b68fa62fb2ae68a044d36f6306569f
@@ -98,11 +98,11 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Super_Hungama_MOB/WDVLive/index.mpd?__hdn
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=266cbaf7567052c499a5b60cbbb71514:822ac525677c00ef88fc1c5ef72d385b
-#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793217873~exp%3D1793239473~acl%3D%2F*~hmac%3D079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
 #EXTINF:-1 tvg-id="2774" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Power_Kids_TV.png" group-title="Kids",Power Kids TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/Power_Kids_TV_MOB/WDVLive/index.mpd?__hdnea__=st=1793218777~exp=1793240377~acl=/*~hmac=9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+https://jiotvmblive.cdn.jio.com/bpk-tv/Power_Kids_TV_MOB/WDVLive/index.mpd?__hdnea__=st=1793217873~exp=1793239473~acl=/*~hmac=079dab238ed0b4fab7dd4f8355d8458e2f521bf2055a3bca426a744579aaf26b
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793217605~exp%3D1793239205~acl%3D%2F*~hmac%3De17e9ad8ef254743170f97854b311934b87715ff40d74ab23722f5b75b90ddd4
 #KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793217605~exp%3D1793239205~acl%3D%2F*~hmac%3De17e9ad8ef254743170f97854b311934b87715ff40d74ab23722f5b75b90ddd4
@@ -120,8 +120,8 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Gubbare_MOB/WDVLive/index.mpd?__hdnea__=s
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=6d03062a210e5ca5bebe18295a7ed53f:2d5145403548d142cbe2a5f1e25b0d1f
-#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793218777~exp%3D1793240377~acl%3D%2F*~hmac%3D9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793216980~exp%3D1793238580~acl%3D%2F*~hmac%3D4c5e2d88d8c98bc830bd1cc2ebd38431ace8f6fbc07c5fdc4e502aa5aab96f6e
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793216980~exp%3D1793238580~acl%3D%2F*~hmac%3D4c5e2d88d8c98bc830bd1cc2ebd38431ace8f6fbc07c5fdc4e502aa5aab96f6e
 #EXTINF:-1 tvg-id="3436" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNHDHindi.png" group-title="Kids",Cartoon Network HD+ Hindi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDHindi_MOB/WDVLive/index.mpd?__hdnea__=st=1793218777~exp=1793240377~acl=/*~hmac=9d8a0d6cec1dac2dfd572f6c74f3b9b7931a7b5e469e3a61c77ba47a9154c314
+https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDHindi_MOB/WDVLive/index.mpd?__hdnea__=st=1793216980~exp=1793238580~acl=/*~hmac=4c5e2d88d8c98bc830bd1cc2ebd38431ace8f6fbc07c5fdc4e502aa5aab96f6e

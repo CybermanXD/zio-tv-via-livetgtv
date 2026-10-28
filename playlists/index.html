@@ -25,16 +25,9 @@
       <li><strong>Zio TV — Kids (Hindi)</strong> — <a href="./kids-hindi.m3u">kids-hindi.m3u</a> <code>./kids-hindi.m3u</code></li>
   </ul>
 
-  <h2>Proxy playlists — for Televizo / VLC / Kodi</h2>
-  <p>These route through an always-on proxy (<code>https://zio-tv.example.workers.dev</code>) that injects the
-  stream token, so they play in players that don't forward auth headers. Use these if the
-  direct playlists show a black screen.</p>
-  <ul>
-      <li><strong>Zio TV — English</strong> — <a href="./english-proxy.m3u">english-proxy.m3u</a> <code>./english-proxy.m3u</code></li>
-      <li><strong>Zio TV — Hindi</strong> — <a href="./hindi-proxy.m3u">hindi-proxy.m3u</a> <code>./hindi-proxy.m3u</code></li>
-      <li><strong>Zio TV — All Channels</strong> — <a href="./all-proxy.m3u">all-proxy.m3u</a> <code>./all-proxy.m3u</code></li>
-      <li><strong>Zio TV — Kids (Hindi)</strong> — <a href="./kids-hindi-proxy.m3u">kids-hindi-proxy.m3u</a> <code>./kids-hindi-proxy.m3u</code></li>
-  </ul>
+  <h2>Proxy playlists</h2>
+  <p class="note">Not generated — set the <code>ZIO_PROXY_BASE</code> repository Variable to a deployed
+  proxy (e.g. a Cloudflare Worker) and re-run the workflow to enable Televizo/VLC support.</p>
 
   <p class="note">Streams are geo-restricted to India (use an Indian IP). Tokens refresh automatically on each scheduled rebuild.</p>
 </body>
