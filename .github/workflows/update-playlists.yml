@@ -51,10 +51,20 @@ jobs:
           git add -A playlists
           if git diff --cached --quiet; then
             echo "No playlist changes."
-          else
-            git commit -m "chore: refresh playlists $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            exit 0
           fi
+          git commit -m "chore: refresh playlists $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Robust push: rebase on any concurrent updates and retry a few times.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "pushed on attempt $i"
+              exit 0
+            fi
+            echo "push $i rejected; rebasing on latest main..."
+            git pull --rebase --autostash origin main || true
+          done
+          echo "ERROR: could not push after retries" >&2
+          exit 1
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
