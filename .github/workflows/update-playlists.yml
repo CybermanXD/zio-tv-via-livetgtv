@@ -39,6 +39,11 @@ jobs:
       - name: Generate playlists
         env:
           ZIO_CONCURRENCY: '12'
+          # Set repo Variable ZIO_PROXY_BASE to your Cloudflare Worker URL
+          # (e.g. https://zio-tv.<subdomain>.workers.dev) so the hosted playlists
+          # point at the always-on token-injection proxy -> plays in Televizo too.
+          # If unset, playlists fall back to direct header mode (TiviMate only).
+          ZIO_PROXY_BASE: ${{ vars.ZIO_PROXY_BASE }}
         run: node src/index.js generate
 
       - name: Write generated timestamp

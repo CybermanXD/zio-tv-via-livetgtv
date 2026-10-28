@@ -34,6 +34,13 @@ function extractHdneaToken(src) {
   return null;
 }
 
+// Optional proxy base (e.g. a Cloudflare Worker) that injects the Akamai token
+// into manifest + segment requests server-side. When set, the playlist points
+// each channel at `${PROXY_BASE}/mpd/<id>` instead of the raw JioTV manifest, so
+// the stream plays in players that DON'T forward auth headers (Televizo/ExoPlayer,
+// VLC). The stable ClearKey is still embedded for in-player decryption.
+const PROXY_BASE = (process.env.ZIO_PROXY_BASE || '').replace(/\/+$/, '');
+
 /** Build one #EXTINF block (array of lines) for an already-resolved channel. */
 export function channelBlock(resolved, fallback = {}) {
   const name = resolved.name || fallback.name || resolved.id;
@@ -53,7 +60,19 @@ export function channelBlock(resolved, fallback = {}) {
     lines.push(`#KODIPROP:inputstream.adaptive.license_key=${keyStr}`);
   }
 
-  // Forward the Akamai token as a Cookie on manifest AND segment requests.
+  if (PROXY_BASE) {
+    // Point at the always-on proxy (Worker). It resolves a fresh token per play
+    // and proxies segments, so NO player needs to forward auth headers.
+    lines.push(
+      `#EXTINF:-1 tvg-id="${resolved.id}" tvg-logo="${logo}" group-title="${group}",${name}`,
+    );
+    lines.push(`${PROXY_BASE}/mpd/${encodeURIComponent(resolved.id)}`);
+    return lines;
+  }
+
+  // Direct mode: forward the Akamai token as a Cookie on manifest AND segment
+  // requests. Works in TiviMate/OTT Navigator (which honour stream_headers) but
+  // NOT Televizo/ExoPlayer — use PROXY_BASE for universal playback.
   const token = extractHdneaToken(src);
   if (token) {
     const cookie = 'Cookie=' + encodeURIComponent(token);
