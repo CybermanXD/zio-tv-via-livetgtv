@@ -21,6 +21,7 @@ import { networkInterfaces } from 'node:os';
 import { PLAYLISTS, getPlaylistByKey } from './playlists.config.js';
 import { planPlaylists, generateAll, generateOne } from './generate.js';
 import { writePagesIndex } from './pages-index.js';
+import { buildProxiedManifest, fetchSegment, buildProxiedPlaylist } from './proxy.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = resolve(__dirname, '..');
@@ -105,17 +106,92 @@ async function cmdServe() {
     routes.set('/' + p.key, p.key);
   }
 
+  // Base URL back to THIS server, as seen by the requesting player.
+  function selfBaseFor(req) {
+    const host = req.headers.host || `localhost:${port}`;
+    return `http://${host}`;
+  }
+
   const server = createServer(async (req, res) => {
     const url = (req.url || '/').split('?')[0];
     if (url === '/' || url === '/index.html') {
       res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
       res.end(
-        'Zio TV via livetgtv\n\nPlaylists:\n' +
+        'Zio TV via livetgtv\n\nProxied playlists (work in ALL players incl. Televizo):\n' +
+          PLAYLISTS.map((p) => `  /p/${p.file}   (${p.title})`).join('\n') +
+          '\n\nDirect (header-based) playlists:\n' +
           PLAYLISTS.map((p) => `  /${p.file}   (${p.title})`).join('\n') +
           '\n',
       );
       return;
     }
+
+    // --- Proxy: rewritten manifest for a channel ---
+    if (url.startsWith('/mpd/')) {
+      const id = decodeURIComponent(url.slice('/mpd/'.length));
+      try {
+        const mpd = await buildProxiedManifest(id, selfBaseFor(req));
+        res.writeHead(200, {
+          'Content-Type': 'application/dash+xml',
+          'Cache-Control': 'no-store',
+          'Access-Control-Allow-Origin': '*',
+        });
+        res.end(mpd);
+      } catch (e) {
+        res.writeHead(502, { 'Content-Type': 'text/plain' });
+        res.end('mpd error: ' + (e?.message || e));
+      }
+      return;
+    }
+
+    // --- Proxy: segment (fetched upstream WITH the Akamai token) ---
+    if (url.startsWith('/seg/')) {
+      const rest = url.slice('/seg/'.length);
+      const slash = rest.indexOf('/');
+      const id = decodeURIComponent(rest.slice(0, slash));
+      const segPath = rest.slice(slash + 1);
+      try {
+        const up = await fetchSegment(id, segPath);
+        const headers = {
+          'Content-Type': up.headers.get('content-type') || 'application/octet-stream',
+          'Cache-Control': 'no-store',
+          'Access-Control-Allow-Origin': '*',
+        };
+        res.writeHead(up.status, headers);
+        const buf = Buffer.from(await up.arrayBuffer());
+        res.end(buf);
+      } catch (e) {
+        res.writeHead(502, { 'Content-Type': 'text/plain' });
+        res.end('seg error: ' + (e?.message || e));
+      }
+      return;
+    }
+
+    // --- Proxied playlist: /p/<key>.m3u (universal, works in Televizo) ---
+    if (url.startsWith('/p/')) {
+      const name = url.slice('/p/'.length).replace(/\.m3u$/, '');
+      const pdef = PLAYLISTS.find((p) => p.key === name || p.file === name + '.m3u');
+      if (!pdef) {
+        res.writeHead(404, { 'Content-Type': 'text/plain' });
+        res.end('not found');
+        return;
+      }
+      try {
+        const { text } = await buildProxiedPlaylist(pdef.key, selfBaseFor(req), {
+          concurrency: CONCURRENCY,
+        });
+        res.writeHead(200, {
+          'Content-Type': 'application/vnd.apple.mpegurl; charset=utf-8',
+          'Cache-Control': 'no-store',
+        });
+        res.end(text);
+      } catch (e) {
+        res.writeHead(502, { 'Content-Type': 'text/plain' });
+        res.end('error: ' + (e?.message || e));
+      }
+      return;
+    }
+
     const key = routes.get(url);
     if (!key) {
       res.writeHead(404, { 'Content-Type': 'text/plain' });
@@ -139,7 +215,9 @@ async function cmdServe() {
     console.log(`Zio TV serving on port ${port} (cache TTL ${Math.round(ttl / 1000)}s)`);
     const ips = lanIPs();
     const host = ips[0] || 'YOUR-PC-IP';
-    console.log('\nAdd these URLs in TiviMate / Televizo (same Wi-Fi):');
+    console.log('\n== Televizo / VLC / any player (PROXIED — recommended) ==');
+    for (const p of PLAYLISTS) console.log(`  ${p.title.padEnd(26)} http://${host}:${port}/p/${p.file}`);
+    console.log('\n== TiviMate / OTT Navigator (direct header mode) ==');
     for (const p of PLAYLISTS) console.log(`  ${p.title.padEnd(26)} http://${host}:${port}/${p.file}`);
     if (ips.length > 1) console.log(`\n(other IPs: ${ips.slice(1).join(', ')})`);
   });
