@@ -99,11 +99,25 @@ node src/index.js list
 
 ## Loading in a player
 
-- **TiviMate**: Settings → Playlists → Add → *Enter URL* (serve mode) or
-  *Add from file* (generated `.m3u`). ClearKey `#KODIPROP` tags are read
-  automatically.
-- **Televizo**: Add playlist → URL or local file.
-- **Kodi** (inputstream.adaptive): works as-is.
+These streams are **DRM-protected DASH** (ClearKey; the manifest also advertises
+a Widevine system-ID). They only play in apps that implement `inputstream.adaptive`
+/ ClearKey and read the `#KODIPROP` tags. **Pick a supported player:**
+
+| Player | Works? | Notes |
+|--------|:------:|-------|
+| **TiviMate** | ✅ | Add playlist → *Enter URL* (hosted) or *Add from file*. Reads `#KODIPROP` ClearKey automatically. |
+| **OTT Navigator** | ✅ | Reads ClearKey `#KODIPROP`. |
+| **Televizo** | ✅ | Add playlist → URL or local file. |
+| **Kodi** (inputstream.adaptive) | ✅ | Works as-is. |
+| **PotPlayer** | ❌ | **Does not support DRM/ClearKey DASH** and ignores `#KODIPROP`, so it fails with *"Unable to connect to the requested server."* This is expected — it is not a playlist problem. |
+| **VLC** | ❌ | No ClearKey DASH support. |
+
+> If you tested in **PotPlayer and saw "Failed to start playback / Unable to
+> connect"** — that is the DRM limitation above, not a broken URL. The same
+> playlist plays correctly in TiviMate / OTT Navigator. (Connectivity to the
+> JioTV CDN was verified returning HTTP 200; the manifest carries
+> `ContentProtection` + Widevine UUID `EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED`,
+> which PotPlayer cannot decrypt.)
 
 ## Host on GitHub (auto-updates every 3 hours)
 
