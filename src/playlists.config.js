@@ -53,6 +53,7 @@ export function isHindi(ch) {
 // Curated Hindi-Kids set (explicit IDs). The API's "Kids" category misses a few
 // (e.g. "ZB Cartoon" is categorised "Unknown"), so we pin the exact line-up.
 export const KIDS_HINDI_IDS = [
+  '2258', // Animax (served as English upstream, but a kids channel — pinned here)
   '3436', // Cartoon Network HD+ Hindi
   '816', // Cartoon Network Hindi
   '554', // Discovery Kids Hindi

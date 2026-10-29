@@ -3,6 +3,22 @@
 
 const BASE = process.env.ZIO_API_BASE || 'https://livetgtv.lovable.app/api/public';
 
+// Manual category reassignments by channel id. The upstream API mislabels a few
+// channels; we override so grouping/numbering is correct in EVERY playlist.
+// e.g. Animax is served as "English" but belongs under Kids.
+export const CATEGORY_OVERRIDES = {
+  2258: 'Kids', // Animax
+};
+
+/** Apply CATEGORY_OVERRIDES to a channel-like object (returns the same object). */
+export function applyCategoryOverride(ch) {
+  if (ch && ch.id != null) {
+    const o = CATEGORY_OVERRIDES[String(ch.id)];
+    if (o) ch.category = o;
+  }
+  return ch;
+}
+
 async function getJson(url, { timeoutMs = 20000, retries = 2 } = {}) {
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
@@ -32,7 +48,7 @@ export async function listChannels({ category, q } = {}) {
   if (q) params.set('q', q);
   const qs = params.toString();
   const data = await getJson(`${BASE}/channels${qs ? '?' + qs : ''}`);
-  return data.channels || [];
+  return (data.channels || []).map(applyCategoryOverride);
 }
 
 /**
@@ -41,7 +57,11 @@ export async function listChannels({ category, q } = {}) {
  * Call right before playback — tokens/keys are short-lived.
  */
 export async function resolveChannel(id) {
-  return getJson(`${BASE}/channels/${encodeURIComponent(id)}`, { timeoutMs: 20000, retries: 1 });
+  const data = await getJson(`${BASE}/channels/${encodeURIComponent(id)}`, {
+    timeoutMs: 20000,
+    retries: 1,
+  });
+  return applyCategoryOverride(data);
 }
 
 export { BASE as API_BASE };

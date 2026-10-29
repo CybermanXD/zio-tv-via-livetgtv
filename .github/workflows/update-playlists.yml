@@ -6,8 +6,11 @@ name: Update IPTV playlists
 
 on:
   schedule:
-    # Every 3 hours (UTC). JioTV __hdnea__ tokens last ~6h, so 3h keeps them fresh.
-    - cron: '0 */3 * * *'
+    # Every 3.5 hours (UTC). Cron has no fractional-hour step, so two lines give
+    # runs 3h30m apart: 00:00, 03:30, 07:00, 10:30, 14:00, 17:30, 21:00.
+    # JioTV __hdnea__ tokens last ~6h, so 3.5h keeps them comfortably fresh.
+    - cron: '0 0,7,14,21 * * *'
+    - cron: '30 3,10,17 * * *'
   workflow_dispatch: {} # allow manual "Run workflow" button
   push:
     branches: [main]
