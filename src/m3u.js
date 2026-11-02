@@ -78,7 +78,10 @@ export function channelBlock(resolved, fallback = {}) {
   lines.push(
     `#EXTINF:-1 tvg-id="${resolved.id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}`,
   );
-  lines.push('#EXTVLCOPT:http-user-agent=Mozilla/5.0');
+  // The Jio CDN currently rejects a generic browser UA with HTTP 403 while
+  // accepting ExoPlayer requests. Keep this explicit so IPTV clients that
+  // honour EXTVLCOPT use the working player identity for manifests/segments.
+  lines.push('#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1');
   lines.push(src);
   return lines;
 }
