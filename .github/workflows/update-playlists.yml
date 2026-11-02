@@ -1,15 +1,16 @@
 
 name: Update IPTV playlists
 
-# Regenerates the M3U playlists every 2 hours and commits them so they are
-# served via raw GitHub URLs (and/or GitHub Pages). IPTV players point at those
-# URLs directly — no always-on PC required.
+# Regenerates M3U playlists every 2 hours and commits them
+# for raw GitHub URLs and GitHub Pages hosting.
 
 on:
   schedule:
     # Every 2 hours (UTC), 12 runs per day.
     - cron: '0 */2 * * *'
-  workflow_dispatch: {} # allow manual "Run workflow" button
+
+  workflow_dispatch: {}
+
   push:
     branches: [main]
     paths:
@@ -28,9 +29,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -45,27 +49,55 @@ jobs:
       - name: Write generated timestamp
         run: date -u +"%Y-%m-%dT%H:%M:%SZ" > playlists/LAST_UPDATED.txt
 
-      - name: Commit updated playlists
+      - name: Commit and push updated playlists
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A playlists
+
+          git add -A -- playlists
+
           if git diff --cached --quiet; then
             echo "No playlist changes."
-            exit 0
+          else
+            git commit -m "chore: refresh playlists $(date -u +%Y-%m-%dT%H:%MZ)"
           fi
-          git commit -m "chore: refresh playlists $(date -u +%Y-%m-%dT%H:%MZ)"
-          # Robust push: rebase on any concurrent updates and retry a few times.
+
+          # Retry safely if main receives concurrent updates.
           for i in 1 2 3 4 5; do
-            if git push; then
-              echo "pushed on attempt $i"
-              exit 0
+
+            if git push origin HEAD:main; then
+              echo "Successfully pushed on attempt $i"
+              break
             fi
-            echo "push $i rejected; rebasing on latest main..."
-            git pull --rebase --autostash origin main || true
+
+            if [ "$i" -eq 5 ]; then
+              echo "ERROR: Could not push after 5 attempts."
+              exit 1
+            fi
+
+            echo "Push rejected. Synchronizing with latest main..."
+
+            # Clear any incomplete rebase.
+            git rebase --abort >/dev/null 2>&1 || true
+
+            # Fetch latest remote changes.
+            git fetch origin main
+
+            # Move local branch to latest main, preserving generated files.
+            git reset --mixed origin/main
+
+            # Re-stage generated playlists.
+            git add -A -- playlists
+
+            if git diff --cached --quiet; then
+              echo "Remote already contains the generated playlists."
+              break
+            fi
+
+            # Create a fresh commit on top of latest main.
+            git commit -m "chore: refresh playlists $(date -u +%Y-%m-%dT%H:%MZ)"
+
           done
-          echo "ERROR: could not push after retries" >&2
-          exit 1
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -75,9 +107,11 @@ jobs:
   deploy-pages:
     needs: build
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
