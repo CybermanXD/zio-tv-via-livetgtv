@@ -1,4 +1,4 @@
-// Definitions for the 4 playlists this project keeps up to date.
+// Definitions for the 5 playlists this project keeps up to date.
 //
 // The livetgtv API exposes `category` (e.g. "English", "Kids", "News", "Tamil"...)
 // but it has NO dedicated "Hindi" category and no language field. Hindi channels
@@ -121,7 +121,7 @@ export const PLAYLISTS = [
     key: 'kids-hindi',
     file: 'kids-hindi.m3u',
     title: 'Zio TV — Kids (Hindi)',
-    // Curated explicit line-up (16 channels) rather than category heuristic.
+    // Curated explicit line-up rather than category heuristic.
     match: (ch) => KIDS_HINDI_SET.has(String(ch.id)),
     // Keep the hand-picked KIDS_HINDI_IDS order; don't re-sort by category.
     preserveOrder: true,

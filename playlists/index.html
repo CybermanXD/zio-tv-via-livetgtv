@@ -1,31 +1,389 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Zio TV via livetgtv</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#120706">
+  <meta name="description" content="Fresh IPTV playlists generated from the livetgtv public API.">
+  <title>Zio TV | Fresh IPTV playlists</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 16px; line-height: 1.5; }
-    code { background: #f2f2f2; padding: 2px 6px; border-radius: 4px; }
-    li { margin: 8px 0; }
-    .note { color: #666; font-size: 0.9em; }
-    h2 { margin-top: 32px; }
+    :root {
+      color-scheme: dark;
+      --ink: #f2e9dc;
+      --muted: #b9a79a;
+      --dim: #786b64;
+      --ground: #120706;
+      --surface: #1d0b09;
+      --red: #b52222;
+      --signal: #f04438;
+      --dark-red: #6e1014;
+      --screen: #080b09;
+      --line: rgba(242, 233, 220, .14);
+      --tv-rx: -4deg;
+      --tv-ry: 16deg;
+      --tv-scale: .94;
+      --tv-x: 0px;
+      --glow: .65;
+      --knob: 0deg;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--ground); }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 68% 12%, rgba(181, 34, 34, .16), transparent 34rem),
+        var(--ground);
+      line-height: 1.55;
+      overflow-x: hidden;
+    }
+    body::before {
+      position: fixed;
+      inset: 0;
+      z-index: 20;
+      pointer-events: none;
+      opacity: .055;
+      content: "";
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E");
+    }
+    a { color: inherit; }
+    button { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    :focus-visible { outline: 2px solid var(--signal); outline-offset: 4px; }
+    .skip { position: fixed; top: -4rem; left: 1rem; z-index: 100; padding: .7rem 1rem; background: var(--ink); color: var(--ground); }
+    .skip:focus { top: 1rem; }
+    .wrap { width: min(1160px, calc(100% - 40px)); margin-inline: auto; }
+    .eyebrow { margin: 0 0 1rem; color: var(--signal); font: 700 .72rem/1.2 ui-monospace, monospace; letter-spacing: .18em; text-transform: uppercase; }
+    h1, h2 { margin: 0; font-weight: 650; letter-spacing: -.045em; line-height: .98; }
+    h1 { max-width: 680px; font-size: clamp(3.8rem, 9vw, 8.6rem); }
+    h2 { font-size: clamp(2.5rem, 5vw, 5rem); }
+    p { color: var(--muted); }
+
+    .nav { position: absolute; inset: 0 0 auto; z-index: 10; padding: 28px 0; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .brand { font-size: .84rem; font-weight: 760; letter-spacing: .15em; text-decoration: none; text-transform: uppercase; }
+    .nav-links { display: flex; gap: 1.4rem; align-items: center; }
+    .nav-links a { color: var(--muted); font-size: .82rem; text-decoration: none; }
+    .nav-links a:hover { color: var(--ink); }
+    .status { display: inline-flex; align-items: center; gap: .55rem; }
+    .status::before { width: 7px; height: 7px; border-radius: 50%; background: var(--signal); box-shadow: 0 0 12px var(--signal); content: ""; animation: breathe 2.8s ease-in-out infinite; }
+
+    .hero { min-height: 100svh; display: grid; align-items: center; padding: 120px 0 70px; }
+    .hero-grid { display: grid; grid-template-columns: 1.08fr .92fr; align-items: center; gap: 2rem; }
+    .lede { max-width: 500px; margin: 1.6rem 0 2rem; font-size: clamp(1rem, 1.6vw, 1.22rem); }
+    .actions { display: flex; align-items: center; flex-wrap: wrap; gap: .8rem; }
+    .button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: .75rem 1.1rem; border: 1px solid var(--line); border-radius: 3px; background: transparent; color: var(--ink); cursor: pointer; font-size: .84rem; font-weight: 700; text-decoration: none; }
+    .button.primary { border-color: var(--red); background: var(--red); }
+    .button:hover { border-color: var(--signal); }
+    .micro { margin-top: 1.25rem; color: var(--dim); font: .72rem/1.5 ui-monospace, monospace; }
+
+    .tv-stage { display: grid; min-height: 520px; place-items: center; perspective: 1100px; }
+    .tv-wrap { position: relative; width: min(100%, 470px); transform: translateX(var(--tv-x)) rotateX(var(--tv-rx)) rotateY(var(--tv-ry)) scale(var(--tv-scale)); transform-style: preserve-3d; transition: transform .12s linear; }
+    .tv-shadow { position: absolute; z-index: -1; left: 8%; right: 3%; bottom: -3.4rem; height: 4.5rem; border-radius: 50%; background: #000; filter: blur(18px); opacity: .8; transform: rotateX(75deg); }
+    .antenna { position: absolute; left: 50%; top: -80px; width: 6px; height: 104px; border-radius: 4px; background: #5e514a; transform-origin: bottom; transform: rotate(28deg); }
+    .antenna.right { transform: rotate(-28deg); }
+    .antenna::before { position: absolute; top: -5px; left: -3px; width: 12px; height: 12px; border-radius: 50%; background: #89766b; content: ""; }
+    .cabinet { position: relative; display: grid; grid-template-columns: 1fr 104px; gap: 18px; aspect-ratio: 1.28; padding: 28px; border: 1px solid rgba(255,255,255,.12); border-radius: 32px 32px 24px 24px; background: linear-gradient(145deg, #7d1518, #4b0b0e 58%, #300709); box-shadow: inset 8px 8px 24px rgba(255,255,255,.06), inset -14px -14px 30px rgba(0,0,0,.34), 20px 26px 55px rgba(0,0,0,.45); transform-style: preserve-3d; }
+    .cabinet::after { position: absolute; inset: 5px -20px -22px 18px; z-index: -1; border-radius: 28px; background: #260608; transform: translateZ(-30px); content: ""; }
+    .screen-shell { position: relative; min-width: 0; padding: 11px; border-radius: 28% / 16%; background: #261b18; box-shadow: inset 0 0 0 2px #110d0b, 0 0 0 2px rgba(255,255,255,.05); }
+    .screen { position: relative; height: 100%; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; padding: clamp(22px, 5vw, 42px); border-radius: 24% / 14%; background: radial-gradient(circle at 50% 42%, rgba(119, 17, 21, calc(var(--glow) * .55)), transparent 62%), var(--screen); box-shadow: inset 0 0 45px #000, inset 0 0 12px rgba(240,68,56,.35), 0 0 calc(26px * var(--glow)) rgba(240,68,56,.14); color: #f8d4cc; font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; text-shadow: 0 0 8px rgba(240,68,56,.7); }
+    .screen::before { position: absolute; inset: 0; z-index: 3; pointer-events: none; content: ""; background: repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0, rgba(0,0,0,.18) 1px, transparent 1px, transparent 4px); }
+    .screen::after { position: absolute; inset: -40%; z-index: 4; pointer-events: none; opacity: 0; content: ""; background: repeating-linear-gradient(90deg, transparent 0 7px, rgba(255,255,255,.14) 8px 9px); }
+    .tv-wrap.tuning .screen::after { opacity: .6; animation: tune .22s steps(2) 2; }
+    .screen-top { display: flex; position: relative; z-index: 2; justify-content: space-between; color: #c98079; font-size: clamp(.54rem, 1.3vw, .7rem); letter-spacing: .12em; text-transform: uppercase; }
+    .screen-copy { position: relative; z-index: 2; }
+    .screen-label { margin: 0 0 .7rem; color: #d58078; font-size: clamp(.52rem, 1.2vw, .66rem); letter-spacing: .18em; text-transform: uppercase; }
+    .screen-title { margin: 0; color: #ffe6dc; font-size: clamp(1.35rem, 4vw, 2.7rem); font-weight: 700; letter-spacing: -.05em; line-height: 1; }
+    .screen-file { margin: .8rem 0 0; color: #c98079; font-size: clamp(.55rem, 1.2vw, .72rem); }
+    .controls { display: flex; flex-direction: column; align-items: center; gap: 22px; padding-top: 12px; }
+    .knob { position: relative; width: 68px; height: 68px; border: 0; border-radius: 50%; background: radial-gradient(circle at 36% 30%, #a79286, #4a3f39 44%, #211a17 72%); box-shadow: inset 0 0 0 3px #241b18, 3px 6px 12px rgba(0,0,0,.5); cursor: pointer; transform: rotate(var(--knob)); }
+    .knob::after { position: absolute; top: 8px; left: calc(50% - 1px); width: 2px; height: 19px; background: #d3b9a9; content: ""; }
+    .knob.small { width: 43px; height: 43px; }
+    .knob.small::after { height: 11px; top: 6px; }
+    .speaker { width: 72px; height: 90px; opacity: .7; background: radial-gradient(circle, #180a09 1.5px, transparent 2px) 0 0 / 9px 9px; }
+    .lamp { width: 7px; height: 7px; border-radius: 50%; background: var(--signal); box-shadow: 0 0 10px var(--signal); }
+    .feet::before, .feet::after { position: absolute; bottom: -26px; width: 54px; height: 30px; z-index: -2; border-radius: 0 0 7px 7px; background: #2b1712; content: ""; }
+    .feet::before { left: 62px; transform: rotate(5deg); }
+    .feet::after { right: 62px; transform: rotate(-5deg); }
+
+    .tuner { min-height: 120vh; padding: 9rem 0; }
+    .sticky { position: sticky; top: 0; min-height: 100svh; display: grid; align-items: center; }
+    .tuner-grid { display: grid; grid-template-columns: .95fr 1.05fr; align-items: center; gap: clamp(3rem, 8vw, 8rem); }
+    .section-intro { max-width: 440px; }
+    .section-intro > p:not(.eyebrow) { margin: 1.4rem 0 2rem; }
+    .stations { display: grid; margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+    .station { width: 100%; display: grid; grid-template-columns: 2.5rem 1fr auto; align-items: center; gap: .8rem; padding: 1rem 0; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; text-align: left; }
+    .station:hover, .station[aria-selected="true"] { color: var(--ink); }
+    .station[aria-selected="true"] .station-number { color: var(--signal); }
+    .station-number { font: .68rem ui-monospace, monospace; }
+    .station-name { font-weight: 680; }
+    .station-file { color: var(--dim); font: .7rem ui-monospace, monospace; }
+    .url-box { margin-top: 1.25rem; padding: 1rem; border: 1px solid var(--line); background: rgba(29,11,9,.72); }
+    .url { display: block; overflow: hidden; margin-bottom: .8rem; color: var(--muted); font: .72rem/1.5 ui-monospace, monospace; text-overflow: ellipsis; white-space: nowrap; }
+    .url-actions { display: flex; gap: .65rem; }
+
+    .guide { padding: 10rem 0; border-top: 1px solid var(--line); }
+    .guide-head { display: flex; justify-content: space-between; align-items: end; gap: 2rem; }
+    .guide-head p { max-width: 390px; margin: 0; }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 5rem; border-top: 1px solid var(--line); }
+    .step { min-height: 240px; padding: 2rem 2rem 2rem 0; border-right: 1px solid var(--line); }
+    .step + .step { padding-left: 2rem; }
+    .step:last-child { border-right: 0; }
+    .step b { display: block; margin-bottom: 4rem; color: var(--signal); font: .7rem ui-monospace, monospace; }
+    .step h3 { margin: 0; font-size: 1.3rem; }
+    .step p { font-size: .9rem; }
+
+    .compat { padding: 10rem 0; background: var(--surface); }
+    .compat-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(3rem, 10vw, 9rem); }
+    .compat-list { border-top: 1px solid var(--line); }
+    .compat-row { display: grid; grid-template-columns: 1fr auto; gap: 2rem; padding: 1.05rem 0; border-bottom: 1px solid var(--line); }
+    .compat-row span:last-child { color: var(--muted); font: .7rem ui-monospace, monospace; text-transform: uppercase; }
+    .compat-row .yes { color: #e8877d; }
+    .compat-note { max-width: 480px; margin-top: 1.5rem; font-size: .86rem; }
+
+    .footer { min-height: 70svh; display: grid; align-items: end; padding: 10rem 0 3rem; background: var(--dark-red); }
+    .footer h2 { max-width: 850px; }
+    .footer-meta { display: grid; grid-template-columns: 1.4fr repeat(2, 1fr); gap: 2rem; margin-top: 7rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,.24); }
+    .footer-meta p { margin: 0; color: rgba(255,255,255,.7); font-size: .82rem; }
+    .footer a { text-underline-offset: 4px; }
+
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    @keyframes breathe { 50% { opacity: .35; } }
+    @keyframes tune { from { transform: translateX(-6%); } to { transform: translateX(6%); } }
+
+    @media (max-width: 850px) {
+      .hero-grid, .tuner-grid, .compat-grid { grid-template-columns: 1fr; }
+      .hero-copy { padding-top: 2rem; }
+      .tv-stage { min-height: 460px; }
+      .tuner { min-height: auto; }
+      .sticky { position: static; min-height: auto; }
+      .tuner-grid { padding-block: 2rem; }
+      .guide-head { display: block; }
+      .guide-head p { margin-top: 1.5rem; }
+      .steps { grid-template-columns: 1fr; }
+      .step, .step + .step { min-height: auto; padding: 1.5rem 0; border-right: 0; border-bottom: 1px solid var(--line); }
+      .step b { margin-bottom: 1.5rem; }
+      .footer-meta { grid-template-columns: 1fr; margin-top: 4rem; }
+    }
+    @media (max-width: 560px) {
+      .wrap { width: min(100% - 28px, 1160px); }
+      .nav-links a:not(.status) { display: none; }
+      h1 { font-size: clamp(3.5rem, 18vw, 5.2rem); }
+      .hero { padding-bottom: 3rem; }
+      .hero-grid { gap: 0; }
+      .tv-stage { min-height: 360px; }
+      .tv-wrap { width: 330px; }
+      .cabinet { grid-template-columns: 1fr 72px; gap: 10px; padding: 18px; border-radius: 25px; }
+      .screen { padding: 25px; }
+      .knob { width: 50px; height: 50px; }
+      .knob.small { width: 34px; height: 34px; }
+      .speaker { width: 52px; height: 70px; background-size: 7px 7px; }
+      .antenna { height: 75px; top: -58px; }
+      .station { grid-template-columns: 2rem 1fr; }
+      .station-file { display: none; }
+      .guide, .compat { padding-block: 7rem; }
+      .footer { padding-top: 7rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+      :root { --tv-rx: 0deg; --tv-ry: 0deg; --tv-scale: 1; --tv-x: 0px; }
+    }
   </style>
 </head>
 <body>
-  <h1>Zio TV via livetgtv</h1>
-  <p>Copy a playlist URL below into your IPTV player. Playlists auto-refresh every few hours.</p>
+  <a class="skip" href="#playlists">Skip to playlists</a>
+  <nav class="nav" aria-label="Primary navigation">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">Zio TV</a>
+      <div class="nav-links">
+        <a href="#playlists">Playlists</a>
+        <a href="#support">Support</a>
+        <a class="status" href="./LAST_UPDATED.txt" id="nav-status">Updating</a>
+      </div>
+    </div>
+  </nav>
 
-  <h2>Playlists — for TiviMate / OTT Navigator</h2>
-  <p>Header-based. Work in players that forward stream headers and read ClearKey <code>#KODIPROP</code> tags.</p>
-  <ul>
-      <li><strong>Zio TV — English</strong> — <a href="./english.m3u">english.m3u</a> <code>./english.m3u</code></li>
-      <li><strong>Zio TV — Hindi</strong> — <a href="./hindi.m3u">hindi.m3u</a> <code>./hindi.m3u</code></li>
-      <li><strong>Zio TV — All Channels</strong> — <a href="./all.m3u">all.m3u</a> <code>./all.m3u</code></li>
-      <li><strong>Zio TV — Kids (Hindi)</strong> — <a href="./kids-hindi.m3u">kids-hindi.m3u</a> <code>./kids-hindi.m3u</code></li>
-      <li><strong>Zio TV — Custom</strong> — <a href="./custom.m3u">custom.m3u</a> <code>./custom.m3u</code></li>
-  </ul>
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent playlist index</p>
+          <h1>Find your signal.</h1>
+          <p class="lede">Fresh IPTV playlists generated from the livetgtv public API. Choose a list, copy its address, and tune in with a supported player.</p>
+          <div class="actions">
+            <a class="button primary" href="#playlists">Explore playlists</a>
+            <a class="button" href="https://github.com/CybermanXD/zio-tv-via-livetgtv">View source</a>
+          </div>
+          <p class="micro">STATIC FRONTEND / NO STREAMS PLAY ON THIS PAGE</p>
+        </div>
+        <div class="tv-stage" aria-hidden="true">
+          <div class="tv-wrap" data-tv>
+            <div class="tv-shadow"></div><i class="antenna"></i><i class="antenna right"></i>
+            <div class="cabinet">
+              <div class="screen-shell"><div class="screen">
+                <div class="screen-top"><span>CH 01</span><span>Signal ready</span></div>
+                <div class="screen-copy"><p class="screen-label">Playlist</p><p class="screen-title">English</p><p class="screen-file">english.m3u</p></div>
+              </div></div>
+              <div class="controls"><button class="knob" tabindex="-1" aria-hidden="true"></button><button class="knob small" tabindex="-1" aria-hidden="true"></button><div class="speaker"></div><i class="lamp"></i></div>
+              <div class="feet"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <p class="note">Streams are geo-restricted to India (use an Indian IP). Tokens refresh automatically on each scheduled rebuild.</p>
+    <section class="tuner" id="playlists">
+      <div class="sticky">
+        <div class="wrap tuner-grid">
+          <div class="section-intro">
+            <p class="eyebrow">01 / Tune the set</p>
+            <h2>Five lists.<br>One dial.</h2>
+            <p>Pick the lineup that fits. The dial, arrow keys, and station list all control the same selector.</p>
+            <div class="url-box">
+              <code class="url" id="playlist-url"></code>
+              <div class="url-actions">
+                <button class="button primary" id="copy-url" type="button">Copy URL</button>
+                <a class="button" id="open-file" href="./english.m3u">Open file</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <ul class="stations" id="station-list" role="listbox" aria-label="Choose a playlist"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guide">
+      <div class="wrap">
+        <div class="guide-head">
+          <div><p class="eyebrow">02 / Set up</p><h2>Three quiet steps.</h2></div>
+          <p>The page is only an index. Playback happens in your IPTV application.</p>
+        </div>
+        <div class="steps">
+          <article class="step"><b>01</b><h3>Choose</h3><p>Select a playlist by language or channel scope.</p></article>
+          <article class="step"><b>02</b><h3>Copy</h3><p>Copy its permanent GitHub Pages address.</p></article>
+          <article class="step"><b>03</b><h3>Add</h3><p>Paste the address into a supported IPTV player.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="compat" id="support">
+      <div class="wrap compat-grid">
+        <div><p class="eyebrow">03 / Player support</p><h2>Use the right receiver.</h2><p class="compat-note">These lists use MPEG-DASH with ClearKey metadata. Player support matters. An Indian IP is required for playback.</p></div>
+        <div class="compat-list" role="list">
+          <div class="compat-row" role="listitem"><span>TiviMate</span><span class="yes">Supported</span></div>
+          <div class="compat-row" role="listitem"><span>OTT Navigator</span><span class="yes">Supported</span></div>
+          <div class="compat-row" role="listitem"><span>Kodi with InputStream Adaptive</span><span class="yes">Supported</span></div>
+          <div class="compat-row" role="listitem"><span>Sparkle and Shaka</span><span>Relay required</span></div>
+          <div class="compat-row" role="listitem"><span>Televizo</span><span>Limited</span></div>
+          <div class="compat-row" role="listitem"><span>PotPlayer and VLC</span><span>Unsupported DRM</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="eyebrow">Transmission ends here</p>
+      <h2>Fresh lists. No noise.</h2>
+      <div class="footer-meta">
+        <p id="last-updated">Checking the latest update.</p>
+        <p>Playback is region restricted to India. Tokens expire and are regenerated automatically.</p>
+        <p><a href="https://github.com/CybermanXD/zio-tv-via-livetgtv">GitHub repository</a><br><a href="https://livetgtv.lovable.app/docs">API documentation</a></p>
+      </div>
+    </div>
+  </footer>
+  <div class="sr-only" id="announcer" aria-live="polite"></div>
+
+  <script>
+    const playlists = [{"key":"english","file":"english.m3u","name":"English","description":"English-language channels from the live catalog."},{"key":"hindi","file":"hindi.m3u","name":"Hindi","description":"Hindi and general Indian channels, selected by language filters."},{"key":"all","file":"all.m3u","name":"All channels","description":"The complete channel catalog in one playlist."},{"key":"kids-hindi","file":"kids-hindi.m3u","name":"Kids Hindi","description":"A curated Hindi kids lineup in a fixed order."},{"key":"custom","file":"custom.m3u","name":"Custom","description":"Kids, infotainment, Colors Infinity, and Animax."}];
+    const root = document.documentElement;
+    const tv = document.querySelector('[data-tv]');
+    const title = tv.querySelector('.screen-title');
+    const file = tv.querySelector('.screen-file');
+    const channel = tv.querySelector('.screen-top span');
+    const list = document.querySelector('#station-list');
+    const url = document.querySelector('#playlist-url');
+    const open = document.querySelector('#open-file');
+    const copy = document.querySelector('#copy-url');
+    const announcer = document.querySelector('#announcer');
+    let active = 0;
+    let tuneTimer;
+
+    const absoluteUrl = (item) => new URL('./' + item.file, location.href).href;
+    const setActive = (index, announce = true) => {
+      active = (index + playlists.length) % playlists.length;
+      const item = playlists[active];
+      title.textContent = item.name;
+      file.textContent = item.file;
+      channel.textContent = 'CH ' + String(active + 1).padStart(2, '0');
+      url.textContent = absoluteUrl(item);
+      open.href = './' + item.file;
+      list.querySelectorAll('.station').forEach((button, i) => {
+        button.setAttribute('aria-selected', i === active ? 'true' : 'false');
+        button.tabIndex = i === active ? 0 : -1;
+      });
+      root.style.setProperty('--knob', (active * 54) + 'deg');
+      tv.classList.add('tuning');
+      clearTimeout(tuneTimer);
+      tuneTimer = setTimeout(() => tv.classList.remove('tuning'), 450);
+      if (announce) announcer.textContent = item.name + ' playlist selected.';
+    };
+
+    playlists.forEach((item, index) => {
+      const li = document.createElement('li');
+      const button = document.createElement('button');
+      button.className = 'station';
+      button.type = 'button';
+      button.setAttribute('role', 'option');
+      button.innerHTML = '<span class="station-number">' + String(index + 1).padStart(2, '0') + '</span><span><span class="station-name">' + item.name + '</span><span class="sr-only">. ' + item.description + '</span></span><span class="station-file">' + item.file + '</span>';
+      button.addEventListener('click', () => setActive(index));
+      button.addEventListener('keydown', (event) => {
+        if (event.key === 'ArrowDown' || event.key === 'ArrowRight') { event.preventDefault(); setActive(active + 1); list.querySelectorAll('.station')[active].focus(); }
+        if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') { event.preventDefault(); setActive(active - 1); list.querySelectorAll('.station')[active].focus(); }
+      });
+      li.append(button); list.append(li);
+    });
+
+    document.querySelectorAll('.knob').forEach((knob) => knob.addEventListener('click', () => setActive(active + 1)));
+    copy.addEventListener('click', async () => {
+      const value = absoluteUrl(playlists[active]);
+      try { await navigator.clipboard.writeText(value); }
+      catch { const range = document.createRange(); range.selectNodeContents(url); const selection = getSelection(); selection.removeAllRanges(); selection.addRange(range); }
+      copy.textContent = 'Copied'; announcer.textContent = 'Playlist URL copied.';
+      setTimeout(() => { copy.textContent = 'Copy URL'; }, 1800);
+    });
+
+    fetch('./LAST_UPDATED.txt', { cache: 'no-store' }).then((response) => response.ok ? response.text() : Promise.reject()).then((value) => {
+      const date = new Date(value.trim());
+      const formatted = Number.isNaN(date.valueOf()) ? value.trim() : new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(date);
+      document.querySelector('#last-updated').textContent = 'Last generated ' + formatted + '.';
+      document.querySelector('#nav-status').textContent = 'Updated';
+    }).catch(() => { document.querySelector('#last-updated').textContent = 'Playlists update every two hours.'; });
+
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      let targetX = 0, targetY = 16, currentX = 0, currentY = 16, ticking = false;
+      const render = () => {
+        currentX += (targetX - currentX) * .08; currentY += (targetY - currentY) * .08;
+        root.style.setProperty('--tv-rx', currentX.toFixed(2) + 'deg'); root.style.setProperty('--tv-ry', currentY.toFixed(2) + 'deg');
+        if (Math.abs(targetX - currentX) + Math.abs(targetY - currentY) > .02) requestAnimationFrame(render); else ticking = false;
+      };
+      document.addEventListener('pointermove', (event) => {
+        targetY = 12 + (event.clientX / innerWidth - .5) * 5; targetX = -3 - (event.clientY / innerHeight - .5) * 3;
+        if (!ticking) { ticking = true; requestAnimationFrame(render); }
+      }, { passive: true });
+      addEventListener('scroll', () => {
+        const progress = Math.min(1, scrollY / Math.max(1, innerHeight * .85));
+        targetY = 16 * (1 - progress); targetX = -4 * (1 - progress);
+        root.style.setProperty('--tv-scale', (.94 + progress * .06).toFixed(3));
+        if (!ticking) { ticking = true; requestAnimationFrame(render); }
+      }, { passive: true });
+    }
+    setActive(0, false);
+  </script>
 </body>
 </html>
