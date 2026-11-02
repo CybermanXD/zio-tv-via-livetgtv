@@ -43,12 +43,28 @@ function extractHdneaToken(src) {
   return null;
 }
 
+const PLAYBACK_USER_AGENT = 'ExoPlayerLib/2.19.1';
+
+function base64Url(value) {
+  return Buffer.from(value, 'utf8').toString('base64url');
+}
+
+/** Convert a Jio URL into the restricted relay URL used by Node/Worker proxies. */
+export function proxyStreamUrl(src, proxyBase) {
+  if (!proxyBase) return null;
+  const parsed = new URL(src);
+  const token = extractHdneaToken(src);
+  if (parsed.hostname !== 'jiotvmblive.cdn.jio.com' || !token) return null;
+  return `${proxyBase.replace(/\/+$/, '')}/jio/${base64Url(token)}${parsed.pathname}`;
+}
+
 /**
  * Build one #EXTINF block (array of lines) for an already-resolved channel.
  * @param {object} resolved  resolved channel from the API
  * @param {object} fallback  base channel (name/category/logo fallbacks)
+ * @param {object} options   optional { proxyBase }
  */
-export function channelBlock(resolved, fallback = {}) {
+export function channelBlock(resolved, fallback = {}, { proxyBase = process.env.ZIO_PROXY_BASE || '' } = {}) {
   const name = resolved.name || fallback.name || resolved.id;
   const group = resolved.category || fallback.category || 'Live';
   const logo = resolved.logo || fallback.logo || '';
@@ -70,19 +86,27 @@ export function channelBlock(resolved, fallback = {}) {
   // Works in TiviMate/OTT Navigator/Kodi (which honour stream_headers).
   const token = extractHdneaToken(src);
   if (token) {
-    const cookie = 'Cookie=' + encodeURIComponent(token);
-    lines.push(`#KODIPROP:inputstream.adaptive.manifest_headers=${cookie}`);
-    lines.push(`#KODIPROP:inputstream.adaptive.stream_headers=${cookie}`);
+    // Kodi syntax: include both required headers in manifest and segment calls.
+    const headers = `User-Agent=${encodeURIComponent(PLAYBACK_USER_AGENT)}&Cookie=${encodeURIComponent(token)}`;
+    lines.push(`#KODIPROP:inputstream.adaptive.manifest_headers=${headers}`);
+    lines.push(`#KODIPROP:inputstream.adaptive.stream_headers=${headers}`);
   }
 
   lines.push(
     `#EXTINF:-1 tvg-id="${resolved.id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}`,
   );
-  // The Jio CDN currently rejects a generic browser UA with HTTP 403 while
-  // accepting ExoPlayer requests. Keep this explicit so IPTV clients that
-  // honour EXTVLCOPT use the working player identity for manifests/segments.
-  lines.push('#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1');
-  lines.push(src);
+  lines.push(`#EXTVLCOPT:http-user-agent=${PLAYBACK_USER_AGENT}`);
+  lines.push(`#EXTHTTP:{"User-Agent":"${PLAYBACK_USER_AGENT}"}`);
+
+  const proxied = proxyStreamUrl(src, proxyBase);
+  if (proxied) {
+    // The relay is required by HTML5/Shaka clients, which cannot override the
+    // browser User-Agent, and by players that ignore M3U header directives.
+    lines.push(proxied);
+  } else {
+    // ffmpeg/OTT-style pipe headers provide compatibility beyond EXTVLCOPT.
+    lines.push(`${src}|User-Agent=${encodeURIComponent(PLAYBACK_USER_AGENT)}`);
+  }
   return lines;
 }
 
@@ -106,12 +130,12 @@ async function mapLimit(items, limit, fn) {
  *
  * Returns { text, ok, failed, skipped, total }.
  */
-export async function buildM3U(channels, { concurrency = 8, onProgress } = {}) {
+export async function buildM3U(channels, { concurrency = 8, onProgress, proxyBase = process.env.ZIO_PROXY_BASE || '' } = {}) {
   let done = 0;
   const results = await mapLimit(channels, concurrency, async (ch) => {
     try {
       const resolved = await resolveChannel(ch.id);
-      const direct = channelBlock(resolved, ch);
+      const direct = channelBlock(resolved, ch, { proxyBase });
       done++;
       if (onProgress) onProgress(done, channels.length);
       if (!direct) return { status: 'skipped', id: ch.id, name: ch.name };

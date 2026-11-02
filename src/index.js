@@ -2,8 +2,8 @@
 // Zio TV via livetgtv — CLI
 //
 // Commands:
-//   generate [keys...]     Write M3U files to ./playlists (default: all 4)
-//   serve                  HTTP server that serves always-fresh playlists
+//   generate [keys...]     Write M3U files to ./playlists
+//   serve                  HTTP server: fresh playlists + restricted Jio relay
 //   list                   Print catalog category/counts and per-playlist sizes
 //
 // Env:
@@ -11,6 +11,7 @@
 //   ZIO_PORT      serve port (default 8888)
 //   ZIO_TTL_MS    serve cache TTL per playlist (default 300000 = 5 min)
 //   ZIO_CONCURRENCY  resolve concurrency (default 8)
+//   ZIO_PROXY_BASE   public relay URL embedded by generate (optional)
 
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
@@ -25,6 +26,76 @@ import { writePagesIndex } from './pages-index.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = resolve(__dirname, '..');
 const CONCURRENCY = Number(process.env.ZIO_CONCURRENCY || 8);
+const CDN_HOST = 'jiotvmblive.cdn.jio.com';
+const PLAYBACK_USER_AGENT = 'ExoPlayerLib/2.19.1';
+const MAX_RELAY_REDIRECTS = 3;
+
+function decodeBase64Url(value) {
+  return Buffer.from(value, 'base64url').toString('utf8');
+}
+
+function relayTarget(pathname) {
+  const match = pathname.match(/^\/jio\/([A-Za-z0-9_-]+)(\/.*)$/);
+  if (!match) return null;
+  let token;
+  try {
+    token = decodeBase64Url(match[1]);
+  } catch {
+    return null;
+  }
+  if (!/^__hdnea__=st=\d+~exp=\d+~acl=\/\*~hmac=[a-f0-9]+$/i.test(token)) return null;
+  if (!/^\/bpk-tv\/[A-Za-z0-9_.=/-]+$/.test(match[2]) || match[2].includes('..')) return null;
+  return { token, pathname: match[2] };
+}
+
+function requestProxyBase(req) {
+  const configured = process.env.ZIO_PROXY_BASE;
+  if (configured) return configured.replace(/\/+$/, '');
+  const proto = String(req.headers['x-forwarded-proto'] || 'http').split(',')[0].trim();
+  const host = String(req.headers['x-forwarded-host'] || req.headers.host || `127.0.0.1:${process.env.ZIO_PORT || 8888}`).split(',')[0].trim();
+  return `${proto}://${host}`;
+}
+
+async function fetchRelay(url, token, range, redirects = 0) {
+  const headers = {
+    'User-Agent': PLAYBACK_USER_AGENT,
+    Cookie: token,
+    Accept: '*/*',
+  };
+  if (range) headers.Range = range;
+  const upstream = await fetch(url, { headers, redirect: 'manual' });
+  if (upstream.status >= 300 && upstream.status < 400 && upstream.headers.get('location')) {
+    if (redirects >= MAX_RELAY_REDIRECTS) throw new Error('Too many upstream redirects');
+    const next = new URL(upstream.headers.get('location'), url);
+    if (next.hostname !== CDN_HOST) throw new Error('Blocked upstream redirect');
+    return fetchRelay(next, token, range, redirects + 1);
+  }
+  return upstream;
+}
+
+async function relayJio(req, res, target) {
+  const upstreamUrl = `https://${CDN_HOST}${target.pathname}?${target.token}`;
+  const upstream = await fetchRelay(upstreamUrl, target.token, req.headers.range);
+  const headers = {
+    'Content-Type': upstream.headers.get('content-type') || 'application/octet-stream',
+    'Cache-Control': target.pathname.endsWith('.mpd') ? 'no-store' : 'public, max-age=15',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
+    'Access-Control-Allow-Headers': 'Range, Content-Type',
+    'Access-Control-Expose-Headers': 'Content-Length, Content-Range, Accept-Ranges',
+  };
+  for (const name of ['content-length', 'content-range', 'accept-ranges', 'etag', 'last-modified']) {
+    const value = upstream.headers.get(name);
+    if (value) headers[name] = value;
+  }
+  res.writeHead(upstream.status, headers);
+  if (!upstream.body || req.method === 'HEAD') {
+    res.end();
+    return;
+  }
+  for await (const chunk of upstream.body) res.write(chunk);
+  res.end();
+}
 
 function lanIPs() {
   const ips = [];
@@ -85,13 +156,16 @@ async function cmdServe() {
     return planCache;
   }
 
-  async function getPlaylistText(key) {
-    const hit = cache.get(key);
+  async function getPlaylistText(key, proxyBase) {
+    // The embedded relay origin can differ (LAN IP, reverse-proxy hostname), so
+    // it must be part of the cache key or one client can receive another's URL.
+    const cacheKey = `${key}\n${proxyBase}`;
+    const hit = cache.get(cacheKey);
     if (hit && Date.now() - hit.at < ttl) return hit.text;
     const { sets } = await getPlan();
     const channels = sets[key] || [];
-    const res = await generateOne(key, channels, { concurrency: CONCURRENCY });
-    cache.set(key, { text: res.text, at: Date.now() });
+    const res = await generateOne(key, channels, { concurrency: CONCURRENCY, proxyBase });
+    cache.set(cacheKey, { text: res.text, at: Date.now() });
     console.log(
       `${new Date().toISOString()} rebuilt "${key}" ok=${res.stats.ok} skipped=${res.stats.skipped} failed=${res.stats.failed}`,
     );
@@ -106,25 +180,53 @@ async function cmdServe() {
   }
 
   const server = createServer(async (req, res) => {
-    const url = (req.url || '/').split('?')[0];
-    if (url === '/' || url === '/index.html') {
+    const url = new URL(req.url || '/', 'http://localhost');
+    const relay = relayTarget(url.pathname);
+    if (relay) {
+      if (req.method === 'OPTIONS') {
+        res.writeHead(204, {
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
+          'Access-Control-Allow-Headers': 'Range, Content-Type',
+          'Access-Control-Max-Age': '86400',
+        });
+        res.end();
+        return;
+      }
+      try {
+        await relayJio(req, res, relay);
+      } catch (e) {
+        console.error(`${new Date().toISOString()} relay error ${relay.pathname}: ${e?.message || e}`);
+        if (!res.headersSent) res.writeHead(502, { 'Content-Type': 'text/plain', 'Access-Control-Allow-Origin': '*' });
+        res.end('upstream relay error');
+      }
+      return;
+    }
+
+    if (url.pathname === '/health') {
+      res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+      res.end(JSON.stringify({ ok: true, time: new Date().toISOString() }));
+      return;
+    }
+
+    if (url.pathname === '/' || url.pathname === '/index.html') {
       res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
       res.end(
-        'Zio TV via livetgtv\n\nDirect (header-based) playlists:\n' +
+        'Zio TV via livetgtv\n\nRelayed, player-compatible playlists:\n' +
           PLAYLISTS.map((p) => `  /${p.file}   (${p.title})`).join('\n') +
           '\n',
       );
       return;
     }
 
-    const key = routes.get(url);
+    const key = routes.get(url.pathname);
     if (!key) {
       res.writeHead(404, { 'Content-Type': 'text/plain' });
       res.end('not found');
       return;
     }
     try {
-      const text = await getPlaylistText(key);
+      const text = await getPlaylistText(key, requestProxyBase(req));
       res.writeHead(200, {
         'Content-Type': 'application/vnd.apple.mpegurl; charset=utf-8',
         'Cache-Control': 'no-store',
@@ -140,7 +242,7 @@ async function cmdServe() {
     console.log(`Zio TV serving on port ${port} (cache TTL ${Math.round(ttl / 1000)}s)`);
     const ips = lanIPs();
     const host = ips[0] || 'YOUR-PC-IP';
-    console.log('\n== TiviMate / OTT Navigator (direct header mode) ==');
+    console.log('\n== Player-compatible relayed playlists ==');
     for (const p of PLAYLISTS) console.log(`  ${p.title.padEnd(26)} http://${host}:${port}/${p.file}`);
     if (ips.length > 1) console.log(`\n(other IPs: ${ips.slice(1).join(', ')})`);
   });

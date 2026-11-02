@@ -117,6 +117,14 @@ node src/index.js list
 
 ## Loading in a player
 
+For maximum compatibility, run `node src/index.js serve` and load its printed
+playlist URL. This mode relays only signed Jio CDN paths, applies the required
+User-Agent and token Cookie to manifests and segments, and enables CORS for
+HTML5/Shaka clients. Generated static playlists additionally include
+`#EXTVLCOPT`, `#EXTHTTP`, Kodi headers, and ffmpeg-style URL headers. To embed a
+publicly deployed relay in GitHub-hosted playlists, set the repository Actions
+variable `ZIO_PROXY_BASE` to its HTTPS base URL and regenerate.
+
 These streams are **DRM-protected DASH** (ClearKey; the manifest also advertises
 a Widevine system-ID) **and** the segments are protected by an Akamai
 `__hdnea__` token. The playlist forwards that token as a `Cookie` header on both
@@ -131,7 +139,8 @@ ClearKey and read the `#KODIPROP` tags. **Pick a supported player:**
 | **OTT Navigator** | ✅ | **Recommended.** Reads ClearKey `#KODIPROP` and honours the segment token. |
 | **Kodi** (inputstream.adaptive) | ✅ | Works as-is. |
 | **Televizo** | ⚠️ | Plays audio but shows a **black screen**: it does not forward the Akamai token to DASH segments, so video segments 403. Needs a token-injection proxy on a **residential Indian IP** (JioTV returns HTTP 450 to cloud/datacenter IPs, so no free cloud host works). Use TiviMate/OTT Navigator instead. |
-| **PotPlayer** | ❌ | **Does not support DRM/ClearKey DASH** and ignores `#KODIPROP`, so it fails with *"Unable to connect to the requested server."* This is expected — it is not a playlist problem. |
+| **PotPlayer** | ❌ | Does not support ClearKey DASH or `#KODIPROP`; the relay can solve HTTP 403 but cannot add DRM support. |
+| **Sparkle/Shaka HTML5** | ⚠️ | Requires the relay URL because browsers cannot override their User-Agent. ClearKey support still depends on the app/platform. |
 | **VLC** | ❌ | No ClearKey DASH support. |
 
 > If you tested in **PotPlayer and saw "Failed to start playback / Unable to
@@ -187,6 +196,19 @@ git push -u origin main
 > Indian IP. If that's a problem, use the self-hosted `serve`/`watch` modes below
 > on a machine with an Indian IP instead.
 
+### Deploying the relay
+
+The relay is part of the existing `serve` command and needs a continuously
+running Node.js 18+ host with an Indian egress IP. Start it with
+`node src/index.js serve`; expose port `ZIO_PORT` through HTTPS, then set
+`ZIO_PROXY_BASE=https://your-host.example` when generating playlists. The relay
+is deliberately restricted to signed `jiotvmblive.cdn.jio.com/bpk-tv/...` URLs
+and does not operate as a general-purpose proxy.
+
+GitHub Pages and raw GitHub files are static hosting and cannot execute this
+relay. GitHub-hosted playlists use direct header syntax unless the repository
+variable `ZIO_PROXY_BASE` points to a separately deployed relay.
+
 ## Configuration (env vars)
 
 | Variable          | Default                         | Used by            |
@@ -196,6 +218,7 @@ git push -u origin main
 | `ZIO_TTL_MS`      | `300000` (5 min)                | serve              |
 | `ZIO_INTERVAL_MS` | `1800000` (30 min)              | watch              |
 | `ZIO_CONCURRENCY` | `8`                             | all                |
+| `ZIO_PROXY_BASE`  | empty                           | generate, serve    |
 | `ZIO_API_BASE`    | `https://livetgtv.lovable.app/api/public` | all      |
 | `ZIO_EPG_URL`     | `https://avkb.short.gy/jioepg.xml.gz`     | all      |
 

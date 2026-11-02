@@ -44,6 +44,9 @@ jobs:
       - name: Generate playlists
         env:
           ZIO_CONCURRENCY: '12'
+          # Set repository variable ZIO_PROXY_BASE to a publicly deployed
+          # instance of `node src/index.js serve` for browser/Shaka players.
+          ZIO_PROXY_BASE: ${{ vars.ZIO_PROXY_BASE }}
         run: node src/index.js generate
 
       - name: Write generated timestamp
