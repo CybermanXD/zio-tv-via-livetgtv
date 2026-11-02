@@ -82,19 +82,19 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_International_HD_MOB/WDVLive/index
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=a24c34e396d75a18bce46aa471f1e164:b2b0db9965848d72fc3c13bf09724e83
-#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793592457~exp%3D1793614057~acl%3D%2F*~hmac%3Dbaadd4a7be2d0e400d8c6513bd5d1f5289682d3f32b26c9735c1a6d9ca6d2af5
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793592457~exp%3D1793614057~acl%3D%2F*~hmac%3Dbaadd4a7be2d0e400d8c6513bd5d1f5289682d3f32b26c9735c1a6d9ca6d2af5
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793592423~exp%3D1793614023~acl%3D%2F*~hmac%3D7d7c1d73bfad7ad418619a0b1589c4cdd202c1684fd69870a3633dd51c5266e0
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793592423~exp%3D1793614023~acl%3D%2F*~hmac%3D7d7c1d73bfad7ad418619a0b1589c4cdd202c1684fd69870a3633dd51c5266e0
 #EXTINF:-1 tvg-id="1391" tvg-name="Hungama" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Hungama.png" group-title="Kids",Hungama
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/Hungama_MOB/WDVLive/index.mpd?__hdnea__=st=1793592457~exp=1793614057~acl=/*~hmac=baadd4a7be2d0e400d8c6513bd5d1f5289682d3f32b26c9735c1a6d9ca6d2af5
+https://jiotvmblive.cdn.jio.com/bpk-tv/Hungama_MOB/WDVLive/index.mpd?__hdnea__=st=1793592423~exp=1793614023~acl=/*~hmac=7d7c1d73bfad7ad418619a0b1589c4cdd202c1684fd69870a3633dd51c5266e0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=688db477181f50fd981c94efda31d6b8:9572ab827846677bc7e84fbc53ccc226
-#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793592457~exp%3D1793614057~acl%3D%2F*~hmac%3Dbaadd4a7be2d0e400d8c6513bd5d1f5289682d3f32b26c9735c1a6d9ca6d2af5
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793592457~exp%3D1793614057~acl%3D%2F*~hmac%3Dbaadd4a7be2d0e400d8c6513bd5d1f5289682d3f32b26c9735c1a6d9ca6d2af5
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=__hdnea__%3Dst%3D1793592423~exp%3D1793614023~acl%3D%2F*~hmac%3D7d7c1d73bfad7ad418619a0b1589c4cdd202c1684fd69870a3633dd51c5266e0
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=__hdnea__%3Dst%3D1793592423~exp%3D1793614023~acl%3D%2F*~hmac%3D7d7c1d73bfad7ad418619a0b1589c4cdd202c1684fd69870a3633dd51c5266e0
 #EXTINF:-1 tvg-id="1392" tvg-name="Super Hungama" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Super_Hungama.png" group-title="Kids",Super Hungama
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/Super_Hungama_MOB/WDVLive/index.mpd?__hdnea__=st=1793592457~exp=1793614057~acl=/*~hmac=baadd4a7be2d0e400d8c6513bd5d1f5289682d3f32b26c9735c1a6d9ca6d2af5
+https://jiotvmblive.cdn.jio.com/bpk-tv/Super_Hungama_MOB/WDVLive/index.mpd?__hdnea__=st=1793592423~exp=1793614023~acl=/*~hmac=7d7c1d73bfad7ad418619a0b1589c4cdd202c1684fd69870a3633dd51c5266e0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=86e244777be6557495fe10012d75fa5e:b5366f113c0947a885edff34e98db643
