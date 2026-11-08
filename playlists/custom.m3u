@@ -180,12 +180,12 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_bharati_MOB/WDVLive/index.mpd?__hdnea_
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=d6eee813c6e35f9fbb8d7a787c131f6b:800b6e082f92c548d9638375dea7a0a1
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794096010~exp%3D1794182410~acl%3D%2F*~hmac%3Dda4ec5d0c969c830279316618e115a8325c393aad6f8db0e28172f4854f2383c
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794096010~exp%3D1794182410~acl%3D%2F*~hmac%3Dda4ec5d0c969c830279316618e115a8325c393aad6f8db0e28172f4854f2383c
 #EXTINF:-1 tvg-id="583" tvg-name="DD Kisan" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Kisan.png" group-title="Infotainment",DD Kisan
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Kisan_MOB/WDVLive/index.mpd?__hdnea__=st=1791964811~exp=1791986411~acl=/*~hmac=e189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6|User-Agent=ExoPlayerLib%2F2.19.1
+https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Kisan_MOB/WDVLive/index.mpd?__hdnea__=st=1794096010~exp=1794182410~acl=/*~hmac=da4ec5d0c969c830279316618e115a8325c393aad6f8db0e28172f4854f2383c|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794096010~exp%3D1794182410~acl%3D%2F*~hmac%3Dda4ec5d0c969c830279316618e115a8325c393aad6f8db0e28172f4854f2383c
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794096010~exp%3D1794182410~acl%3D%2F*~hmac%3Dda4ec5d0c969c830279316618e115a8325c393aad6f8db0e28172f4854f2383c
