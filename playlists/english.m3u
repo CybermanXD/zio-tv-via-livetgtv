@@ -464,12 +464,12 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_02_MOB/WDVLive/index.mpd?__
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=b60f6845e93e5ccc8d43fc02ca92d624:d59e875e42fc89f4faa6d83988dcee81
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
 #EXTINF:-1 tvg-id="982" tvg-name="Swayam Prabha 03" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Swayam_Prabha_03.png" group-title="English",Swayam Prabha 03
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_03_MOB/WDVLive/index.mpd?__hdnea__=st=1791964811~exp=1791986411~acl=/*~hmac=e189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6|User-Agent=ExoPlayerLib%2F2.19.1
+https://jiotvmblive.cdn.jio.com/bpk-tv/Swayam_Prabha_03_MOB/WDVLive/index.mpd?__hdnea__=st=1794686409~exp=1794772809~acl=/*~hmac=c7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=b1398022626950359bcece2a2962d746:5862dfdd8ffd53be8ca58d7c420dd5b4
@@ -635,21 +635,21 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDEnglish_MOB/WDVLive/index.mpd?__hdnea
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=5fb29e5825b4554090de8d60674e4bd1:4234d56f45d2dc89f80e6d4d30b765be
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
 #EXTINF:-1 tvg-id="1104" tvg-name="Star Movies HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Movies_HD.png" group-title="English",Star Movies HD
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/StarMoviesHD_MOB/WDVLive/index.mpd?__hdnea__=st=1791964811~exp=1791986411~acl=/*~hmac=e189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6|User-Agent=ExoPlayerLib%2F2.19.1
+https://jiotvmblive.cdn.jio.com/bpk-tv/StarMoviesHD_MOB/WDVLive/index.mpd?__hdnea__=st=1794686409~exp=1794772809~acl=/*~hmac=c7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=ee96dad500c4537390df63f0f2c8de60:f6bee36ddb86f9c24def2a4a8df19e8e
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
 #EXTINF:-1 tvg-id="1110" tvg-name="Star Movies Select HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Movies_Select_HD.png" group-title="English",Star Movies Select HD
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Movies_Select_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1791964811~exp=1791986411~acl=/*~hmac=e189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6|User-Agent=ExoPlayerLib%2F2.19.1
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Movies_Select_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1794686409~exp=1794772809~acl=/*~hmac=c7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
@@ -988,12 +988,12 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Taiwan_Plus_MOB/WDVLive/index.mpd?__hdnea
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Sach_Bedhadak_MOB/WDVLive/index.mpd?__hdnea__=st=1794686409~exp=1794772809~acl=/*~hmac=c7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
 #EXTINF:-1 tvg-id="3104" tvg-name="Smriti Patra TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Smriti_Patra.png" group-title="English",Smriti Patra TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Smriti_Patra_MOB/WDVLive/index.mpd?__hdnea__=st=1794686409~exp=1794772809~acl=/*~hmac=c7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b|User-Agent=ExoPlayerLib%2F2.19.1
+https://jiotvmblive.cdn.jio.com/bpk-tv/Smriti_Patra_MOB/WDVLive/index.mpd?__hdnea__=st=1791964811~exp=1791986411~acl=/*~hmac=e189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
@@ -1337,12 +1337,12 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/News_24_Tass_MOB/WDVLive/index.mpd?__hdne
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Khabar_70_MOB/WDVLive/index.mpd?__hdnea__=st=1794686409~exp=1794772809~acl=/*~hmac=c7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
 #EXTINF:-1 tvg-id="3172" tvg-name="India 24x7 Aap Tak TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aap_Tak_tv.png" group-title="English",India 24x7 Aap Tak TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Aap_Tak_tv_MOB/WDVLive/index.mpd?__hdnea__=st=1791964811~exp=1791986411~acl=/*~hmac=e189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6|User-Agent=ExoPlayerLib%2F2.19.1
+https://jiotvmblive.cdn.jio.com/bpk-tv/Aap_Tak_tv_MOB/WDVLive/index.mpd?__hdnea__=st=1794686409~exp=1794772809~acl=/*~hmac=c7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=22ce71df8d645126afe97529e2489fc9:468eb93053539c5e9b1c481690ecbbc2
@@ -1666,12 +1666,12 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Anand_TV_MOB/WDVLive/index.mpd?__hdnea__=
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0249f4e16a5353b9ac66a1109af51ae6:ef24752aa5b1412c37631b87ea5feeca
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1791964811~exp%3D1791986411~acl%3D%2F*~hmac%3De189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
 #EXTINF:-1 tvg-id="3295" tvg-name="Mahotsav TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Mahotsav_TV.png" group-title="English",Mahotsav TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Mahotsav_TV_MOB/WDVLive/index.mpd?__hdnea__=st=1791964811~exp=1791986411~acl=/*~hmac=e189c4ac1a9fc36d9adb6d2b44087de05de624ae12a8a66eb01bcedcccb6a6c6|User-Agent=ExoPlayerLib%2F2.19.1
+https://jiotvmblive.cdn.jio.com/bpk-tv/Mahotsav_TV_MOB/WDVLive/index.mpd?__hdnea__=st=1794686409~exp=1794772809~acl=/*~hmac=c7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ExoPlayerLib%2F2.19.1&Cookie=__hdnea__%3Dst%3D1794686409~exp%3D1794772809~acl%3D%2F*~hmac%3Dc7201c8a0b85ae59fa8a7e6914712defbed7ceb4bf5b3816d2faa03e97d63a1b
