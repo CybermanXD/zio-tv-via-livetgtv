@@ -50,20 +50,25 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-ColorsSuper.in" tvg-name="Colors Super" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_SUPER/images/LOGO_HD/image.png" group-title="Entertainment",Colors Super
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://d1rc86nwwc9fag.cloudfront.net/260723/smil:colorssuper1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Dangal2.in" tvg-name="Dangal 2" tvg-logo="https://i.imgur.com/BEr1r7L.png" group-title="Entertainment",Dangal 2
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://streams.tangotv.in/DANGAL2/ORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://live-dangal2.akamaized.net/liveabr/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DarshanaTV.in" tvg-name="Darshana TV" tvg-logo="https://dtil.tmsimg.com/assets/s142774_ld_h15_aa.png?lock=720x540" group-title="Entertainment",Darshana TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt04.tangotv.in/m18aqlK4DARSHANATV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1453/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DDNational.in" tvg-name="DD National" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_NATIONAL/images/LOGO_HD/image.png" group-title="Entertainment",DD National
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DesiChannel.in" tvg-name="Desi Channel" tvg-logo="https://desichannel.in/wp-content/uploads/2025/01/desi-channel.png" group-title="Entertainment",Desi Channel
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -78,7 +83,7 @@ https://mumt04.tangotv.in/m18aqlK4E24/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.
 #EXTINF:-1 tvg-id="sd-Enterr10Bangla.in" tvg-name="Enterr 10 Bangla" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ENTERR10_BANGLA/images/LOGO_HD/image.png" group-title="Entertainment",Enterr 10 Bangla
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://live-bangla.akamaized.net/liveabr/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-EpicBharat.in" tvg-name="Epic Bharat" tvg-logo="https://www.epicon.in/img/nazara-logo.png" group-title="Entertainment",Epic Bharat
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -98,7 +103,7 @@ https://cc-uyh1ow5zouoio.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 #EXTINF:-1 tvg-id="sd-ETVPlus.in" tvg-name="ETV Plus" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png" group-title="Entertainment",ETV Plus
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d1qqzrxc7kpb0u.cloudfront.net/v1/50e3ae620bd6496cb3ac4294c877c36a/airtTA6RA.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d2qbg25361k63d.cloudfront.net/7d95c8f44ab14e1196e5c2df9189b33a/etvL76H6_5.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-FriendsTV.in" tvg-name="Friends TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Friends_TV.png" group-title="Entertainment",Friends TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -108,7 +113,7 @@ https://server.playontv.in/friendstv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-GangaurTV.in" tvg-name="Gangaur TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Gangaur.png" group-title="Entertainment",Gangaur TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1221/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-HiDost.in" tvg-name="Hi Dost!" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Hi_Dost.png" group-title="Entertainment",Hi Dost!
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -158,7 +163,7 @@ https://cdn.pishow.tv/ott/live/1474/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-ManoranjanTV.in" tvg-name="Manoranjan TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MANORANJAN_TV/images/LOGO_HD/image.png" group-title="Entertainment",Manoranjan TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt04.tangotv.in/m18aqlK4MANORANJANTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://streams.tangotv.in/MANORANJANTV/ORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MarutamTV.in" tvg-name="Marutam TV" tvg-logo="https://i.imgur.com/cFNw4Af.png" group-title="Entertainment",Marutam TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -168,7 +173,7 @@ https://mntv.livebox.co.in/mntvhls/live.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-MazhavilManorama.in" tvg-name="Mazhavil Manorama" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MAZHAVIL_MANORAMA/images/LOGO_HD/image.png" group-title="Entertainment",Mazhavil Manorama
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt07.tangotv.in/zHjX9OFlMAZHAVILMANORAMAHD/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MHOneDilSe.in" tvg-name="MH One Dil Se" tvg-logo="https://dilse.mhone.in/wp-content/uploads/2022/02/MH-ONE-dil-se-LOGO-white-copy.png" group-title="Entertainment",MH One Dil Se
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -218,12 +223,12 @@ https://mumt01.tangotv.in/O5aw8Zn3PEARTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.
 #EXTINF:-1 tvg-id="sd-PolimerTV.in" tvg-name="Polimer TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Polimer%20TV.png" group-title="Entertainment",Polimer TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1241/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/PolimerTV.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PulariTV.in" tvg-name="Pulari TV" tvg-logo="https://i.imgur.com/v5urG30.png" group-title="Entertainment",Pulari TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/PulariTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PunjabPlus.in" tvg-name="Punjab Plus" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Punjab_Plus.png" group-title="Entertainment",Punjab Plus
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -253,7 +258,7 @@ https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453
 #EXTINF:-1 tvg-id="sd-ShemarooTV.in" tvg-name="Shemaroo TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_TV/images/LOGO_HD/image.png" group-title="Entertainment",Shemaroo TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/230/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ShemarooUmang.in" tvg-name="Shemaroo Umang" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Shemaroo_Umang.png" group-title="Entertainment",Shemaroo Umang
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -293,7 +298,7 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u
 #EXTINF:-1 tvg-id="sd-StudioYuva.in" tvg-name="Studio Yuva" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Studio_Yuva_Alpha.png" group-title="Entertainment",Studio Yuva
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d2gvyg6lvauoko.cloudfront.net/230226/studioyuva/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt01.tangotv.in/O5aw8Zn3STUDIOYUVA/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SubinTV.in" tvg-name="Subin TV" tvg-logo="https://www.subintv.in/SUBINLOGO.png" group-title="Entertainment",Subin TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -355,11 +360,6 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://stream.ottlive.co.in/zingabad/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-ZodiakTV.in" tvg-name="Zodiak TV" tvg-logo="https://i.imgur.com/gE166hZ.jpeg" group-title="Entertainment",Zodiak TV
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://ranacable.duckdns.org/ZodiakTv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ITVDeportes.mx" tvg-name="ITV Deportes" tvg-logo="https://iili.io/J1kV1Bn.png" group-title="Entertainment",ITV Deportes
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -398,12 +398,12 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/60ab07b02a2942498cdd81f045a625a1/in
 #EXTINF:-1 tvg-id="sd-AyushTV.in" tvg-name="Ayush TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/AYTV_transparent.png" group-title="Lifestyle",Ayush TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/221/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt07.tangotv.in/zHjX9OFlAYUSHTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-CVRHealth.in" tvg-name="CVR Health" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CVR_Health.png" group-title="Lifestyle",CVR Health
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt04.tangotv.in/m18aqlK4CVRHEALTH/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumbai-edge.smartplaytv.in/CVRHealth/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ETVLife.in" tvg-name="ETV Life" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_LIFE/images/LOGO_HD/image.png" group-title="Lifestyle",ETV Life
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -423,7 +423,7 @@ https://d1msejlow1t3l4.cloudfront.net/fta/kappatv/playlist.m3u8|User-Agent=ExoPl
 #EXTINF:-1 tvg-id="sd-NDTVGoodTimes.in" tvg-name="NDTV Good Times" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_TIMES/images/LOGO_HD/image.png" group-title="Lifestyle",NDTV Good Times
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1285/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-AndTV.in" tvg-name="&TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",&TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -463,12 +463,12 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTINF:-1 tvg-id="sd-ETVCinema.in" tvg-name="ETV Cinema" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_CINEMA/images/LOGO_HD/image.png" group-title="Movies",ETV Cinema
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d1z9okhs5q5o80.cloudfront.net/e8903f8e970841deb594cc7c7f11bc8a/etv6N316.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d9cjzj20aa5ed.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-5_cloud_in/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Goldmines.in" tvg-name="Goldmines" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Movies",Goldmines
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt04.tangotv.in/m18aqlK4GOLDMINES/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-GoldminesBollywood.in" tvg-name="Goldmines Bollywood" tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="Movies",Goldmines Bollywood
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -479,11 +479,6 @@ https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8|User-Agent=ExoPl
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://cdn.pishow.tv/ott/live/1461/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-IndiaTalkies.in" tvg-name="India Talkies" tvg-logo="https://papaji.freetvindia.com/media/FreeTV_India_Talkies.png" group-title="Movies",India Talkies
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://samitaorigin.tangotv.in/INDIATALKIES/SAMITAORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-IndywoodTV.in" tvg-name="Indywood TV" tvg-logo="https://i.ibb.co/jT3NCPp/logo-tv.png" group-title="Movies",Indywood TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -505,6 +500,11 @@ https://mumt01.tangotv.in/O5aw8Zn3WETV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://cdn.pishow.tv/ott/live/10007/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-MahuaPlay.in" tvg-name="Mahua Play" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Mahua_Play.png" group-title="Movies",Mahua Play
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://cdn.ottlive.co.in/mahuaplay/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ManoranjanGrand.in" tvg-name="Manoranjan Grand" tvg-logo="https://i.imgur.com/qfMEz78.png" group-title="Movies",Manoranjan Grand
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -523,7 +523,12 @@ https://mumt01.tangotv.in/O5aw8Zn3MOVIEPUNJAB/index.m3u8|User-Agent=ExoPlayerLib
 #EXTINF:-1 tvg-id="sd-Pitaara.in" tvg-name="Pitaara" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PITAARA/images/LOGO_HD/image.png" group-title="Movies",Pitaara
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d2lk5u59tns74c.cloudfront.net/out/v1/500a6b45f5ae41dda445d912b59eaa09/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d3i5c1nmken8bh.cloudfront.net/Live/Pitaara_TV_SCTE/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-PocketFilms.in" tvg-name="Pocket Films" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/p_pktflm.png" group-title="Movies",Pocket Films
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://vglivessai.akamaized.net/sg/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/b8ada260-bb81-472b-b7c1-3a79213a84b8/e02a0ce5-6c42-4cca-bb53-e5cfecff74a9/0.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PublicMovies.in" tvg-name="Public Movies" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PUBLIC_MOVIES/images/LOGO_HD/image.png" group-title="Movies",Public Movies
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -538,7 +543,7 @@ https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/mas
 #EXTINF:-1 tvg-id="sd-ShemarooJosh.in" tvg-name="Shemaroo Josh" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSutWZzQySLPpaZvaSHq1SnpV0dXNSFZimyag&s" group-title="Movies",Shemaroo Josh
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt04.tangotv.in/m18aqlK4SHEMAROOJOSH/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/337/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ShubhCinemaTV.in" tvg-name="Shubh Cinema TV" tvg-logo="https://i.imgur.com/RQhorAG.png" group-title="Movies",Shubh Cinema TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -570,11 +575,6 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b262
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://cdn.pishow.tv/ott/live/276/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-SuriyanTV.in" tvg-name="Suriyan TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Suriyan-tv-logo_2000_X_1125_Transpharent.png" group-title="Movies",Suriyan TV
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://hlslive.olidigital.in/suriyantv/suriyantv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ThalaaTV.in" tvg-name="Thalaa TV" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/thalaa-tv.png" group-title="Movies",Thalaa TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -589,6 +589,11 @@ https://mumbai-edge.smartplaytv.in/TheMovieClub/index.m3u8|User-Agent=ExoPlayerL
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://streams2.sofast.tv/ptnr-khabriya/title-TOLLY-TV-TEL_Khabriya/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9bb55dff-7a74-43aa-bcf7-ea537e8b9e92/manifest.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-ZeeCinema.in" tvg-name="Zee Cinema" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Cinema
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-7SMusic.in" tvg-name="7S Music" tvg-logo="https://i.imgur.com/zDiIhdN.png" group-title="Music",7S Music
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -618,7 +623,7 @@ https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg012
 #EXTINF:-1 tvg-id="sd-9XM.in" tvg-name="9XM" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9XM/images/LOGO_HD/image.png" group-title="Music",9XM
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://wiselp.wiseplayout.com/9XM/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://yupplivegcp2.yuppcdn.net/28072023/9xmusic_1800/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-AaryaaTV.in" tvg-name="Aaryaa TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/aryatvtamil.png" group-title="Music",Aaryaa TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -633,7 +638,7 @@ https://cdn.pishow.tv/ott/live/415/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-BalleBalle.in" tvg-name="Balle Balle" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Balle_Balle_TV.png" group-title="Music",Balle Balle
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/987/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mcncdndigital.com/worldpunjabitv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-BoogleBollywood.in" tvg-name="Boogle Bollywood" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Boogle_Bollywood.png" group-title="Music",Boogle Bollywood
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -653,7 +658,7 @@ https://cdn.pishow.tv/ott/live/1456/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-EpicMusic.in" tvg-name="Epic Music" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png" group-title="Music",Epic Music
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://streams.tangotv.in/EPICMUSIC/ORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ETVBeats.in" tvg-name="ETV Beats" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETVBeats1.png" group-title="Music",ETV Beats
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -708,7 +713,7 @@ https://samitaorigin.tangotv.in/PANKH/SAMITAORIGIN/index.m3u8|User-Agent=ExoPlay
 #EXTINF:-1 tvg-id="sd-PeppersTV.in" tvg-name="Peppers TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Peppers_TV.png" group-title="Music",Peppers TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1383/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt07.tangotv.in/zHjX9OFlPEPPERS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PTCChakde.in" tvg-name="PTC Chakde" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_CHAKDE/images/LOGO_HD/image.png" group-title="Music",PTC Chakde
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -718,7 +723,7 @@ https://cdn.pishow.tv/ott/live/449/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-PTCMusic.in" tvg-name="PTC Music" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_MUSIC/images/LOGO_HD/image.png" group-title="Music",PTC Music
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1501/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PublicMusic.in" tvg-name="Public Music" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PUBLIC_MUSIC/images/LOGO_HD/image.png" group-title="Music",Public Music
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -748,7 +753,7 @@ https://cdn2.in/SteelbirdMusicTVhls/live.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-TabbarHits.in" tvg-name="Tabbar Hits" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TABBAR_HITS/images/LOGO_HD/image.png" group-title="Music",Tabbar Hits
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://livingindiaottlive.akamaized.net/tabbarhits/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt04.tangotv.in/m18aqlK4TABBARHITS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-TarangMusic.in" tvg-name="Tarang Music" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TARANG_MUSIC/images/LOGO_HD/image.png" group-title="Music",Tarang Music
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -768,7 +773,7 @@ https://stream.ottlive.co.in/utvtamil/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.
 #EXTINF:-1 tvg-id="sd-VaanavilTV.in" tvg-name="Vaanavil TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Vaanavil_TV.png" group-title="Music",Vaanavil TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt01.tangotv.in/O5aw8Zn3VAANAVILTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-YRFMusic.in" tvg-name="YRF Music" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/YRF_Music.png" group-title="Music",YRF Music
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -793,7 +798,7 @@ https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/
 #EXTINF:-1 tvg-id="sd-FIFAPlus.uk" tvg-name="FIFA+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-FIFAPlusWomen.uk" tvg-name="FIFA+ Women" tvg-logo="https://i.imgur.com/xy9ZxVO.png" group-title="Sports",FIFA+ Women
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -853,7 +858,7 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8|User-Agent=ExoP
 #EXTINF:-1 tvg-id="sd-ACCDigitalNetwork.us" tvg-name="ACC Digital Network" tvg-logo="https://i.imgur.com/V6Kaqha.png" group-title="Sports",ACC Digital Network
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://raycom-accdn-firetv.amagi.tv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d53csymoczzde.cloudfront.net/ACC_Digital_Network.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ACISportTV.it" tvg-name="ACI Sport TV" tvg-logo="https://i.imgur.com/U8cHMOt.png" group-title="Sports",ACI Sport TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -905,11 +910,6 @@ https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8|User-
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-beINSportsUSA.us" tvg-name="beIN Sports USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="Sports",beIN Sports USA
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://tvsen6.aynaott.com/beinsports/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-beINSPORTSXTRA.us" tvg-name="beIN SPORTS XTRA" tvg-logo="https://i.imgur.com/uJosqHh.png" group-title="Sports",beIN SPORTS XTRA
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -930,10 +930,15 @@ https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playli
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-BicolorPlus.pe" tvg-name="Bicolor+" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/00/1790182833200/6a8e1eb7f5d6_640_360.png" group-title="Sports",Bicolor+
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://live-evg10.tv360.bitel.com.pe/bitel/bicolorfree_abr/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DDSports.in" tvg-name="DD Sports" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS/images/LOGO_HD/image.png" group-title="Sports",DD Sports
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt07.tangotv.in/zHjX9OFlDDSPORTS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Kabaddi24x7.in" tvg-name="Kabaddi 24x7" tvg-logo="https://papaji.freetvindia.com/media/kabaddi_24x7.png" group-title="Sports",Kabaddi 24x7
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -949,11 +954,6 @@ https://distro-timesgroup.vgcdn.net/vglive-sk-843549/playlist.m3u8|User-Agent=Ex
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://r2.amml.in/sony-ten-3-hd/live.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-BicolorPlus.pe" tvg-name="Bicolor+" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/00/1790182833200/6a8e1eb7f5d6_640_360.png" group-title="Sports",Bicolor+
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://live-evg10.tv360.bitel.com.pe/bitel/bicolorfree_abr/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-BicolorPlusPremium.pe" tvg-name="Bicolor+ Premium" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/00/1790183086681/1dff7002a22a_640_360.png" group-title="Sports",Bicolor+ Premium
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1003,7 +1003,7 @@ https://cnn.livestreaminggroup.info:3132/live/colimdotvlive.m3u8|User-Agent=ExoP
 #EXTINF:-1 tvg-id="sd-CricketGold.au" tvg-name="Cricket Gold" tvg-logo="https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png" group-title="Sports",Cricket Gold
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://streams2.sofast.tv/scheduler/scheduleMaster/418.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-CRTV.cl" tvg-name="CRTV" tvg-logo="https://i2.paste.pics/bf68b159547597c39574aec9dd7c626a.png" group-title="Sports",CRTV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1040,15 +1040,15 @@ https://s7.iptv-24.net/1439/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-Eurosport4K.fr" tvg-name="Eurosport 4K" tvg-logo="https://i.imgur.com/0o3zjC7.png" group-title="Sports",Eurosport 4K
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5449.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-EurovisionSport.uk" tvg-name="Eurovision Sport" tvg-logo="https://images.ctfassets.net/2b1dkanupt14/1A1Z8Gcn2NkbJRzTjxuj6h/2c14436cdc5b78e746a256e9f0c11a70/eurovision-icon.png" group-title="Sports",Eurovision Sport
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-ExtremeSportsChannel.ru" tvg-name="Extreme Sports Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/960px-Extreme_Sports_Channel.svg.png" group-title="Sports",Extreme Sports Channel
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-F1Channel.ie" tvg-name="F1 Channel" tvg-logo="https://i.imgur.com/cjXzWsI.png" group-title="Sports",F1 Channel
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1059,6 +1059,11 @@ https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://dash3.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-FightNetwork.ca" tvg-name="Fight Network" tvg-logo="https://i.imgur.com/vlKPZHR.png" group-title="Sports",Fight Network
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-FightBox.nl" tvg-name="FightBox" tvg-logo="https://i.imgur.com/mRsnztA.png" group-title="Sports",FightBox
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1084,6 +1089,21 @@ https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playl
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-Formula1AntenaPlay.ro" tvg-name="Formula 1 AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/02/23/XUKfJwir4MxNeP4nHtG7.png" group-title="Sports",Formula 1 AntenaPlay
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://stream1.antenaplay.ro/promo/formula-1-las-vegas-20-2211/chunklist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-Formula2AntenaPlay.ro" tvg-name="Formula 2 AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/02/28/YW9VML2K4hpFUKMHme97.png" group-title="Sports",Formula 2 AntenaPlay
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://stream1.antenaplay.ro/promo/formula-2-qatar/chunklist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-FormulaAcademyAntenaPlay.ro" tvg-name="Formula Academy AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/02/28/1o8H6fCMh1DSC2vuLjo8.png" group-title="Sports",Formula Academy AntenaPlay
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://stream1.antenaplay.ro/promo/f1-academy-las-vegas-20-2211/chunklist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-FoxSportsNews.au" tvg-name="Fox Sports News" tvg-logo="https://i.imgur.com/FhMQrJk.png" group-title="Sports",Fox Sports News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1138,7 +1158,7 @@ https://a-cdn.klowdtv.com/live3/hbcugo_720p/playlist.m3u8|User-Agent=ExoPlayerLi
 #EXTINF:-1 tvg-id="sd-HorseTV.it" tvg-name="Horse TV" tvg-logo="https://i.imgur.com/nK4UUX4.png" group-title="Sports",Horse TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://streams2.sofast.tv/vglive-sk-469239/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-InterTV.it" tvg-name="Inter TV" tvg-logo="https://i.imgur.com/FUTqh2L.png" group-title="Sports",Inter TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1154,11 +1174,6 @@ https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8|User-Agent=ExoPlaye
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-KHLPrime.ru" tvg-name="KHL Prime" tvg-logo="https://i.imgur.com/pwxT0ON.png" group-title="Sports",KHL Prime
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-KozoomTV.fr" tvg-name="Kozoom TV" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="Sports",Kozoom TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1185,10 +1200,15 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/l_equipe/live.livx/playlist.m3u
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-LazioStyleChannel.it" tvg-name="Lazio Style Channel" tvg-logo="https://i.imgur.com/vDB8HFq.png" group-title="Sports",Lazio Style Channel
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MSports.pk" tvg-name="M Sports" tvg-logo="https://msports.pk/wp-content/uploads/2026/02/m-sports-300.png" group-title="Sports",M Sports
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.rabta.stream/M-Sports/tracks-v1a1/mono.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.rabta.stream/M-Sports/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MadeinBOTV.it" tvg-name="MadeinBO TV" tvg-logo="https://i.imgur.com/47X44DD.png" group-title="Sports",MadeinBO TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1199,11 +1219,6 @@ https://srvx1.selftv.video/dmchannel/live/playlist.m3u8|User-Agent=ExoPlayerLib%
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://tvsen6.aynaott.com/MarqueeSportsNetwork/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-MatchPlaneta.ru" tvg-name="Match! Planeta" tvg-logo="https://i.imgur.com/vhyMb9D.png" group-title="Sports",Match! Planeta
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MatchUltra.ru" tvg-name="Match! Ultra" tvg-logo="https://www.kartina.tv/media/news/images/News/SEO/kanal-match-ultra.jpg" group-title="Sports",Match! Ultra
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1225,6 +1240,11 @@ https://live.mnb.mn/hls/mnb_sport.stream.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vbnN0ZXJKYW1fSExT/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-MonterricoTV.pe" tvg-name="Monterrico TV" tvg-logo="https://i.imgur.com/SuVO9T7.png" group-title="Sports",Monterrico TV
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://h.jcp.live.opencaster.com/play_src/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MoreThanSportsTV.de" tvg-name="More Than Sports TV" tvg-logo="https://i.imgur.com/SLrjImc.png" group-title="Sports",More Than Sports TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -1240,6 +1260,11 @@ https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGc
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-NBAAntenaPlay.ro" tvg-name="NBA AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/10/25/HmBMStln2f1qwN0tAXpG.png" group-title="Sports",NBA AntenaPlay
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://stream1.antenaplay.ro/promo/nba-meci/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-NBATV.us" tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" group-title="Sports",NBA TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -1248,7 +1273,7 @@ https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8|U
 #EXTINF:-1 tvg-id="sd-NBCSportsNOW.us" tvg-name="NBC Sports NOW" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="Sports",NBC Sports NOW
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-NFLChannel.us" tvg-name="NFL Channel" tvg-logo="https://i.imgur.com/mPGtwAP.png" group-title="Sports",NFL Channel
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1333,22 +1358,17 @@ https://amg00378-mavtv-amg00378c2-samsung-au-1790.playouts.now.amagi.tv/playlist
 #EXTINF:-1 tvg-id="sd-RacerSelect.us" tvg-name="Racer Select" tvg-logo="https://i.imgur.com/CurtYvn.png" group-title="Sports",Racer Select
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d85qrcmltdfp8.cloudfront.net/MAVTV_Select.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-RallyTV.us" tvg-name="Rally TV" tvg-logo="https://i.postimg.cc/WtLq2C7c/logo-Rally-Tv1.png" group-title="Sports",Rally TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-RealMadridTV.es" tvg-name="Real Madrid TV" tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="Sports",Real Madrid TV
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-RightNowTV.us" tvg-name="Right Now TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e8bac4421ebc533626/images/logo_20231219_221555_29.png" group-title="Sports",Right Now TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://2-fss-1.streamhoster.com/pl_154/amlst:205448-2145652/rightnowtv.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SkyRacing1.au" tvg-name="Sky Racing 1" tvg-logo="https://i.imgur.com/Hf0EiaW.png" group-title="Sports",Sky Racing 1
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1369,6 +1389,11 @@ https://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8|User-Agent=ExoPlayerLib%2
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://livesptfm.com/SPTFM/Live/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-SportPlusQazaqstan.kz" tvg-name="Sport+ Qazaqstan" tvg-logo="https://i.imgur.com/vIV7x6n.png" group-title="Sports",Sport+ Qazaqstan
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://fs.uplink.kz/sport+/mono.m3u8?token=onlinetv|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Sport1.de" tvg-name="Sport1" tvg-logo="https://i.imgur.com/Tsjt7v9.png" group-title="Sports",Sport1
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1408,12 +1433,12 @@ https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadi
 #EXTINF:-1 tvg-id="sd-Strongman.us" tvg-name="Strongman" tvg-logo="https://i.imgur.com/bVQBF6R.png" group-title="Sports",Strongman
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-StrongmanChampionsLeague.uk" tvg-name="Strongman Champions League" tvg-logo="https://provider-static.plex.tv/epg/cms/production/80fb7204-c306-4759-a0d7-c4e829650c22/StrongmanChampionsLeague_Channel-Logo-Light-1500px.png" group-title="Sports",Strongman Champions League
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://rightsboosterltd-scl-1-us.xumo.wurl.tv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://rightsboosterltd-scl-1-be.samsung.wurl.tv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SwerveCombat.us" tvg-name="Swerve Combat" tvg-logo="https://i.imgur.com/eFZh7aG.png" group-title="Sports",Swerve Combat
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1454,11 +1479,6 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannel
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-TJKTV.tr" tvg-name="TJK TV" tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="Sports",TJK TV
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://tjktv-live.tjk.org/tjktv.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-TourSpotTV.do" tvg-name="Tour Spot TV" tvg-logo="https://imgur.com/khj869k.png" group-title="Sports",Tour Spot TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1558,7 +1578,7 @@ https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8|User-Agent=ExoPlayerLi
 #EXTINF:-1 tvg-id="sd-WorldofFreesports.de" tvg-name="World of Freesports" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Sports",World of Freesports
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-WorldPokerTour.us" tvg-name="World Poker Tour" tvg-logo="https://i.imgur.com/98kLMjj.png" group-title="Sports",World Poker Tour
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1590,6 +1610,11 @@ https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8|User-Agent=ExoPlayer
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://stream.ottlive.co.in/4sidestv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-4TVNews.in" tvg-name="4TV News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" group-title="News",4TV News
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://cdn.pishow.tv/ott/live/1007/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-9PlusNews.in" tvg-name="9 Plus News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9plusnews.png" group-title="News",9 Plus News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -1603,22 +1628,22 @@ https://cdn.pishow.tv/ott/live/1211/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-AajKiKhabar.in" tvg-name="Aaj Ki Khabar" tvg-logo="https://m.media-amazon.com/images/I/71q8sOMPwHL.png" group-title="News",Aaj Ki Khabar
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/a65577ae-f9df-4ba8-bcb5-bcd1f04d06cb/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://stream.ottlive.co.in/aajkikhabar/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-AajTak.in" tvg-name="Aaj Tak" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png" group-title="News",Aaj Tak
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-ABNAndhraJyoti.in" tvg-name="ABN Andhra Jyoti" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ABN_Andhra_Jyothi.png" group-title="News",ABN Andhra Jyoti
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/407/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Africa24Sport.fr" tvg-name="Africa 24 Sport" tvg-logo="https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1" group-title="News",Africa 24 Sport
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-ABNAndhraJyoti.in" tvg-name="ABN Andhra Jyoti" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ABN_Andhra_Jyothi.png" group-title="News",ABN Andhra Jyoti
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://cdn.pishow.tv/ott/live/407/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ABPAnanda.in" tvg-name="ABP Ananda" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ABP_ANANDA/images/LOGO_HD/image.png" group-title="News",ABP Ananda
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1628,7 +1653,7 @@ https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8|U
 #EXTINF:-1 tvg-id="sd-ABPAsmita.in" tvg-name="ABP Asmita" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ABP_ASMITA/images/LOGO_HD/image.png" group-title="News",ABP Asmita
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt07.tangotv.in/zHjX9OFlABPASMITA/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ABPGanga.in" tvg-name="ABP Ganga" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/66698920bac4421ebc533666/images/logo_20231219_183752_65.png" group-title="News",ABP Ganga
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1643,7 +1668,7 @@ https://cdn.pishow.tv/ott/live/471/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-ABPNews.in" tvg-name="ABP News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ABP_NEWS/images/LOGO_HD/image.png" group-title="News",ABP News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1057/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://abpmitv.akamaized.net/hls/live/2042842/abpnews/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ABPSanjha.in" tvg-name="ABP Sanjha" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/66698920bac4421ebc533667/images/logo_20231219_183839_70.png" group-title="News",ABP Sanjha
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1670,6 +1695,11 @@ https://account19.livebox.co.in/Anandabarta2hls/live.m3u8|User-Agent=ExoPlayerLi
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://stream.ottlive.co.in/anb/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-AnjaliTV.in" tvg-name="Anjali TV" tvg-logo="https://play-lh.googleusercontent.com/VWNeFRQ9uppvZmcO_qVulTHYC8hXd92d3D9Yqbx_UrlTl4trL9AxwmqCrsXmGfN8VS9A_T185BwdVY5O-TTQly4=w1200" group-title="News",Anjali TV
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://mumbai-edge.smartplaytv.in/AnjaliTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-APN.in" tvg-name="APN" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/APN.png" group-title="News",APN
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -1684,11 +1714,6 @@ https://d1msejlow1t3l4.cloudfront.net/fta/argusnews/playlist.m3u8|User-Agent=Exo
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://mars.streambridge.cloud/sls/ashwaveega/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-AsianNews.in" tvg-name="Asian News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Asian_News.png" group-title="News",Asian News
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://stream.ottlive.co.in/asiannews/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-AsianetNews.in" tvg-name="Asianet News" tvg-logo="https://i.postimg.cc/8PpPrn4Z/asianetnews.jpg" group-title="News",Asianet News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1705,15 +1730,25 @@ https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8|User-Agent=ExoPlaye
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://cdn.pishow.tv/ott/live/258/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-ATNSamachar.in" tvg-name="ATN Samachar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ATN_Samachar.png" group-title="News",ATN Samachar
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://newsliveindia.com:4433/atn/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-AwaazIndiaTV.in" tvg-name="Awaaz India TV" tvg-logo="https://i.ytimg.com/vi/8BzmlfZm2xU/hqdefault.jpg" group-title="News",Awaaz India TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-BanglaJago.in" tvg-name="Bangla Jago" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bangla_Jago.png" group-title="News",Bangla Jago
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://banglajagotv.livebox.co.in/banglajagohls/24x7.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-BansalNews.in" tvg-name="Bansal News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BANSAL_NEWS/images/LOGO_HD/image.png" group-title="News",Bansal News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1051/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/4f8d92312b9a4783bbd706cf7ed86085/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-BharatAtoZ.in" tvg-name="Bharat AtoZ" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bharat_AtoZ.png" group-title="News",Bharat AtoZ
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1723,12 +1758,12 @@ https://live.ekamraott.com/4tv/bharata2z/index.m3u8|User-Agent=ExoPlayerLib%2F2.
 #EXTINF:-1 tvg-id="sd-BharatExpress.in" tvg-name="Bharat Express" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BHARAT_EXPRESS/images/LOGO_HD/image.png" group-title="News",Bharat Express
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1139/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://stream.ottlive.co.in/bharatexpress/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-BharatSamachar.in" tvg-name="Bharat Samachar" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BHARAT_SAMACHAR/images/LOGO_HD/image.png" group-title="News",Bharat Samachar
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://tvsen3.aynaott.com/m94BZDYb/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Bharat24.in" tvg-name="Bharat24" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BHARAT_24/images/LOGO_HD/image.png" group-title="News",Bharat24
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1743,17 +1778,17 @@ https://server.livelegitpro.in/bhichannel/bhichannel/index.m3u8|User-Agent=ExoPl
 #EXTINF:-1 tvg-id="sd-BIGTV.in" tvg-name="BIG TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/BiG_TV_%28Stacked%29.svg/revision/latest/scale-to-width-down/250?cb=20180316124023" group-title="News",BIG TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://stream.ottlive.co.in/bigtv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1059/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-BigTV24x7.in" tvg-name="Big TV 24x7" tvg-logo="https://i.postimg.cc/rpHrRxR5/big_tv_malayalam.png" group-title="News",Big TV 24x7
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d2gvyg6lvauoko.cloudfront.net/230226/bigtvmalyalam/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
+https://stream.ottlive.co.in/bigtvmalayalam/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-BRKNews.in" tvg-name="BRK News" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/brk-news.png" group-title="News",BRK News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1037/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumbai-edge.smartplaytv.in/BRKNEWS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-BSTV.in" tvg-name="BSTV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/BSTV.png" group-title="News",BSTV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1813,7 +1848,7 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/eea48c6b61074052a2fa8532ff795ff1/in
 #EXTINF:-1 tvg-id="sd-DDNews.in" tvg-name="DD News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_NEWS_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="News",DD News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/DDNews/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DNN.in" tvg-name="DNN" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DNN.png" group-title="News",DNN
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1838,7 +1873,7 @@ https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8|User
 #EXTINF:-1 tvg-id="sd-ETVTelangana.in" tvg-name="ETV Telangana" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELANGANA/images/LOGO_HD/image.png" group-title="News",ETV Telangana
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d2iclbsmm559pr.cloudfront.net/7dda7e8e5e4a49ff9ac6e6e78a5e6ae0/etv0NXKE.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://livegeoroueu.akamaized.net/120723/smil:etvtelangana.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-FirstIndiaNews.in" tvg-name="First India News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FIRST_INDIA_NEWS_RAJASTHAN/images/LOGO_HD/image.png" group-title="News",First India News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1850,15 +1885,15 @@ https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://gemtv.circle7stream.com/gem/fcce47a8559e30755582c396ce7fce9e.sdp/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-GlobalIndia.in" tvg-name="Global India" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Global_India.png" group-title="News",Global India
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://server.livelegitpro.in/globalindiatv/globalindiatv/video.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-GlobalPunjab.in" tvg-name="Global Punjab" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Global_Punjab.png" group-title="News",Global Punjab
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-GlobeTV.in" tvg-name="Globe TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Globe_TV.png" group-title="News",Globe TV
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://mumbai-edge.smartplaytv.in/GlobeTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-GoodNewsToday.in" tvg-name="Good News Today" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="News",Good News Today
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1883,7 +1918,7 @@ https://guaranteenews.in:8443/live/gnews/index.m3u8|User-Agent=ExoPlayerLib%2F2.
 #EXTINF:-1 tvg-id="sd-GujaratFirst.in" tvg-name="Gujarat First" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Gujrat-First-logo_2000_X_1125_Transpharant.png" group-title="News",Gujarat First
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d2gvyg6lvauoko.cloudfront.net/230226/gujaratfirst/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
+https://vglivessai.akamaized.net/ptnr-lg/title-Gujarat_First_News/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/bdacf79b-158c-4ddf-ac17-6fabbb9249ae/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-GulistanNews.in" tvg-name="Gulistan News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GULISTAN_NEWS/images/LOGO_HD/image.png" group-title="News",Gulistan News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1895,6 +1930,11 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/030a117c40d84ca99ac8927d3e2a1eec/in
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://samitaorigin.tangotv.in/HARKHABAR/SAMITAORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-HeadlinesTripura.in" tvg-name="Headlines Tripura" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Headlines_Tripura.png" group-title="News",Headlines Tripura
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://distro.ottlive.co.in/headlinestripura/headlinestripura/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-HighNews.in" tvg-name="High News" tvg-logo="https://pbs.twimg.com/profile_images/1104268476858937351/USUT4ykS_400x400.png" group-title="News",High News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -1903,7 +1943,7 @@ https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8|User-Agent=ExoPlayerLib%2F
 #EXTINF:-1 tvg-id="sd-HindiKhabar.in" tvg-name="Hindi Khabar" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/MWTV/LIVECHANNEL/67c6bdd3f535f27a46614325/images/LOGO/LOGO_GfMwYarJQ_257.webp" group-title="News",Hindi Khabar
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://stream.ottlive.co.in/hindikhabar/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://livingindiaottlive.akamaized.net/hindikhabar/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-HMTV.in" tvg-name="HMTV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/HM%20TV.png" group-title="News",HMTV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1918,12 +1958,12 @@ https://ott.livelegitpro.in:9899/hnnnews/hnnnews/index.m3u8|User-Agent=ExoPlayer
 #EXTINF:-1 tvg-id="sd-HornbillTV.in" tvg-name="Hornbill TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HORNBILL/images/LOGO_HD/image.png" group-title="News",Hornbill TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1463/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d1msejlow1t3l4.cloudfront.net/fta/hornbilltv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-IBC24.in" tvg-name="IBC 24" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/MWTV/LIVECHANNEL/67c6c102faa3273c5c389690/images/LOGO/LOGO_b_CWccs5n_IBC24-(2).png" group-title="News",IBC 24
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt05.tangotv.in/87NeALx2IBC24/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0bfbd0b9de7f4407949202296560c0fe/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Ind24.in" tvg-name="Ind 24" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/IND_24.png" group-title="News",Ind 24
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -1948,7 +1988,7 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/d4435039c7d1433d9b9d0b6cdc9dd4ff/in
 #EXTINF:-1 tvg-id="sd-IndiaTV.in" tvg-name="India TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TV/images/LOGO_HD/image.png" group-title="News",India TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://vg-indiatv-waves.vgcdn.net/vglive-sk-394591/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1043/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-IndiaTVSpeedNews.in" tvg-name="India TV Speed News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TV_SPEED_NEWS/images/LOGO_HD/image.png" group-title="News",India TV Speed News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2018,7 +2058,7 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTINF:-1 tvg-id="sd-KalingaTV.in" tvg-name="Kalinga TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KALINGA_TV/images/LOGO_HD/image.png" group-title="News",Kalinga TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://server.thelegitpro.in/kalingatv/kalingatv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d1msejlow1t3l4.cloudfront.net/fta/kalingatv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-KanakNews.in" tvg-name="Kanak News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KANAK_NEWS/images/LOGO_HD/image.png" group-title="News",Kanak News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2033,7 +2073,7 @@ https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453
 #EXTINF:-1 tvg-id="sd-KashishNews.in" tvg-name="Kashish News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Kashish_News.png" group-title="News",Kashish News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d1msejlow1t3l4.cloudfront.net/fta/kashishnews/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1471/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-KBCNews.in" tvg-name="KBC News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/kbcnews.png" group-title="News",KBC News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2083,12 +2123,12 @@ https://cloudcdnplayer.mslivestream.net/mslivecdn/mnadu/index.m3u8|User-Agent=Ex
 #EXTINF:-1 tvg-id="sd-MadhimugamTV.in" tvg-name="Madhimugam TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Madhimugam_TV.png" group-title="News",Madhimugam TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt01.tangotv.in/O5aw8Zn3MATHIMUGAMTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://yuppparoriglin.akamaized.net/181224/smil:mathimugam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MahaaNews.in" tvg-name="Mahaa News" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Mahaa-News-logo_2000_X_1125-Transpharent.png" group-title="News",Mahaa News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/401/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumbai-edge.smartplaytv.in/MahaNews/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MahuaKhabar.in" tvg-name="Mahua Khabar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/mahuakhabar.png" group-title="News",Mahua Khabar
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2103,7 +2143,7 @@ https://cdn.pishow.tv/ott/live/1606/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-ManoramaNews.in" tvg-name="Manorama News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MANORAMA_NEWS/images/LOGO_HD/LOGO_HD_image.png" group-title="News",Manorama News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://segment.yuppcdn.net/240122/manoramanews/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mmtvlive3.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvAdCampaign3/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MantavyaNews.in" tvg-name="Mantavya News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Mantavya_News.png" group-title="News",Mantavya News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2113,7 +2153,7 @@ https://d1msejlow1t3l4.cloudfront.net/fta/mantavya/playlist.m3u8|User-Agent=ExoP
 #EXTINF:-1 tvg-id="sd-MathrubhumiNews.in" tvg-name="Mathrubhumi News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MATHRUBHUMI_NEWS/images/LOGO_HD/image.png" group-title="News",Mathrubhumi News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mathrubhumicdn.vidgyor.com/mathrubhumi-origin/liveabr/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://streams.tangotv.in/MATHRUBHUMINEWS/ORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MediaOne.in" tvg-name="Media One" tvg-logo="https://i.postimg.cc/hvvjrVtR/Media_one.png" group-title="News",Media One
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2128,7 +2168,7 @@ https://media9news.akamaized.net/media9/hls/media9tv.m3u8|User-Agent=ExoPlayerLi
 #EXTINF:-1 tvg-id="sd-Mh1News.in" tvg-name="Mh 1 News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MH_ONE_NEWS/images/LOGO_HD/image.png" group-title="News",Mh 1 News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://livestream.jswk.online/mhonenews/live/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt04.tangotv.in/m18aqlK4MHONENEWS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MojoTV.in" tvg-name="Mojo TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/19/MOJO_TV_LOGO.png" group-title="News",Mojo TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2138,12 +2178,17 @@ https://mumt07.tangotv.in/zHjX9OFlMOJOTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.
 #EXTINF:-1 tvg-id="sd-MoonTV.in" tvg-name="Moon TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Moon_Tv.png" group-title="News",Moon TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d1msejlow1t3l4.cloudfront.net/fta/moontv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1121/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MunsifTV.in" tvg-name="Munsif TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Munsif_TV.png" group-title="News",Munsif TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://samitaorigin.tangotv.in/MUNSIFTV/SAMITAORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://stream.ottlive.co.in/munsiftv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-NationNews.in" tvg-name="Nation News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/nationnews.png" group-title="News",Nation News
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://server.playontv.in/nationnews/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-NaxatraNewsHindi.in" tvg-name="Naxatra News Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Naxatra_News_Hindi.png" group-title="News",Naxatra News Hindi
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2188,12 +2233,12 @@ https://mumt07.tangotv.in/zHjX9OFlNEWS1INDIA/index.m3u8|User-Agent=ExoPlayerLib%
 #EXTINF:-1 tvg-id="sd-News1st.in" tvg-name="News 1st" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/NewsFirst%20Kannada%20Logo_Transparent.png" group-title="News",News 1st
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/268/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d1msejlow1t3l4.cloudfront.net/fta/News1st/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-News24.in" tvg-name="News 24" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS24/images/LOGO_HD/image.png" group-title="News",News 24
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://stream.ottlive.co.in/news24/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/253/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-News24MPChhattisgarh.in" tvg-name="News 24 MP & Chhattisgarh" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS24_MPCG/images/LOGO_HD/image.png" group-title="News",News 24 MP & Chhattisgarh
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2233,7 +2278,7 @@ https://stream.ottlive.co.in/newsleader/index.m3u8|User-Agent=ExoPlayerLib%2F2.1
 #EXTINF:-1 tvg-id="sd-NewsLive.in" tvg-name="News Live" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_LIVE/images/LOGO_HD/image.png" group-title="News",News Live
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt01.tangotv.in/O5aw8Zn3NEWSLIVE24X7/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://prideeast.thelegitpro.in/newslive/newslive/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-NewsLiveBangla.in" tvg-name="News Live Bangla" tvg-logo="https://papaji.freetvindia.com/media/News_Live_Bangla.png" group-title="News",News Live Bangla
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2263,7 +2308,7 @@ https://prasarbharti-nn.vidgyor.com/nntv/nnbrjh/index.m3u8|User-Agent=ExoPlayerL
 #EXTINF:-1 tvg-id="sd-NewsStateMPCHG.in" tvg-name="News State MP & CHG" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_STATE_MADHYA_PRADESH_CHHATTISGARH/images/LOGO_HD/image.png" group-title="News",News State MP & CHG
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt01.tangotv.in/O5aw8Zn3NEWSSTATEMPCG/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://prasarbharti-nn.vidgyor.com/nntv/nnmp/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-NewsStatePunjabHaryanaHimachal.in" tvg-name="News State Punjab Haryana Himachal" tvg-logo="" group-title="News",News State Punjab Haryana Himachal
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2288,7 +2333,7 @@ https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/out
 #EXTINF:-1 tvg-id="sd-News18Bangla.in" tvg-name="News18 Bangla" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_BANGLA/images/LOGO_HD/image.png" group-title="News",News18 Bangla
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-News18BiharJharkhand.in" tvg-name="News18 Bihar Jharkhand" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_BIHAR_JHARKHAND/images/LOGO_HD/image.png" group-title="News",News18 Bihar Jharkhand
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2338,7 +2383,7 @@ https://amg01106-amg01106c3-amgplt0747.playout.now3.amagi.tv/amg01106c3/hls.m3u8
 #EXTINF:-1 tvg-id="sd-NewsX.in" tvg-name="NewsX" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Newsx-Transparent.png" group-title="News",NewsX
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt01.tangotv.in/O5aw8Zn3NEWSX/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1765/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-NewsXWorld.in" tvg-name="NewsX World" tvg-logo="https://newsx-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/04174249/News-X-no-bg-3-1.png" group-title="News",NewsX World
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2360,6 +2405,11 @@ https://mumt07.tangotv.in/zHjX9OFlCHAUKASTV/index.m3u8|User-Agent=ExoPlayerLib%2
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://mumt01.tangotv.in/O5aw8Zn3NORTHEASTLIVE/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-NSC9News.in" tvg-name="NSC9 News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/nsc9.png" group-title="News",NSC9 News
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://legitpro.co.in/nsc9/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-OnkarNews.in" tvg-name="Onkar News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/onkarnews.png" group-title="News",Onkar News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -2378,7 +2428,7 @@ https://cdn.pishow.tv/ott/live/1245/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-PowerTV.in" tvg-name="Power TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_POWER_TV/images/LOGO_HD/image.png" group-title="News",Power TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/247/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt06.tangotv.in/qYyB8fXVPOWERTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PragNews.in" tvg-name="Prag News" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Prag%20News.png" group-title="News",Prag News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2408,12 +2458,12 @@ https://cdn.pishow.tv/ott/live/1437/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-PrimeNews.in" tvg-name="Prime News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Prime_News.png" group-title="News",Prime News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1027/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://stream.ottlive.co.in/primenews/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Prime9News.in" tvg-name="Prime9 News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CHANNEL_36_UP_UK/images/LOGO_HD/image.png" group-title="News",Prime9 News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt01.tangotv.in/O5aw8Zn3PRIME9NEWS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PrudentMedia.in" tvg-name="Prudent Media" tvg-logo="https://i.imgur.com/DG0x4UD.png" group-title="News",Prudent Media
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2424,11 +2474,6 @@ https://prudentmcdn.rixcast.com/prudentm.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://mumt06.tangotv.in/qYyB8fXVPTCNEWS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-PublicFirst.in" tvg-name="Public First" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Public_First.png" group-title="News",Public First
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://samitaorigin.tangotv.in/PUBLICFIRST/SAMITAORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PublicTV.in" tvg-name="Public TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PUBLIC_TV/images/LOGO_HD/image.png" group-title="News",Public TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2443,12 +2488,17 @@ https://streams.tangotv.in/PUDHARINEWS/ORIGIN/index.m3u8|User-Agent=ExoPlayerLib
 #EXTINF:-1 tvg-id="sd-PuthiyaThalaimurai.in" tvg-name="Puthiya Thalaimurai" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PUTHIYA_THALAIMURAI/images/LOGO_HD/image.png" group-title="News",Puthiya Thalaimurai
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt07.tangotv.in/zHjX9OFlPUTHIYATHALAIMURAI/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1261/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PuthiyaThalaimuraiExpress.in" tvg-name="Puthiya Thalaimurai Express" tvg-logo="https://www.lyngsat.com/logo/tv/pp/puthiya-thalaimurai-express-in.png" group-title="News",Puthiya Thalaimurai Express
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://samitaorigin.tangotv.in/PUTHIYAEXPRESS/SAMITAORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-RaatdinBangla.in" tvg-name="Raatdin Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/raatdinbangla.png" group-title="News",Raatdin Bangla
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://server.playontv.in/raatdinbangla/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-RealNewsKerala.in" tvg-name="Real News Kerala" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/REAL-NEWS_-logo-Transperent.png" group-title="News",Real News Kerala
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2468,7 +2518,7 @@ https://cdn.pishow.tv/ott/live/270/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-RepublicBharat.in" tvg-name="Republic Bharat" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_R_BHARAT/images/LOGO_HD/image.png" group-title="News",Republic Bharat
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d2lk5u59tns74c.cloudfront.net/out/v1/7e8b490d6b9c4013a3e3e874aa352212/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1053/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-RepublicTV.in" tvg-name="Republic TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_REPUBLIC_TV/images/LOGO_HD/image.png" group-title="News",Republic TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2503,7 +2553,7 @@ https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m
 #EXTINF:-1 tvg-id="sd-SakshiTV.in" tvg-name="Sakshi TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAKSHI_TV/images/LOGO_HD/image.png" group-title="News",Sakshi TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://stream.ottlive.co.in/sakshitv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/409/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SalaamTV.in" tvg-name="Salaam TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SALAAM_TV/images/LOGO_HD/image.png" group-title="News",Salaam TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2518,12 +2568,12 @@ https://mumt05.tangotv.in/87NeALx2VERTENTSAMACHARPLUS/index.m3u8|User-Agent=ExoP
 #EXTINF:-1 tvg-id="sd-SandeshNews.in" tvg-name="Sandesh News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sandesh_News.png" group-title="News",Sandesh News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://stream.ottlive.co.in/sandeshnews/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt01.tangotv.in/O5aw8Zn3SANDESHNEWS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SanjhaTV.in" tvg-name="Sanjha TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/shows/epgdata/fb64ab576dd7ed93942eaf11c3282afc.jpg" group-title="News",Sanjha TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://livestream.unlimitedcdn.com/sanjhatv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://sanjhatv.kableone.com/sanjhatv/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SathiyamTV.in" tvg-name="Sathiyam TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SATHIYAM_TV/images/LOGO_HD/image.png" group-title="News",Sathiyam TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2538,7 +2588,7 @@ https://www.schannels.in/SITI24X7_1/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-SudarshanNews.in" tvg-name="Sudarshan News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUDARSHAN_NEWS/images/LOGO_HD/image.png" group-title="News",Sudarshan News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1516/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SuryaSamachar.in" tvg-name="Surya Samachar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Surya_Samachar.png" group-title="News",Surya Samachar
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2608,7 +2658,7 @@ https://stream.joytvindia.com/stream/hls/ttn24/index.m3u8|User-Agent=ExoPlayerLi
 #EXTINF:-1 tvg-id="sd-TV27News.in" tvg-name="TV27 News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV27_News.png" group-title="News",TV27 News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://stream.ottlive.co.in/tv27/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt04.tangotv.in/m18aqlK4TV27/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-TV30India.in" tvg-name="TV30 India" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV30India.png" group-title="News",TV30 India
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2648,12 +2698,12 @@ https://amg01106-amg01106c2-amgplt0747.playout.now3.amagi.tv/amg01106c2/hls.m3u8
 #EXTINF:-1 tvg-id="sd-V6News.in" tvg-name="V6 News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_V6_NEWS/images/LOGO_HD/image.png" group-title="News",V6 News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/V6News/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/389/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-VelichamTV.in" tvg-name="Velicham TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/Logo_of_Velicham_TV.png" group-title="News",Velicham TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt05.tangotv.in/87NeALx2VALICHAMPLUS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumbai-edge.smartplaytv.in/Velichamtv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-VistaarNews.in" tvg-name="Vistaar News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VISTAAR_NEWS/images/LOGO_HD/image.png" group-title="News",Vistaar News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2663,7 +2713,7 @@ https://stream.ottlive.co.in/vistaartv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19
 #EXTINF:-1 tvg-id="sd-VTVNews.in" tvg-name="VTV News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VTV_GUJARATI/images/LOGO_HD/image.png" group-title="News",VTV News
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d1msejlow1t3l4.cloudfront.net/fta/vtvgujarati/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d2lk5u59tns74c.cloudfront.net/out/v1/bbbd0954bad143e783c4bd3ab6ed05bc/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-WION.in" tvg-name="WION" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/ZEEDIGITAL/LIVECHANNEL/67ed357bd88a5f7a856b6fbb/images/LOGO/LOGO_14l9kmNae_WION-(2).png" group-title="News",WION
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2693,7 +2743,7 @@ https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b
 #EXTINF:-1 tvg-id="sd-ZeeBiharJharkhand.in" tvg-name="Zee Bihar Jharkhand" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BIHAR_JHARKHAND/images/LOGO_HD/LOGO_HD_image.png" group-title="News",Zee Bihar Jharkhand
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBiharJharkhand.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ZeeDelhiNCRHaryana.in" tvg-name="Zee Delhi NCR Haryana" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_DELHI_NCR_HARYANA/images/LOGO_HD/LOGO_HD_image.png" group-title="News",Zee Delhi NCR Haryana
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2724,6 +2774,11 @@ https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/61
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://duw35ict5q7th.cloudfront.net/index_3.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-ZillarBartaNews.in" tvg-name="ZillarBarta News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zillarbarta.png" group-title="News",ZillarBarta News
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://server.zillarbarta.com/zillarbarta/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-WOWKidz.in" tvg-name="WOW Kidz" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/channel/logos/mjvezt.png" group-title="Animation",WOW Kidz
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2763,7 +2818,7 @@ https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01
 #EXTINF:-1 tvg-id="sd-NDTVProfit.in" tvg-name="NDTV Profit" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_PROFIT_PRIME/images/LOGO_HD/image.png" group-title="Business",NDTV Profit
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-NewsCapitalMarket.in" tvg-name="News Capital Market" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/NewsCapitalMarket.png" group-title="Business",News Capital Market
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2779,6 +2834,11 @@ https://stream.ottlive.co.in/thebonus/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee_business/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/af1b3fa3-f56d-4741-9c63-78409a798988/main.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-ZBCinema.in" tvg-name="ZB Cinema" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ZBCINEMA.png" group-title="Classic",ZB Cinema
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ETVComedy.in" tvg-name="ETV Comedy" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4900003U3_20251106T195117SQUARE.png" group-title="Comedy",ETV Comedy
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2798,17 +2858,17 @@ https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8|User-Agent=ExoPlayerLi
 #EXTINF:-1 tvg-id="sd-FoodFood.in" tvg-name="Food Food" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Food%20Food.png" group-title="Cooking",Food Food
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/267/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d2lk5u59tns74c.cloudfront.net/out/v1/ffc601b3dc8d41c5b09115702538d75a/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DDBharati.in" tvg-name="DD Bharati" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_BHARATI/images/LOGO_HD/image.png" group-title="Culture",DD Bharati
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d2lk5u59tns74c.cloudfront.net/out/v1/67cec794d8b14f9ba21f73924ac65797/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/10/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-OdishaTV.in" tvg-name="Odisha TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/OTV_Odisha_TV.png" group-title="Culture",Odisha TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1600/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DocuBayTV.in" tvg-name="DocuBay TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DocuBay.png" group-title="Documentary",DocuBay TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2838,7 +2898,7 @@ https://mumt04.tangotv.in/m18aqlK4SAFARITV/index.m3u8|User-Agent=ExoPlayerLib%2F
 #EXTINF:-1 tvg-id="sd-DDKisan.in" tvg-name="DD Kisan" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_KISAN/images/LOGO_HD/image.png" group-title="Education",DD Kisan
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/9/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumbai-edge.smartplaytv.in/DDKisan/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Gyandarshan.in" tvg-name="Gyandarshan" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GYANDARSHAN/images/LOGO_HD/image.png" group-title="Education",Gyandarshan
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2854,6 +2914,11 @@ https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8|User
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-CCV.in" tvg-name="CCV" tvg-logo="https://i.imgur.com/4ss0KfA.png" group-title="General",CCV
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ColorsRishteyAmericas.in" tvg-name="Colors Rishtey Americas" tvg-logo="https://i.imgur.com/xkOunuW.png" group-title="General",Colors Rishtey Americas
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2878,7 +2943,7 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/d380bf5c167b4319a46cdd8204bc26b2/in
 #EXTINF:-1 tvg-id="sd-DDBangla.in" tvg-name="DD Bangla" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_BANGLA/images/LOGO_HD/image.png" group-title="General",DD Bangla
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/37/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DDBihar.in" tvg-name="DD Bihar" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_BIHAR/images/LOGO_HD/image.png" group-title="General",DD Bihar
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2888,12 +2953,12 @@ https://cdn.pishow.tv/ott/live/35/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-DDChandana.in" tvg-name="DD Chandana" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_CHANDANA/images/LOGO_HD/image.png" group-title="General",DD Chandana
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d2lk5u59tns74c.cloudfront.net/out/v1/0c980455d2fb4b69bcc6235745ee6039/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/28/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DDChhattisgarh.in" tvg-name="DD Chhattisgarh" tvg-logo="https://i.imgur.com/zBg6Iuv.png" group-title="General",DD Chhattisgarh
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/5078083881bc489ea14f4c85e7abe4d6/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/15/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DDGirnar.in" tvg-name="DD Girnar" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_GIRNAR/images/LOGO_HD/image.png" group-title="General",DD Girnar
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2918,12 +2983,12 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/afd2e335b0ba40eb9bdf1096118c6ede/in
 #EXTINF:-1 tvg-id="sd-DDIndia.in" tvg-name="DD India" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_INDIA_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="General",DD India
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumbai-edge.smartplaytv.in/DDIndia/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DDJharkhand.in" tvg-name="DD Jharkhand" tvg-logo="https://i.imgur.com/VKpjoD9.png" group-title="General",DD Jharkhand
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1617/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e8c3741f8c154d3185831f4e31777fb2/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DDKashir.in" tvg-name="DD Kashir" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_KASHIR/images/LOGO_HD/image.png" group-title="General",DD Kashir
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -2973,7 +3038,7 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/52b998e9510d41c29ad2ceca8ea3d849/in
 #EXTINF:-1 tvg-id="sd-DDUttarPradesh.in" tvg-name="DD Uttar Pradesh" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_UP/images/LOGO_HD/image.png" group-title="General",DD Uttar Pradesh
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/36/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/70d4f6874fa64032a685e3123520f07d/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DDUttarakhand.in" tvg-name="DD Uttarakhand" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD-Uttarakhand-Logo_2000_X_1125_Transpharent.png" group-title="General",DD Uttarakhand
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3003,7 +3068,7 @@ https://cdn.pishow.tv/ott/live/10006/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.
 #EXTINF:-1 tvg-id="sd-KairaliTV.in" tvg-name="Kairali TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KAIRALI_TV/images/LOGO_HD/image.png" group-title="General",Kairali TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt01.tangotv.in/O5aw8Zn3KAIRALI/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://streams.tangotv.in/KAIRALI/ORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-KalaignarTV.in" tvg-name="Kalaignar TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KALAIGNAR_TV/images/LOGO_HD/image.png" group-title="General",Kalaignar TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3018,12 +3083,12 @@ https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8|
 #EXTINF:-1 tvg-id="sd-KTVBangla.in" tvg-name="KTV Bangla" tvg-logo="https://ktvbangla.com/wp-content/uploads/2025/10/cropped-Tribe-TV-REDLogo_High-RES.jpg" group-title="General",KTV Bangla
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://stream.ottlive.co.in/ktvbangla/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MakkalTV.in" tvg-name="Makkal TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MAKKAL_TV/images/LOGO_HD/image.png" group-title="General",Makkal TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/MakkalTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MBCTV.in" tvg-name="MBC TV" tvg-logo="https://i.imgur.com/Z4PlPUg.png" group-title="General",MBC TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3038,7 +3103,7 @@ https://meialai.iptelevishion.com/meialai/2/index.m3u8|User-Agent=ExoPlayerLib%2
 #EXTINF:-1 tvg-id="sd-MetroTV.in" tvg-name="Metro TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Metro_TV.png" group-title="General",Metro TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://stream.ottlive.co.in/metrotv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Mh1Prime.in" tvg-name="Mh 1 Prime" tvg-logo="" group-title="General",Mh 1 Prime
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3058,7 +3123,7 @@ https://d1msejlow1t3l4.cloudfront.net/fta/Nandighoshatv/playlist.m3u8|User-Agent
 #EXTINF:-1 tvg-id="sd-Network10.in" tvg-name="Network 10" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NETWORK_10/images/LOGO_HD/image.png" group-title="General",Network 10
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/Network10/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d1msejlow1t3l4.cloudfront.net/fta/network10/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-News11.in" tvg-name="News 11" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/News-11-Bharat-logo_2000_X_1125_Transpharent.png" group-title="General",News 11
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3127,115 +3192,11 @@ https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/jvrno3jef2/out/v1
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ymojggb3li/out/v1/4e528b82e63f499c886b3a34e89eaf9b/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-#EXTINF:-1 tvg-id="ls-xr8o8d" tvg-name="NPL Vs NPL" tvg-logo="/api/public/ls-image/ls-xr8o8d" group-title="Live Sports",NPL Vs NPL
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b50eedac4fd1a7f6068fc90c875a2f2e:b6c288c9a0112f3729538b3fb37bd044
-#EXTINF:-1 tvg-id="ls-785njd" tvg-name="ABU DHABI T10 LEAGUE Vs ABU DHABI T10 LEAGUE" tvg-logo="/api/public/ls-image/ls-785njd" group-title="Live Sports",ABU DHABI T10 LEAGUE Vs ABU DHABI T10 LEAGUE
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5ijjfwkrfb/out/v1/6be8fdc7d3324eb2b7774e8081c508cc/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=15bb136e7ac737c7f35172fe6703b695:8fa933ee92c1e8d1f5d2855152d784f2
-#EXTINF:-1 tvg-id="ls-kc445w" tvg-name="Pakistan Vs Sri Lanka" tvg-logo="/api/public/ls-image/ls-kc445w" group-title="Live Sports",Pakistan Vs Sri Lanka
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/i4j35tc3ub/out/v1/3bf2e223260f4d74ad57635eb14fd068/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=6edfcab8821c7437717ab9c94300a8a0:1dc141c8ac131a68bd1c445acfdc673c
-#EXTINF:-1 tvg-id="ls-1iakkmr" tvg-name="South Africa Vs Bangladesh" tvg-logo="/api/public/ls-image/ls-1iakkmr" group-title="Live Sports",South Africa Vs Bangladesh
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fq9jzduffm/out/v1/999c61c2f5114b66b1c408dd3e97f5f3/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
-#EXTINF:-1 tvg-id="ls-4q2k32" tvg-name="France U17 Vs Haiti U17" tvg-logo="/api/public/ls-image/ls-4q2k32" group-title="Live Sports",France U17 Vs Haiti U17
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
-#EXTINF:-1 tvg-id="ls-k915jt" tvg-name="Saudi Arabia U17 Vs Uruguay U17" tvg-logo="/api/public/ls-image/ls-k915jt" group-title="Live Sports",Saudi Arabia U17 Vs Uruguay U17
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=6300bd600d0c9e459bd1a3d023e2270d:edf53fad044c43f8aae91ad2576cccfd
-#EXTINF:-1 tvg-id="ls-1u008k5" tvg-name="Men's Asia Cup Vs Rising Stars 2026" tvg-logo="/api/public/ls-image/ls-1u008k5" group-title="Live Sports",Men's Asia Cup Vs Rising Stars 2026
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m6re2sw5cd/out/v1/8e8f93ec4fe2435c885a283151852080/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
-#EXTINF:-1 tvg-id="ls-p7de57" tvg-name="⚽ AFC Awards 2026 Vs ⚽ AFC Awards 2026" tvg-logo="/api/public/ls-image/ls-p7de57" group-title="Live Sports",⚽ AFC Awards 2026 Vs ⚽ AFC Awards 2026
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
-#EXTINF:-1 tvg-id="ls-qsgvdb" tvg-name="Formula 1 Vs Formula 1" tvg-logo="/api/public/ls-image/ls-qsgvdb" group-title="Live Sports",Formula 1 Vs Formula 1
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-#EXTINF:-1 tvg-id="ls-1sshnus" tvg-name="MotorGP Vs MotorGP" tvg-logo="/api/public/ls-image/ls-1sshnus" group-title="Live Sports",MotorGP Vs MotorGP
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=52a0f31918f2a6f97809d3586aa6c41e:a108a050dfc5cf2065c23370efa58b09
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
 #EXTINF:-1 tvg-id="ls-1vs4tgq" tvg-name="New Zealand Vs India" tvg-logo="/api/public/ls-image/ls-1vs4tgq" group-title="Live Sports",New Zealand Vs India
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/2wlsvhy3hu/out/v1/9cea9c768f634f94bc808ef640fe5f01/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=205451a6cd81dce284519a33dd57a1db:2dcfd1bbf6616d09b01d969efa0658a6
-#EXTINF:-1 tvg-id="ls-8qyptb" tvg-name="Australia Vs England" tvg-logo="/api/public/ls-image/ls-8qyptb" group-title="Live Sports",Australia Vs England
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c2e7rezlur/out/v1/0b3472c69b48414b9b0f137d5b938196/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1q06lw" tvg-name="College GameDay Vs College GameDay" tvg-logo="/api/public/ls-image/ls-1q06lw" group-title="Live Sports",College GameDay Vs College GameDay
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/55418/load-playlist?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-4k7cx5" tvg-name="Argentina U17 Vs Australia U17" tvg-logo="/api/public/ls-image/ls-4k7cx5" group-title="Live Sports",Argentina U17 Vs Australia U17
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-3sm3oe" tvg-name="Egypt U17 Vs Greece U17" tvg-logo="/api/public/ls-image/ls-3sm3oe" group-title="Live Sports",Egypt U17 Vs Greece U17
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-19axjx8" tvg-name="Qatar U17 Vs Panama U17" tvg-logo="/api/public/ls-image/ls-19axjx8" group-title="Live Sports",Qatar U17 Vs Panama U17
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
-#EXTINF:-1 tvg-id="ls-1h7695a" tvg-name="Mozambique U17 Vs Denmark U17" tvg-logo="/api/public/ls-image/ls-1h7695a" group-title="Live Sports",Mozambique U17 Vs Denmark U17
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
@@ -3252,6 +3213,60 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+#EXTINF:-1 tvg-id="ls-1ofk81b" tvg-name="DARTS PDC Vs DARTS PDC" tvg-logo="/api/public/ls-image/ls-1ofk81b" group-title="Live Sports",DARTS PDC Vs DARTS PDC
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
+#EXTINF:-1 tvg-id="ls-qsgvdb" tvg-name="Formula 1 Vs Formula 1" tvg-logo="/api/public/ls-image/ls-qsgvdb" group-title="Live Sports",Formula 1 Vs Formula 1
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+#EXTINF:-1 tvg-id="ls-1sshnus" tvg-name="MotorGP Vs MotorGP" tvg-logo="/api/public/ls-image/ls-1sshnus" group-title="Live Sports",MotorGP Vs MotorGP
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
+#EXTINF:-1 tvg-id="ls-1d32ex3" tvg-name="NPL Vs NPL" tvg-logo="/api/public/ls-image/ls-1d32ex3" group-title="Live Sports",NPL Vs NPL
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=15bb136e7ac737c7f35172fe6703b695:8fa933ee92c1e8d1f5d2855152d784f2
+#EXTINF:-1 tvg-id="ls-1qujxgs" tvg-name="Pakistan Vs Sri Lanka" tvg-logo="/api/public/ls-image/ls-1qujxgs" group-title="Live Sports",Pakistan Vs Sri Lanka
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/i4j35tc3ub/out/v1/3bf2e223260f4d74ad57635eb14fd068/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=205451a6cd81dce284519a33dd57a1db:2dcfd1bbf6616d09b01d969efa0658a6
+#EXTINF:-1 tvg-id="ls-8qyptb" tvg-name="Australia Vs England" tvg-logo="/api/public/ls-image/ls-8qyptb" group-title="Live Sports",Australia Vs England
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c2e7rezlur/out/v1/0b3472c69b48414b9b0f137d5b938196/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1q06lw" tvg-name="College GameDay Vs College GameDay" tvg-logo="/api/public/ls-image/ls-1q06lw" group-title="Live Sports",College GameDay Vs College GameDay
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/55418/load-playlist?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6edfcab8821c7437717ab9c94300a8a0:1dc141c8ac131a68bd1c445acfdc673c
+#EXTINF:-1 tvg-id="ls-m7kavi" tvg-name="South Africa Vs Bangladesh" tvg-logo="/api/public/ls-image/ls-m7kavi" group-title="Live Sports",South Africa Vs Bangladesh
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fq9jzduffm/out/v1/999c61c2f5114b66b1c408dd3e97f5f3/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7
 #EXTINF:-1 tvg-id="ls-7vjttp" tvg-name="São Paulo Vs Fluminense" tvg-logo="/api/public/ls-image/ls-7vjttp" group-title="Live Sports",São Paulo Vs Fluminense
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3266,11 +3281,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-senfqk" tvg-name="Western Sydney Wanderers Vs Wellington Phoenix" tvg-logo="/api/public/ls-image/ls-senfqk" group-title="Live Sports",Western Sydney Wanderers Vs Wellington Phoenix
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-df177e" tvg-name="Cairns Taipans Vs Perth Wildcats" tvg-logo="/api/public/ls-image/ls-df177e" group-title="Live Sports",Cairns Taipans Vs Perth Wildcats
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
@@ -3383,30 +3393,6 @@ https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=Ex
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-id="ls-1ofk81b" tvg-name="DARTS PDC Vs DARTS PDC" tvg-logo="/api/public/ls-image/ls-1ofk81b" group-title="Live Sports",DARTS PDC Vs DARTS PDC
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-11z3kqj" tvg-name="Paris FC Vs HB Køge" tvg-logo="/api/public/ls-image/ls-11z3kqj" group-title="Live Sports",Paris FC Vs HB Køge
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-fzozph" tvg-name="Benfica Vs AS Roma" tvg-logo="/api/public/ls-image/ls-fzozph" group-title="Live Sports",Benfica Vs AS Roma
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
-#EXTINF:-1 tvg-id="ls-1s2bq03" tvg-name="Arsenal Vs OL Lyonnes" tvg-logo="/api/public/ls-image/ls-1s2bq03" group-title="Live Sports",Arsenal Vs OL Lyonnes
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d
 #EXTINF:-1 tvg-id="ls-7zffob" tvg-name="One Friday Fights Vs One Friday Fights" tvg-logo="/api/public/ls-image/ls-7zffob" group-title="Live Sports",One Friday Fights Vs One Friday Fights
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3438,11 +3424,11 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=6f87f49f1a51b9c8d7d11a23c3f207ef:0fdd85e00b98637bb97e1b6b319d2be9
-#EXTINF:-1 tvg-id="ls-ba1q4z" tvg-name="WBBL Vs WBBL" tvg-logo="/api/public/ls-image/ls-ba1q4z" group-title="Live Sports",WBBL Vs WBBL
+#KODIPROP:inputstream.adaptive.license_key=b50eedac4fd1a7f6068fc90c875a2f2e:b6c288c9a0112f3729538b3fb37bd044
+#EXTINF:-1 tvg-id="ls-785njd" tvg-name="ABU DHABI T10 LEAGUE Vs ABU DHABI T10 LEAGUE" tvg-logo="/api/public/ls-image/ls-785njd" group-title="Live Sports",ABU DHABI T10 LEAGUE Vs ABU DHABI T10 LEAGUE
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ojtiswgkzi/out/v1/2452bfe9be704e98be6ca4bb5fb182c9/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5ijjfwkrfb/out/v1/6be8fdc7d3324eb2b7774e8081c508cc/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
@@ -3451,123 +3437,69 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ojtiswgkzi/
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1gi59pk" tvg-name="Denver Nuggets Vs Boston Celtics" tvg-logo="/api/public/ls-image/ls-1gi59pk" group-title="Live Sports",Denver Nuggets Vs Boston Celtics
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
+#EXTINF:-1 tvg-id="ls-4q2k32" tvg-name="France U17 Vs Haiti U17" tvg-logo="/api/public/ls-image/ls-4q2k32" group-title="Live Sports",France U17 Vs Haiti U17
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60439/load-playlist?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-bbc5l" tvg-name="Los Angeles Lakers Vs Utah Jazz" tvg-logo="/api/public/ls-image/ls-bbc5l" group-title="Live Sports",Los Angeles Lakers Vs Utah Jazz
+#EXTINF:-1 tvg-id="ls-4k7cx5" tvg-name="Argentina U17 Vs Australia U17" tvg-logo="/api/public/ls-image/ls-4k7cx5" group-title="Live Sports",Argentina U17 Vs Australia U17
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60450/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-ljnasw" tvg-name="Dallas Mavericks Vs Golden State Warriors" tvg-logo="/api/public/ls-image/ls-ljnasw" group-title="Live Sports",Dallas Mavericks Vs Golden State Warriors
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60412/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1oq3i4p" tvg-name="Oklahoma City Thunder Vs Atlanta Hawks" tvg-logo="/api/public/ls-image/ls-1oq3i4p" group-title="Live Sports",Oklahoma City Thunder Vs Atlanta Hawks
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60427/load-playlist?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-5nng0m" tvg-name="Sacramento Kings Vs Phoenix Suns" tvg-logo="/api/public/ls-image/ls-5nng0m" group-title="Live Sports",Sacramento Kings Vs Phoenix Suns
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60452/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-19huxgf" tvg-name="New Orleans Pelicans Vs Detroit Pistons" tvg-logo="/api/public/ls-image/ls-19huxgf" group-title="Live Sports",New Orleans Pelicans Vs Detroit Pistons
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60414/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://live2.jorvakstreamcache.com/live/channel19.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
-#EXTINF:-1 tvg-id="ls-1pjsyzz" tvg-name="Toronto Raptors Vs Washington Wizards" tvg-logo="/api/public/ls-image/ls-1pjsyzz" group-title="Live Sports",Toronto Raptors Vs Washington Wizards
+#KODIPROP:inputstream.adaptive.license_key=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411
+#EXTINF:-1 tvg-id="ls-19axjx8" tvg-name="Qatar U17 Vs Panama U17" tvg-logo="/api/public/ls-image/ls-19axjx8" group-title="Live Sports",Qatar U17 Vs Panama U17
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-f9s28z" tvg-name="Brooklyn Nets Vs Chicago Bulls" tvg-logo="/api/public/ls-image/ls-f9s28z" group-title="Live Sports",Brooklyn Nets Vs Chicago Bulls
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60409/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-id="ls-1x6ltmg" tvg-name="New Jersey Devils Vs Montréal Canadiens" tvg-logo="/api/public/ls-image/ls-1x6ltmg" group-title="Live Sports",New Jersey Devils Vs Montréal Canadiens
+#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
+#EXTINF:-1 tvg-id="ls-1h7695a" tvg-name="Mozambique U17 Vs Denmark U17" tvg-logo="/api/public/ls-image/ls-1h7695a" group-title="Live Sports",Mozambique U17 Vs Denmark U17
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
-#EXTINF:-1 tvg-id="ls-1m5dwfj" tvg-name="Detroit Red Wings Vs Boston Bruins" tvg-logo="/api/public/ls-image/ls-1m5dwfj" group-title="Live Sports",Detroit Red Wings Vs Boston Bruins
+#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
+#EXTINF:-1 tvg-id="ls-k915jt" tvg-name="Saudi Arabia U17 Vs Uruguay U17" tvg-logo="/api/public/ls-image/ls-k915jt" group-title="Live Sports",Saudi Arabia U17 Vs Uruguay U17
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-11z3kqj" tvg-name="Paris FC Vs HB Køge" tvg-logo="/api/public/ls-image/ls-11z3kqj" group-title="Live Sports",Paris FC Vs HB Køge
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
-#EXTINF:-1 tvg-id="ls-hgm4n8" tvg-name="Utah Mammoth Vs Colorado Avalanche" tvg-logo="/api/public/ls-image/ls-hgm4n8" group-title="Live Sports",Utah Mammoth Vs Colorado Avalanche
+#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
+#EXTINF:-1 tvg-id="ls-1u0h3aj" tvg-name="Fútbol Club Barcelona Vs Servette FC Chênois Féminin" tvg-logo="/api/public/ls-image/ls-1u0h3aj" group-title="Live Sports",Fútbol Club Barcelona Vs Servette FC Chênois Féminin
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-rxiown" tvg-name="Buffalo Bulls Vs Central Michigan Chippewas" tvg-logo="/api/public/ls-image/ls-rxiown" group-title="Live Sports",Buffalo Bulls Vs Central Michigan Chippewas
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+#EXTINF:-1 tvg-id="ls-1s2bq03" tvg-name="Arsenal Vs OL Lyonnes" tvg-logo="/api/public/ls-image/ls-1s2bq03" group-title="Live Sports",Arsenal Vs OL Lyonnes
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60407/load-playlist?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-nwk3up" tvg-name="Massachusetts Minutemen Vs Akron Zips" tvg-logo="/api/public/ls-image/ls-nwk3up" group-title="Live Sports",Massachusetts Minutemen Vs Akron Zips
+#EXTINF:-1 tvg-id="ls-z9clee" tvg-name="FK Austria Wien Vs FC Bayern München" tvg-logo="/api/public/ls-image/ls-z9clee" group-title="Live Sports",FK Austria Wien Vs FC Bayern München
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60398/load-playlist?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://live2.jorvakstreamcache.com/live/channel1.m3u8?|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1cn7c3r" tvg-name="UNLV Runnin' Rebels Vs Auburn Tigers" tvg-logo="/api/public/ls-image/ls-1cn7c3r" group-title="Live Sports",UNLV Runnin' Rebels Vs Auburn Tigers
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+#EXTINF:-1 tvg-id="ls-p7de57" tvg-name="⚽ AFC Awards 2026 Vs ⚽ AFC Awards 2026" tvg-logo="/api/public/ls-image/ls-p7de57" group-title="Live Sports",⚽ AFC Awards 2026 Vs ⚽ AFC Awards 2026
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-x942zn" tvg-name="UCLA Bruins Vs Cal State Fullerton Titans" tvg-logo="/api/public/ls-image/ls-x942zn" group-title="Live Sports",UCLA Bruins Vs Cal State Fullerton Titans
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60447/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-5q3t19" tvg-name="Nevada Wolf Pack Vs Idaho Vandals" tvg-logo="/api/public/ls-image/ls-5q3t19" group-title="Live Sports",Nevada Wolf Pack Vs Idaho Vandals
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60446/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-nzqv3m" tvg-name="San Jose State Spartans Vs Fresno State Bulldogs" tvg-logo="/api/public/ls-image/ls-nzqv3m" group-title="Live Sports",San Jose State Spartans Vs Fresno State Bulldogs
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60437/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1xm6l0" tvg-name="Missouri Tigers Vs Alcorn State Braves" tvg-logo="/api/public/ls-image/ls-1xm6l0" group-title="Live Sports",Missouri Tigers Vs Alcorn State Braves
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60431/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-18dnv9h" tvg-name="Creighton Bluejays Vs Bethune-Cookman Wildcats" tvg-logo="/api/public/ls-image/ls-18dnv9h" group-title="Live Sports",Creighton Bluejays Vs Bethune-Cookman Wildcats
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60433/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-pdy248" tvg-name="Francis Marion Patriots Vs Georgia Southwestern Hurricanes" tvg-logo="/api/public/ls-image/ls-pdy248" group-title="Live Sports",Francis Marion Patriots Vs Georgia Southwestern Hurricanes
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-19dzgxc" tvg-name="Arizona State Sun Devils Vs Oakland Golden Grizzlies" tvg-logo="/api/public/ls-image/ls-19dzgxc" group-title="Live Sports",Arizona State Sun Devils Vs Oakland Golden Grizzlies
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60449/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-5zw0qd" tvg-name="Nebraska Cornhuskers Vs South Dakota Coyotes" tvg-logo="/api/public/ls-image/ls-5zw0qd" group-title="Live Sports",Nebraska Cornhuskers Vs South Dakota Coyotes
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60430/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-1crj65a" tvg-name="Monday Night RAW Vs Monday Night RAW" tvg-logo="/api/public/ls-image/ls-1crj65a" group-title="Live Sports",Monday Night RAW Vs Monday Night RAW
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3629,12 +3561,12 @@ https://mumt04.tangotv.in/m18aqlK4PUTHUYUGAMTV/index.m3u8|User-Agent=ExoPlayerLi
 #EXTINF:-1 tvg-id="sd-RPlus.in" tvg-name="R Plus" tvg-logo="https://i.imgur.com/XUnWcZF.png" group-title="Other",R Plus
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt05.tangotv.in/87NeALx2RPLUS/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e5dcc9dc-3a33-4b19-a361-5a5b3aa022f7/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-RPlusGold.in" tvg-name="R Plus Gold" tvg-logo="https://i.imgur.com/dpI7XPC.png" group-title="Other",R Plus Gold
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://stream.ottlive.co.in/rplusgold/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://vglivessai.akamaized.net/ptnr-lg/title-Rplus_Gold/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/33172241-82f7-4c91-8ae8-4754309b66a0/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-RaftaarMedia.in" tvg-name="Raftaar Media" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAFTAAR_MEDIA/images/LOGO_HD/image.png" group-title="Other",Raftaar Media
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3649,7 +3581,7 @@ https://mumt01.tangotv.in/O5aw8Zn3RAMDHENU/index.m3u8|User-Agent=ExoPlayerLib%2F
 #EXTINF:-1 tvg-id="sd-Rang.in" tvg-name="Rang" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RANG/images/LOGO_HD/image.png" group-title="Other",Rang
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/10017/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt01.tangotv.in/O5aw8Zn3RANG/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-Rengoni.in" tvg-name="Rengoni" tvg-logo="https://i.imgur.com/Ss1OBn1.png" group-title="Other",Rengoni
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3659,7 +3591,7 @@ https://mumt05.tangotv.in/87NeALx2RENGONI/index.m3u8|User-Agent=ExoPlayerLib%2F2
 #EXTINF:-1 tvg-id="sd-RongeenTV.in" tvg-name="Rongeen TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Rongeen-Logo--without-BG_2000_X_1125.png" group-title="Other",Rongeen TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://stream.ottlive.co.in/rongeentv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SaamTV.in" tvg-name="Saam TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAAM_TV/images/LOGO_HD/image.png" group-title="Other",Saam TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3669,7 +3601,7 @@ https://streams.tangotv.in/SAAMTV/ORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.
 #EXTINF:-1 tvg-id="sd-SaiTV.in" tvg-name="Sai TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAI_TV/images/LOGO_HD/image.png" group-title="Other",Sai TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/SaiTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/1235/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SantvaniChannel.in" tvg-name="Santvani Channel" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SANTVANI/images/LOGO_HD/LOGO_HD_image.png" group-title="Other",Santvani Channel
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3679,7 +3611,7 @@ https://cdn.pishow.tv/ott/live/475/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-SarvDharmSangam.in" tvg-name="Sarv Dharm Sangam" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SARV_DHARAM_SANGAM/images/LOGO_HD/image.png" group-title="Other",Sarv Dharm Sangam
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt01.tangotv.in/O5aw8Zn3SARAVDHARAMSANGAM/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d1msejlow1t3l4.cloudfront.net/fta/sarvdharmsangam/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SharnamTV.in" tvg-name="Sharnam TV" tvg-logo="https://papaji.freetvindia.com/media/channels/SarnamTV.png" group-title="Other",Sharnam TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3689,7 +3621,7 @@ https://d1msejlow1t3l4.cloudfront.net/fta/sharanamtv/playlist.m3u8|User-Agent=Ex
 #EXTINF:-1 tvg-id="sd-ShekinahTV.in" tvg-name="Shekinah TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/SHEKINAH-LOGO_2000_X_1125_Transpharent.png" group-title="Other",Shekinah TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://samitaorigin.tangotv.in/SHEKINAHTV/SAMITAORIGIN/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/447/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ShubhTV.in" tvg-name="Shubh TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHUBH_TV/images/LOGO_HD/image.png" group-title="Other",Shubh TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3721,11 +3653,6 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/4836fb71b5764f70ab1f3815e0295dfd/in
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://stream.ottlive.co.in/ubangla/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-Esport3.es" tvg-name="Esport3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png" group-title="Public",Esport3
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-AadinathTV.in" tvg-name="Aadinath TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AADINATH_TV/images/LOGO_HD/image.png" group-title="Religious",Aadinath TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -3739,7 +3666,7 @@ https://mumt04.tangotv.in/m18aqlK4AASEERVATHAMTV/index.m3u8|User-Agent=ExoPlayer
 #EXTINF:-1 tvg-id="sd-Aastha.in" tvg-name="Aastha" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Aastha.png" group-title="Religious",Aastha
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1454/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumt05.tangotv.in/87NeALx2AASTHA/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-AasthaBhajan.in" tvg-name="Aastha Bhajan" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Aastha%20Bhajan.png" group-title="Religious",Aastha Bhajan
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3755,6 +3682,11 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8|User-Ag
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-AdhyatmTV.in" tvg-name="Adhyatm TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Adhyatam_TV.png" group-title="Religious",Adhyatm TV
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://mumbai-edge.smartplaytv.in/AdhyatmTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-AmritGurbani.in" tvg-name="Amrit Gurbani" tvg-logo="https://papaji.freetvindia.com/media/Amritgurbani.png" group-title="Religious",Amrit Gurbani
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3774,12 +3706,12 @@ https://mumt05.tangotv.in/87NeALx2ANANDPURLIVE/index.m3u8|User-Agent=ExoPlayerLi
 #EXTINF:-1 tvg-id="sd-AngelTV.in" tvg-name="Angel TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANGEL_TV/images/LOGO_HD/image.png" group-title="Religious",Angel TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://janya-digimix.akamaized.net/vglive-sk-703035/indochina/ngrp:angelindochina_all/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.pishow.tv/ott/live/453/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-AradanaTV.in" tvg-name="Aradana TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/ARADANA-TV-LOGO-transparent.png" group-title="Religious",Aradana TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/961/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://yuppnimrestreammum.akamaized.net/181224/smil:aradanatv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ArputharYesuTV.in" tvg-name="Arputhar Yesu TV" tvg-logo="https://arputharyesutv.net/wp-content/uploads/2022/07/AR-LOGO-PNG.png" group-title="Religious",Arputhar Yesu TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3806,11 +3738,6 @@ https://cdn.pishow.tv/ott/live/397/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://cc-pisq3rszc5kpz.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pisq3rszc5kpz/OTM/OTM_BhaktiFlix-SCTE_SAMSUNG/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-BhaktiSagar.in" tvg-name="Bhakti Sagar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bhaktisagar.png" group-title="Religious",Bhakti Sagar
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt05.tangotv.in/87NeALx2BHAKTISAGAR/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ChannelDivya.in" tvg-name="Channel Divya" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Divya_TV.png" group-title="Religious",Channel Divya
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
@@ -3819,7 +3746,7 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/40f46fa036df45ee9d28b6eda42eb27c/in
 #EXTINF:-1 tvg-id="sd-ChannelWIN.in" tvg-name="Channel WIN" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CHANNEL_WIN/images/LOGO_HD/image.png" group-title="Religious",Channel WIN
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/229/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ChintpurniLive.in" tvg-name="Chintpurni Live" tvg-logo="https://papaji.freetvindia.com/media/Chintpurni_Live.png" group-title="Religious",Chintpurni Live
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3829,7 +3756,12 @@ https://samitaorigin.tangotv.in/CHINTPURNILIVE/SAMITAORIGIN/index.m3u8|User-Agen
 #EXTINF:-1 tvg-id="sd-CVROMSpiritual.in" tvg-name="CVR OM Spiritual" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CVR_OM_Spiritual.png" group-title="Religious",CVR OM Spiritual
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/CVROM/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://yuppnimrestreammum.akamaized.net/181224/smil:cvrom1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="sd-Darshan24.in" tvg-name="Darshan 24" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Darshan_24.png" group-title="Religious",Darshan 24
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://mumt05.tangotv.in/87NeALx2DARSHAN24/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DharmSandesh.in" tvg-name="Dharm Sandesh" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Arihant_TV.png" group-title="Religious",Dharm Sandesh
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3844,7 +3776,7 @@ https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8|User-Agent=ExoPlayerLi
 #EXTINF:-1 tvg-id="sd-DivyavaniTV.in" tvg-name="Divyavani TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Divya_Vani.png" group-title="Religious",Divyavani TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1624/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-DukhnivaranPatialaLive.in" tvg-name="Dukhnivaran Patiala Live" tvg-logo="https://papaji.freetvindia.com/media/dukhniwaran.png" group-title="Religious",Dukhnivaran Patiala Live
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3854,7 +3786,7 @@ https://samitaorigin.tangotv.in/DUKHNIWARAN/SAMITAORIGIN/index.m3u8|User-Agent=E
 #EXTINF:-1 tvg-id="sd-FatehTV.in" tvg-name="Fateh TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Fateh_TV.png" group-title="Religious",Fateh TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://ott.livelegitpro.in/fatehtv/fatehtv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://stream.ottlive.co.in/fatehtv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-FGNChannel.in" tvg-name="FGN Channel" tvg-logo="https://yt3.googleusercontent.com/rDtVRwirMau7LnqmpkNHMrsqCQ7TtWTIbXePXFcY_GWDMs4z64A-w2XBG92t-IV4-C8UoEI=s900-c-k-c0x00ffffff-no-rj" group-title="Religious",FGN Channel
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3964,7 +3896,7 @@ https://cdn.pishow.tv/ott/live/1265/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #EXTINF:-1 tvg-id="sd-MahaaBhakti.in" tvg-name="Mahaa Bhakti" tvg-logo="https://yt3.googleusercontent.com/OWECRvCVJh-dXU2MTRZhMRIDvFvcWan0YMoWWfXsM5_WEHobQy2QoHQbGr7AZUXzMOByTMAXbg=s900-c-k-c0x00ffffff-no-rj" group-title="Religious",Mahaa Bhakti
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt01.tangotv.in/O5aw8Zn3MAHABHAKTI/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://mumbai-edge.smartplaytv.in/MahaBhakthi/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MahotsavTV.in" tvg-name="Mahotsav TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Mahotsav_TV.png" group-title="Religious",Mahotsav TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3979,7 +3911,7 @@ https://yupplivegcpusa.yuppcdn.net/100823/mangalmay_1800/playlist.m3u8?hdnts=st=
 #EXTINF:-1 tvg-id="sd-MercyTV.in" tvg-name="Mercy TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Rujumargam_TV.png" group-title="Religious",Mercy TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/MercyTV/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-MHOneShraddha.in" tvg-name="MH One Shraddha" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MH_ONE_SHRADDHA/images/LOGO_HD/image.png" group-title="Religious",MH One Shraddha
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3989,7 +3921,7 @@ https://livestream.jswk.online/mhoneshraddha/live/index.m3u8|User-Agent=ExoPlaye
 #EXTINF:-1 tvg-id="sd-NambikkaiTV.in" tvg-name="Nambikkai TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAMBIKKAI_TV/images/LOGO_HD/image.png" group-title="Religious",Nambikkai TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/1389/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d1msejlow1t3l4.cloudfront.net/fta/nambikkaitv/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-NamdhariTV.in" tvg-name="Namdhari TV" tvg-logo="https://i.imgur.com/NalsXTo.png" group-title="Religious",Namdhari TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -4024,7 +3956,7 @@ https://mumt04.tangotv.in/m18aqlK4PARASGOLD/index.m3u8|User-Agent=ExoPlayerLib%2
 #EXTINF:-1 tvg-id="sd-PeaceofMindTV.in" tvg-name="Peace of Mind TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PEACE_OF_MIND/images/LOGO_HD/image.png" group-title="Religious",Peace of Mind TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumbai-edge.smartplaytv.in/PeaceOfMind/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://yuppnimrestreammum.akamaized.net/181224/smil:peaceofmind.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-PowervisionTV.in" tvg-name="Powervision TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/POWER-VISION-Logo_2000_X_1125_Transpharent.png" group-title="Religious",Powervision TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -4099,7 +4031,7 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/e903e03c2b414ee0b74db68d7779ccad/in
 #EXTINF:-1 tvg-id="sd-Shalom.in" tvg-name="Shalom" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHALOM_TV/images/LOGO_HD/image.png" group-title="Religious",Shalom
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://d28xtgmk9tfk6b.cloudfront.net/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://d2c4zqo2rb5uf1.cloudfront.net/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ShreeHazurSahibji.in" tvg-name="Shree Hazur Sahibji" tvg-logo="https://papaji.freetvindia.com/media/Shree_Hazursahibji.png" group-title="Religious",Shree Hazur Sahibji
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -4114,7 +4046,7 @@ https://7xshreeshyam.akamaized.net/shreeshyamtv/index.m3u8|User-Agent=ExoPlayerL
 #EXTINF:-1 tvg-id="sd-ShubhsandeshTV.in" tvg-name="Shubhsandesh TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHUBHSANDESH_TV/images/LOGO_HD/image.png" group-title="Religious",Shubhsandesh TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cdn.pishow.tv/ott/live/457/master.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SindhTV.in" tvg-name="Sindh TV" tvg-logo="https://papaji.freetvindia.com/media/Sindth_TV.png" group-title="Religious",Sindh TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -4134,7 +4066,7 @@ https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8|
 #EXTINF:-1 tvg-id="sd-SVBC.in" tvg-name="SVBC" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SVBC.png" group-title="Religious",SVBC
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://mumt04.tangotv.in/m18aqlK4SVBCTELUGU/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-SVBC2.in" tvg-name="SVBC 2" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/SVBC%202.png" group-title="Religious",SVBC 2
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -4150,11 +4082,6 @@ https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playli
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="sd-SwastikTV.in" tvg-name="Swastik TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/swastiktv.png" group-title="Religious",Swastik TV
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://server.playontv.in/swastiktv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-TotalBhakti.in" tvg-name="Total Bhakti" tvg-logo="https://i.imgur.com/LPwRdmF.png" group-title="Religious",Total Bhakti
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -4174,7 +4101,7 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/5812b1a12b62482f83c38f9c8d34cb5a/in
 #EXTINF:-1 tvg-id="sd-VillageTV.in" tvg-name="Village TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/VillageTV.png" group-title="Religious",Village TV
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://live.villagetv.net/villagetv/hd/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://villagetv.applelive.in/villagetv/villagetv/index.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="sd-ZainabiaChannel.in" tvg-name="Zainabia Channel" tvg-logo="" group-title="Religious",Zainabia Channel
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
