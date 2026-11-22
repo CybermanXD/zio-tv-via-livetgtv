@@ -3542,20 +3542,6 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/agdcjco1zo/
 https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/jvrno3jef2/out/v1/0f66f4d875f04d7d91f6210461dd7b52/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
-#EXTINF:-1 tvg-id="ls-1da27o0" tvg-name="Formula 1 Vs Formula 1" tvg-logo="/api/public/ls-image/ls-1da27o0" group-title="Live Sports",Formula 1 Vs Formula 1
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-#EXTINF:-1 tvg-id="ls-1sshnus" tvg-name="MotorGP Vs MotorGP" tvg-logo="/api/public/ls-image/ls-1sshnus" group-title="Live Sports",MotorGP Vs MotorGP
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=e8d550a86ee5c31e6b62f5fa287db43d:11184b37c42d384033b966dbea535b4f
 #EXTINF:-1 tvg-id="ls-i5hx55" tvg-name="TENNIS | EVENTO Vs TENNIS | EVENTO" tvg-logo="/api/public/ls-image/ls-i5hx55" group-title="Live Sports",TENNIS | EVENTO Vs TENNIS | EVENTO
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3563,11 +3549,11 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ymojggb3li/out/v1/4e528b82e63f499c886b3a34e89eaf9b/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
-#EXTINF:-1 tvg-id="ls-1tacul3" tvg-name="Snooker Vs Snooker" tvg-logo="/api/public/ls-image/ls-1tacul3" group-title="Live Sports",Snooker Vs Snooker
+#KODIPROP:inputstream.adaptive.license_key=9a79865ad099bcc92fc555a1014310a6:0f79fed08b0fa0db9c08989d40f7ba73
+#EXTINF:-1 tvg-id="ls-15q7g30" tvg-name="New Zealand Vs India" tvg-logo="/api/public/ls-image/ls-15q7g30" group-title="Live Sports",New Zealand Vs India
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qwtncijddv/out/v1/04a014ed48a447d9a59f48be45f26e20/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-1q06lw" tvg-name="College GameDay Vs College GameDay" tvg-logo="/api/public/ls-image/ls-1q06lw" group-title="Live Sports",College GameDay Vs College GameDay
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -3575,261 +3561,171 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1
 https://chatgpt.hereisman.net/playlist/55418/load-playlist?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-id="ls-1mwvcx1" tvg-name="DARTS PDC Vs DARTS PDC" tvg-logo="/api/public/ls-image/ls-1mwvcx1" group-title="Live Sports",DARTS PDC Vs DARTS PDC
+#KODIPROP:inputstream.adaptive.license_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3
+#EXTINF:-1 tvg-id="ls-1bhvh5d" tvg-name="Chapecoense Vs Cruzeiro" tvg-logo="/api/public/ls-image/ls-1bhvh5d" group-title="Live Sports",Chapecoense Vs Cruzeiro
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
-#EXTINF:-1 tvg-id="ls-1pv5540" tvg-name="Cavalry FC Vs Atlético Ottawa" tvg-logo="/api/public/ls-image/ls-1pv5540" group-title="Live Sports",Cavalry FC Vs Atlético Ottawa
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+#EXTINF:-1 tvg-id="ls-lvcgfv" tvg-name="Washington Spirit Vs Kansas City Current" tvg-logo="/api/public/ls-image/ls-lvcgfv" group-title="Live Sports",Washington Spirit Vs Kansas City Current
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1a46f72c07e31297e1af73e4ebe79f9b:8e83464feebbff9477b4e79f29487fe1
-#EXTINF:-1 tvg-id="ls-1xddrlb" tvg-name="Real Madrid Vs Celta Vigo" tvg-logo="/api/public/ls-image/ls-1xddrlb" group-title="Live Sports",Real Madrid Vs Celta Vigo
+#KODIPROP:inputstream.adaptive.license_key=d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4
+#EXTINF:-1 tvg-id="ls-1bz5ame" tvg-name="Pumas UNAM Vs CF Monterrey" tvg-logo="/api/public/ls-image/ls-1bz5ame" group-title="Live Sports",Pumas UNAM Vs CF Monterrey
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tdz8ybetqz/out/v1/3a083821fa7a4627b33d08184a5ac239/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a
-#EXTINF:-1 tvg-id="ls-i3z65c" tvg-name="CD Tenerife Vs Mallorca" tvg-logo="/api/public/ls-image/ls-i3z65c" group-title="Live Sports",CD Tenerife Vs Mallorca
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=c351d227f7b7593ed063d963ba7e5198:fcebd03613e889d9a93e73b9179daea2
-#EXTINF:-1 tvg-id="ls-ndxpcb" tvg-name="SSC Napoli Vs Torino" tvg-logo="/api/public/ls-image/ls-ndxpcb" group-title="Live Sports",SSC Napoli Vs Torino
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k0htndw4gg/out/v1/7a55fff9057a43c1bf6f0321891ebf33/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1nrgb9v" tvg-name="Empoli Vs Pisa" tvg-logo="/api/public/ls-image/ls-1nrgb9v" group-title="Live Sports",Empoli Vs Pisa
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=c475f3ab920f2dae14f5249ef15d6fbb:a5718875f4271ce91e9e766880383efe
-#EXTINF:-1 tvg-id="ls-1gxrmh" tvg-name="LOSC Lille Vs Olympique Lyonnais" tvg-logo="/api/public/ls-image/ls-1gxrmh" group-title="Live Sports",LOSC Lille Vs Olympique Lyonnais
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/glplwvtpjd/out/v1/3053bf6ead1941efbf0899ec31db8909/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=99ca0c50b50665df756c6a7914dd1372:74e059086af754143cd293db918a6072
-#EXTINF:-1 tvg-id="ls-1qfsip" tvg-name="RC Strasbourg Vs Stade Brestois" tvg-logo="/api/public/ls-image/ls-1qfsip" group-title="Live Sports",RC Strasbourg Vs Stade Brestois
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oerbkn0tok/out/v1/eb00c2b15ef14fc7b9ff0bce51444730/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe
-#EXTINF:-1 tvg-id="ls-1onskak" tvg-name="AS Monaco Vs AJ Auxerre" tvg-logo="/api/public/ls-image/ls-1onskak" group-title="Live Sports",AS Monaco Vs AJ Auxerre
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0a761732df703365a5d0258b44ad1894:a2e838f43b0cee0830ef5fe641d55361
-#EXTINF:-1 tvg-id="ls-1uzm4a3" tvg-name="RC Lens Vs Toulouse" tvg-logo="/api/public/ls-image/ls-1uzm4a3" group-title="Live Sports",RC Lens Vs Toulouse
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/o2cneoufx4/out/v1/09dd9597d3c54acdbae86cacf59502c9/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
-#EXTINF:-1 tvg-id="ls-13wvy4l" tvg-name="Palmeiras Vs Flamengo" tvg-logo="/api/public/ls-image/ls-13wvy4l" group-title="Live Sports",Palmeiras Vs Flamengo
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901
-#EXTINF:-1 tvg-id="ls-of8jzm" tvg-name="FC St. Pauli Vs VfL Bochum 1848" tvg-logo="/api/public/ls-image/ls-of8jzm" group-title="Live Sports",FC St. Pauli Vs VfL Bochum 1848
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
-#EXTINF:-1 tvg-id="ls-1aci6ng" tvg-name="Feyenoord Vs Excelsior" tvg-logo="/api/public/ls-image/ls-1aci6ng" group-title="Live Sports",Feyenoord Vs Excelsior
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-f8pacl" tvg-name="Logroño United Vs Deportivo Alavés" tvg-logo="/api/public/ls-image/ls-f8pacl" group-title="Live Sports",Logroño United Vs Deportivo Alavés
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-s36p4q" tvg-name="SV Zulte Waregem Vs Royal Antwerp FC" tvg-logo="/api/public/ls-image/ls-s36p4q" group-title="Live Sports",SV Zulte Waregem Vs Royal Antwerp FC
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1c3qhjd" tvg-name="KV Mechelen Vs Club Brugge KV" tvg-logo="/api/public/ls-image/ls-1c3qhjd" group-title="Live Sports",KV Mechelen Vs Club Brugge KV
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
-#EXTINF:-1 tvg-id="ls-k397fn" tvg-name="Dundee FC Vs Heart of Midlothian" tvg-logo="/api/public/ls-image/ls-k397fn" group-title="Live Sports",Dundee FC Vs Heart of Midlothian
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-12g2a0h" tvg-name="Motherwell Vs Rangers" tvg-logo="/api/public/ls-image/ls-12g2a0h" group-title="Live Sports",Motherwell Vs Rangers
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-xc541x" tvg-name="Radomiak Radom Vs Wisła Kraków" tvg-logo="/api/public/ls-image/ls-xc541x" group-title="Live Sports",Radomiak Radom Vs Wisła Kraków
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=hwQ5xTdvvKa3RjqhBJbFQQ&e=2095137026&scheme=https|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
-#EXTINF:-1 tvg-id="ls-123c8ww" tvg-name="Argentinos Juniors Vs CA Independiente" tvg-logo="/api/public/ls-image/ls-123c8ww" group-title="Live Sports",Argentinos Juniors Vs CA Independiente
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
-#EXTINF:-1 tvg-id="ls-1irrnzp" tvg-name="Philadelphia 76ers Vs Milwaukee Bucks" tvg-logo="/api/public/ls-image/ls-1irrnzp" group-title="Live Sports",Philadelphia 76ers Vs Milwaukee Bucks
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1fk8hu4" tvg-name="Carolina Hurricanes Vs Edmonton Oilers" tvg-logo="/api/public/ls-image/ls-1fk8hu4" group-title="Live Sports",Carolina Hurricanes Vs Edmonton Oilers
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60632/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1dkq9iu" tvg-name="Boston College Eagles Vs Syracuse Orange" tvg-logo="/api/public/ls-image/ls-1dkq9iu" group-title="Live Sports",Boston College Eagles Vs Syracuse Orange
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60624/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
-#EXTINF:-1 tvg-id="ls-128mxw8" tvg-name="Georgia Tech Yellow Jackets Vs Wake Forest Demon Deacons" tvg-logo="/api/public/ls-image/ls-128mxw8" group-title="Live Sports",Georgia Tech Yellow Jackets Vs Wake Forest Demon Deacons
+#EXTINF:-1 tvg-id="ls-1aimcdk" tvg-name="New York Knicks Vs Portland Trail Blazers" tvg-logo="/api/public/ls-image/ls-1aimcdk" group-title="Live Sports",New York Knicks Vs Portland Trail Blazers
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1x8vw1l" tvg-name="Cincinnati Bearcats Vs Colorado Buffaloes" tvg-logo="/api/public/ls-image/ls-1x8vw1l" group-title="Live Sports",Cincinnati Bearcats Vs Colorado Buffaloes
+#EXTINF:-1 tvg-id="ls-7z9oyw" tvg-name="Minnesota Timberwolves Vs Memphis Grizzlies" tvg-logo="/api/public/ls-image/ls-7z9oyw" group-title="Live Sports",Minnesota Timberwolves Vs Memphis Grizzlies
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60625/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-3kaamh" tvg-name="Army Knights Vs East Carolina Pirates" tvg-logo="/api/public/ls-image/ls-3kaamh" group-title="Live Sports",Army Knights Vs East Carolina Pirates
+#EXTINF:-1 tvg-id="ls-g46r6t" tvg-name="San Antonio Spurs Vs New Orleans Pelicans" tvg-logo="/api/public/ls-image/ls-g46r6t" group-title="Live Sports",San Antonio Spurs Vs New Orleans Pelicans
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60621/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1dua05a" tvg-name="Florida Gators Vs Vanderbilt Commodores" tvg-logo="/api/public/ls-image/ls-1dua05a" group-title="Live Sports",Florida Gators Vs Vanderbilt Commodores
+#EXTINF:-1 tvg-id="ls-ei46me" tvg-name="Dallas Mavericks Vs Los Angeles Clippers" tvg-logo="/api/public/ls-image/ls-ei46me" group-title="Live Sports",Dallas Mavericks Vs Los Angeles Clippers
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60620/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1h2yzyz" tvg-name="Boston Bruins Vs Washington Capitals" tvg-logo="/api/public/ls-image/ls-1h2yzyz" group-title="Live Sports",Boston Bruins Vs Washington Capitals
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60684/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1u8aj6s" tvg-name="Florida Panthers Vs Buffalo Sabres" tvg-logo="/api/public/ls-image/ls-1u8aj6s" group-title="Live Sports",Florida Panthers Vs Buffalo Sabres
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60674/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-10snkni" tvg-name="Nashville Predators Vs Pittsburgh Penguins" tvg-logo="/api/public/ls-image/ls-10snkni" group-title="Live Sports",Nashville Predators Vs Pittsburgh Penguins
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60673/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1bk2t1b" tvg-name="St. Louis Blues Vs New Jersey Devils" tvg-logo="/api/public/ls-image/ls-1bk2t1b" group-title="Live Sports",St. Louis Blues Vs New Jersey Devils
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60683/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-4gjeoi" tvg-name="Detroit Red Wings Vs New York Islanders" tvg-logo="/api/public/ls-image/ls-4gjeoi" group-title="Live Sports",Detroit Red Wings Vs New York Islanders
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60679/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1io6xdy" tvg-name="Toronto Maple Leafs Vs Columbus Blue Jackets" tvg-logo="/api/public/ls-image/ls-1io6xdy" group-title="Live Sports",Toronto Maple Leafs Vs Columbus Blue Jackets
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60689/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+#EXTINF:-1 tvg-id="ls-12l0lfq" tvg-name="Montréal Canadiens Vs Philadelphia Flyers" tvg-logo="/api/public/ls-image/ls-12l0lfq" group-title="Live Sports",Montréal Canadiens Vs Philadelphia Flyers
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
+#EXTINF:-1 tvg-id="ls-1jfft9k" tvg-name="Ottawa Senators Vs Los Angeles Kings" tvg-logo="/api/public/ls-image/ls-1jfft9k" group-title="Live Sports",Ottawa Senators Vs Los Angeles Kings
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-7o90ji" tvg-name="Winnipeg Jets Vs Vegas Golden Knights" tvg-logo="/api/public/ls-image/ls-7o90ji" group-title="Live Sports",Winnipeg Jets Vs Vegas Golden Knights
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60685/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
+#EXTINF:-1 tvg-id="ls-1tb31es" tvg-name="Texas Longhorns Vs Arkansas Razorbacks" tvg-logo="/api/public/ls-image/ls-1tb31es" group-title="Live Sports",Texas Longhorns Vs Arkansas Razorbacks
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1i70v1e" tvg-name="San Jose State Spartans Vs UNLV Rebels" tvg-logo="/api/public/ls-image/ls-1i70v1e" group-title="Live Sports",San Jose State Spartans Vs UNLV Rebels
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60687/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-a3bs39" tvg-name="Louisiana Tech Bulldogs Vs Arkansas State Red Wolves" tvg-logo="/api/public/ls-image/ls-a3bs39" group-title="Live Sports",Louisiana Tech Bulldogs Vs Arkansas State Red Wolves
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60686/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
-#EXTINF:-1 tvg-id="ls-11jfpnb" tvg-name="Minnesota Golden Gophers Vs Northwestern Wildcats" tvg-logo="/api/public/ls-image/ls-11jfpnb" group-title="Live Sports",Minnesota Golden Gophers Vs Northwestern Wildcats
+#EXTINF:-1 tvg-id="ls-117txqk" tvg-name="Kansas State Wildcats Vs Arizona Wildcats" tvg-logo="/api/public/ls-image/ls-117txqk" group-title="Live Sports",Kansas State Wildcats Vs Arizona Wildcats
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-n538mr" tvg-name="Nebraska Cornhuskers Vs Ohio State Buckeyes" tvg-logo="/api/public/ls-image/ls-n538mr" group-title="Live Sports",Nebraska Cornhuskers Vs Ohio State Buckeyes
+#EXTINF:-1 tvg-id="ls-kvjkd6" tvg-name="Texas State Bobcats Vs Washington State Cougars" tvg-logo="/api/public/ls-image/ls-kvjkd6" group-title="Live Sports",Texas State Bobcats Vs Washington State Cougars
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60614/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://chatgpt.hereisman.net/playlist/60676/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-9h774n" tvg-name="Navy Midshipmen Vs Memphis Tigers" tvg-logo="/api/public/ls-image/ls-9h774n" group-title="Live Sports",Navy Midshipmen Vs Memphis Tigers
+#EXTINF:-1 tvg-id="ls-190zk81" tvg-name="Miami Hurricanes Vs Virginia Tech Hokies" tvg-logo="/api/public/ls-image/ls-190zk81" group-title="Live Sports",Miami Hurricanes Vs Virginia Tech Hokies
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60619/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://chatgpt.hereisman.net/playlist/60690/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-xya63k" tvg-name="California Golden Bears Vs Stanford Cardinal" tvg-logo="/api/public/ls-image/ls-xya63k" group-title="Live Sports",California Golden Bears Vs Stanford Cardinal
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60693/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-g9o29g" tvg-name="Fresno State Bulldogs Vs Colorado State Rams" tvg-logo="/api/public/ls-image/ls-g9o29g" group-title="Live Sports",Fresno State Bulldogs Vs Colorado State Rams
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60694/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1n15q8l" tvg-name="Missouri Tigers Vs Kentucky Wildcats" tvg-logo="/api/public/ls-image/ls-1n15q8l" group-title="Live Sports",Missouri Tigers Vs Kentucky Wildcats
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60696/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-hefay5" tvg-name="Louisville Cardinals Vs Pittsburgh Panthers" tvg-logo="/api/public/ls-image/ls-hefay5" group-title="Live Sports",Louisville Cardinals Vs Pittsburgh Panthers
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60695/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
-#EXTINF:-1 tvg-id="ls-umv1l9" tvg-name="Kansas Jayhawks Vs Brigham Young Cougars" tvg-logo="/api/public/ls-image/ls-umv1l9" group-title="Live Sports",Kansas Jayhawks Vs Brigham Young Cougars
+#EXTINF:-1 tvg-id="ls-11u2t52" tvg-name="South Carolina Gamecocks Vs Georgia Bulldogs" tvg-logo="/api/public/ls-image/ls-11u2t52" group-title="Live Sports",South Carolina Gamecocks Vs Georgia Bulldogs
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-8dccno" tvg-name="Purdue Boilermakers Vs Wisconsin Badgers" tvg-logo="/api/public/ls-image/ls-8dccno" group-title="Live Sports",Purdue Boilermakers Vs Wisconsin Badgers
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
+#EXTINF:-1 tvg-id="ls-1bg2mqx" tvg-name="Formula 1 Vs Formula 1" tvg-logo="/api/public/ls-image/ls-1bg2mqx" group-title="Live Sports",Formula 1 Vs Formula 1
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60615/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-14b6bv0" tvg-name="Virginia Cavaliers Vs North Carolina Tar Heels" tvg-logo="/api/public/ls-image/ls-14b6bv0" group-title="Live Sports",Virginia Cavaliers Vs North Carolina Tar Heels
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60628/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-13r236f" tvg-name="West Virginia Mountaineers Vs Houston Cougars" tvg-logo="/api/public/ls-image/ls-13r236f" group-title="Live Sports",West Virginia Mountaineers Vs Houston Cougars
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60633/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-17u2z7d" tvg-name="Tulane Green Wave Vs North Texas Mean Green" tvg-logo="/api/public/ls-image/ls-17u2z7d" group-title="Live Sports",Tulane Green Wave Vs North Texas Mean Green
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60617/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1sk4hh8" tvg-name="Liberty Flames Vs Western Kentucky Hilltoppers" tvg-logo="/api/public/ls-image/ls-1sk4hh8" group-title="Live Sports",Liberty Flames Vs Western Kentucky Hilltoppers
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60635/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-#EXTINF:-1 tvg-id="ls-1wj2qkl" tvg-name="Italia T10 League Vs Italia T10 League" tvg-logo="/api/public/ls-image/ls-1wj2qkl" group-title="Live Sports",Italia T10 League Vs Italia T10 League
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+#EXTINF:-1 tvg-id="ls-s92fj4" tvg-name="MotorGP Vs MotorGP" tvg-logo="/api/public/ls-image/ls-s92fj4" group-title="Live Sports",MotorGP Vs MotorGP
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-19il5hm" tvg-name="Ole Miss Rebels Vs Wofford Terriers" tvg-logo="/api/public/ls-image/ls-19il5hm" group-title="Live Sports",Ole Miss Rebels Vs Wofford Terriers
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60618/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
-#EXTINF:-1 tvg-id="ls-19kv0ll" tvg-name="ILT20 Vs ILT20" tvg-logo="/api/public/ls-image/ls-19kv0ll" group-title="Live Sports",ILT20 Vs ILT20
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-cenibu" tvg-name="LSU Tigers Vs Queens Royals" tvg-logo="/api/public/ls-image/ls-cenibu" group-title="Live Sports",LSU Tigers Vs Queens Royals
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-5cai46" tvg-name="Wake Forest Demon Deacons Vs Western Carolina Catamounts" tvg-logo="/api/public/ls-image/ls-5cai46" group-title="Live Sports",Wake Forest Demon Deacons Vs Western Carolina Catamounts
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-7wodju" tvg-name="Syracuse Orange Vs Lafayette College Leopards" tvg-logo="/api/public/ls-image/ls-7wodju" group-title="Live Sports",Syracuse Orange Vs Lafayette College Leopards
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a478f5af8b826d44778571031c84e257:ceabaa285b51b50a60cf5240715a6f28
-#EXTINF:-1 tvg-id="ls-15q7g30" tvg-name="New Zealand Vs India" tvg-logo="/api/public/ls-image/ls-15q7g30" group-title="Live Sports",New Zealand Vs India
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1rio9enthp/out/v1/349d14aa7815498f8c11ab98f7100aaa/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae2b2cc0d4a4ca729178fa33c76c333f:a2cef8a0f497874cedd1c23d13d7cf63
@@ -3859,48 +3755,12 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ayibqpy7eg/out/v1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7
-#EXTINF:-1 tvg-id="ls-s3cg3l" tvg-name="Bahia Vs Coritiba" tvg-logo="/api/public/ls-image/ls-s3cg3l" group-title="Live Sports",Bahia Vs Coritiba
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3
-#EXTINF:-1 tvg-id="ls-1bhvh5d" tvg-name="Chapecoense Vs Cruzeiro" tvg-logo="/api/public/ls-image/ls-1bhvh5d" group-title="Live Sports",Chapecoense Vs Cruzeiro
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1vdn79u" tvg-name="Once Caldas Vs Atlético Nacional" tvg-logo="/api/public/ls-image/ls-1vdn79u" group-title="Live Sports",Once Caldas Vs Atlético Nacional
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-vcgqby" tvg-name="Kagera Sugar FC Vs TRA United SC" tvg-logo="/api/public/ls-image/ls-vcgqby" group-title="Live Sports",Kagera Sugar FC Vs TRA United SC
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-1lui196" tvg-name="Geita Gold FC Vs Mashujaa FC" tvg-logo="/api/public/ls-image/ls-1lui196" group-title="Live Sports",Geita Gold FC Vs Mashujaa FC
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-44fwq9" tvg-name="FC Dallas Vs Portland Timbers" tvg-logo="/api/public/ls-image/ls-44fwq9" group-title="Live Sports",FC Dallas Vs Portland Timbers
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTINF:-1 tvg-id="ls-1dk94fg" tvg-name="Atlético Mineiro Vs Boca Juniors" tvg-logo="/api/public/ls-image/ls-1dk94fg" group-title="Live Sports",Atlético Mineiro Vs Boca Juniors
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-lvcgfv" tvg-name="Washington Spirit Vs Kansas City Current" tvg-logo="/api/public/ls-image/ls-lvcgfv" group-title="Live Sports",Washington Spirit Vs Kansas City Current
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
@@ -3920,97 +3780,18 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411
-#EXTINF:-1 tvg-id="ls-1bz5ame" tvg-name="Pumas UNAM Vs CF Monterrey" tvg-logo="/api/public/ls-image/ls-1bz5ame" group-title="Live Sports",Pumas UNAM Vs CF Monterrey
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
 #EXTINF:-1 tvg-id="ls-tajcd9" tvg-name="Tigres UANL Vs Club América" tvg-logo="/api/public/ls-image/ls-tajcd9" group-title="Live Sports",Tigres UANL Vs Club América
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
-#EXTINF:-1 tvg-id="ls-1aimcdk" tvg-name="New York Knicks Vs Portland Trail Blazers" tvg-logo="/api/public/ls-image/ls-1aimcdk" group-title="Live Sports",New York Knicks Vs Portland Trail Blazers
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-7z9oyw" tvg-name="Minnesota Timberwolves Vs Memphis Grizzlies" tvg-logo="/api/public/ls-image/ls-7z9oyw" group-title="Live Sports",Minnesota Timberwolves Vs Memphis Grizzlies
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-1tlue20" tvg-name="Sacramento Kings Vs Boston Celtics" tvg-logo="/api/public/ls-image/ls-1tlue20" group-title="Live Sports",Sacramento Kings Vs Boston Celtics
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-g46r6t" tvg-name="San Antonio Spurs Vs New Orleans Pelicans" tvg-logo="/api/public/ls-image/ls-g46r6t" group-title="Live Sports",San Antonio Spurs Vs New Orleans Pelicans
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-ei46me" tvg-name="Dallas Mavericks Vs Los Angeles Clippers" tvg-logo="/api/public/ls-image/ls-ei46me" group-title="Live Sports",Dallas Mavericks Vs Los Angeles Clippers
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1h2yzyz" tvg-name="Boston Bruins Vs Washington Capitals" tvg-logo="/api/public/ls-image/ls-1h2yzyz" group-title="Live Sports",Boston Bruins Vs Washington Capitals
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1u8aj6s" tvg-name="Florida Panthers Vs Buffalo Sabres" tvg-logo="/api/public/ls-image/ls-1u8aj6s" group-title="Live Sports",Florida Panthers Vs Buffalo Sabres
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-g3tv37" tvg-name="Calgary Flames Vs Chicago Blackhawks" tvg-logo="/api/public/ls-image/ls-g3tv37" group-title="Live Sports",Calgary Flames Vs Chicago Blackhawks
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-10snkni" tvg-name="Nashville Predators Vs Pittsburgh Penguins" tvg-logo="/api/public/ls-image/ls-10snkni" group-title="Live Sports",Nashville Predators Vs Pittsburgh Penguins
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1bk2t1b" tvg-name="St. Louis Blues Vs New Jersey Devils" tvg-logo="/api/public/ls-image/ls-1bk2t1b" group-title="Live Sports",St. Louis Blues Vs New Jersey Devils
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-4gjeoi" tvg-name="Detroit Red Wings Vs New York Islanders" tvg-logo="/api/public/ls-image/ls-4gjeoi" group-title="Live Sports",Detroit Red Wings Vs New York Islanders
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1io6xdy" tvg-name="Toronto Maple Leafs Vs Columbus Blue Jackets" tvg-logo="/api/public/ls-image/ls-1io6xdy" group-title="Live Sports",Toronto Maple Leafs Vs Columbus Blue Jackets
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-12l0lfq" tvg-name="Montréal Canadiens Vs Philadelphia Flyers" tvg-logo="/api/public/ls-image/ls-12l0lfq" group-title="Live Sports",Montréal Canadiens Vs Philadelphia Flyers
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-1jfft9k" tvg-name="Ottawa Senators Vs Los Angeles Kings" tvg-logo="/api/public/ls-image/ls-1jfft9k" group-title="Live Sports",Ottawa Senators Vs Los Angeles Kings
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-vcmks4" tvg-name="Utah Mammoth Vs Anaheim Ducks" tvg-logo="/api/public/ls-image/ls-vcmks4" group-title="Live Sports",Utah Mammoth Vs Anaheim Ducks
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-7o90ji" tvg-name="Winnipeg Jets Vs Vegas Golden Knights" tvg-logo="/api/public/ls-image/ls-7o90ji" group-title="Live Sports",Winnipeg Jets Vs Vegas Golden Knights
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
@@ -4026,46 +3807,6 @@ https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=Ex
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
-#EXTINF:-1 tvg-id="ls-npkdwi" tvg-name="Tennessee Volunteers Vs LSU Tigers" tvg-logo="/api/public/ls-image/ls-npkdwi" group-title="Live Sports",Tennessee Volunteers Vs LSU Tigers
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
-#EXTINF:-1 tvg-id="ls-1fgx5cf" tvg-name="Penn State Nittany Lions Vs Rutgers Scarlet Knights" tvg-logo="/api/public/ls-image/ls-1fgx5cf" group-title="Live Sports",Penn State Nittany Lions Vs Rutgers Scarlet Knights
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
-#EXTINF:-1 tvg-id="ls-1tb31es" tvg-name="Texas Longhorns Vs Arkansas Razorbacks" tvg-logo="/api/public/ls-image/ls-1tb31es" group-title="Live Sports",Texas Longhorns Vs Arkansas Razorbacks
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
-#EXTINF:-1 tvg-id="ls-117txqk" tvg-name="Kansas State Wildcats Vs Arizona Wildcats" tvg-logo="/api/public/ls-image/ls-117txqk" group-title="Live Sports",Kansas State Wildcats Vs Arizona Wildcats
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-g9o29g" tvg-name="Fresno State Bulldogs Vs Colorado State Rams" tvg-logo="/api/public/ls-image/ls-g9o29g" group-title="Live Sports",Fresno State Bulldogs Vs Colorado State Rams
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
-#EXTINF:-1 tvg-id="ls-11u2t52" tvg-name="South Carolina Gamecocks Vs Georgia Bulldogs" tvg-logo="/api/public/ls-image/ls-11u2t52" group-title="Live Sports",South Carolina Gamecocks Vs Georgia Bulldogs
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-5gv5pq" tvg-name="Arizona State Sun Devils Vs Oklahoma State Cowboys" tvg-logo="/api/public/ls-image/ls-5gv5pq" group-title="Live Sports",Arizona State Sun Devils Vs Oklahoma State Cowboys
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -4094,15 +3835,348 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-18ehh9h" tvg-name="France Vs Argentina" tvg-logo="/api/public/ls-image/ls-18ehh9h" group-title="Live Sports",France Vs Argentina
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
+#EXTINF:-1 tvg-id="ls-jzk0w6" tvg-name="Italia T10 League Vs Italia T10 League" tvg-logo="/api/public/ls-image/ls-jzk0w6" group-title="Live Sports",Italia T10 League Vs Italia T10 League
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-7mlwdb" tvg-name="Wales Vs Australia" tvg-logo="/api/public/ls-image/ls-7mlwdb" group-title="Live Sports",Wales Vs Australia
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+#EXTINF:-1 tvg-id="ls-8zhnhf" tvg-name="ILT20 Vs ILT20" tvg-logo="/api/public/ls-image/ls-8zhnhf" group-title="Live Sports",ILT20 Vs ILT20
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9
+#EXTINF:-1 tvg-id="ls-y5scmn" tvg-name="Pakistan A Vs INDIA A" tvg-logo="/api/public/ls-image/ls-y5scmn" group-title="Live Sports",Pakistan A Vs INDIA A
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-13qw7ad" tvg-name="Liverpool FC Vs Manchester United" tvg-logo="/api/public/ls-image/ls-13qw7ad" group-title="Live Sports",Liverpool FC Vs Manchester United
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-12kc7xl" tvg-name="Hull City Vs Brighton & Hove Albion" tvg-logo="/api/public/ls-image/ls-12kc7xl" group-title="Live Sports",Hull City Vs Brighton & Hove Albion
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1kc6ut0" tvg-name="Osasuna Vs Málaga CF" tvg-logo="/api/public/ls-image/ls-1kc6ut0" group-title="Live Sports",Osasuna Vs Málaga CF
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-fp96ae" tvg-name="Real Racing Club Vs Real Sociedad" tvg-logo="/api/public/ls-image/ls-fp96ae" group-title="Live Sports",Real Racing Club Vs Real Sociedad
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-18ppe6r" tvg-name="Getafe Vs Atlético Madrid" tvg-logo="/api/public/ls-image/ls-18ppe6r" group-title="Live Sports",Getafe Vs Atlético Madrid
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-v1jyge" tvg-name="FC Barcelona Vs Villarreal" tvg-logo="/api/public/ls-image/ls-v1jyge" group-title="Live Sports",FC Barcelona Vs Villarreal
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1y3xrsw" tvg-name="Sporting Gijón Vs UD Las Palmas" tvg-logo="/api/public/ls-image/ls-1y3xrsw" group-title="Live Sports",Sporting Gijón Vs UD Las Palmas
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-5flxfa" tvg-name="Celta Fortuna Vs Real Valladolid" tvg-logo="/api/public/ls-image/ls-5flxfa" group-title="Live Sports",Celta Fortuna Vs Real Valladolid
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a
+#EXTINF:-1 tvg-id="ls-r2bg7s" tvg-name="Córdoba Vs Real Oviedo" tvg-logo="/api/public/ls-image/ls-r2bg7s" group-title="Live Sports",Córdoba Vs Real Oviedo
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-u6lanh" tvg-name="Burgos Club de Fútbol Vs Albacete Balompié" tvg-logo="/api/public/ls-image/ls-u6lanh" group-title="Live Sports",Burgos Club de Fútbol Vs Albacete Balompié
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-v57tju" tvg-name="Girona FC Vs Eibar" tvg-logo="/api/public/ls-image/ls-v57tju" group-title="Live Sports",Girona FC Vs Eibar
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1vqygqv" tvg-name="Juventus Vs Venezia" tvg-logo="/api/public/ls-image/ls-1vqygqv" group-title="Live Sports",Juventus Vs Venezia
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1s0zgxg" tvg-name="Sassuolo Vs Genoa" tvg-logo="/api/public/ls-image/ls-1s0zgxg" group-title="Live Sports",Sassuolo Vs Genoa
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-10racx9" tvg-name="Atalanta Vs Inter" tvg-logo="/api/public/ls-image/ls-10racx9" group-title="Live Sports",Atalanta Vs Inter
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1yr5j9c" tvg-name="Bologna Vs Udinese" tvg-logo="/api/public/ls-image/ls-1yr5j9c" group-title="Live Sports",Bologna Vs Udinese
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-18ykjch" tvg-name="Olympique de Marseille Vs Le Mans" tvg-logo="/api/public/ls-image/ls-18ykjch" group-title="Live Sports",Olympique de Marseille Vs Le Mans
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-vgahri" tvg-name="Lorient Vs Stade Rennais" tvg-logo="/api/public/ls-image/ls-vgahri" group-title="Live Sports",Lorient Vs Stade Rennais
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-qvpu49" tvg-name="Paris FC Vs Angers" tvg-logo="/api/public/ls-image/ls-qvpu49" group-title="Live Sports",Paris FC Vs Angers
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-d2p8sp" tvg-name="Energie Cottbus Vs Hertha BSC" tvg-logo="/api/public/ls-image/ls-d2p8sp" group-title="Live Sports",Energie Cottbus Vs Hertha BSC
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-psv97y" tvg-name="1. FC Kaiserslautern Vs SG Dynamo Dresden" tvg-logo="/api/public/ls-image/ls-psv97y" group-title="Live Sports",1. FC Kaiserslautern Vs SG Dynamo Dresden
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-qajqr3" tvg-name="FC Augsburg Vs 1. FSV Mainz 05" tvg-logo="/api/public/ls-image/ls-qajqr3" group-title="Live Sports",FC Augsburg Vs 1. FSV Mainz 05
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-cukxjy" tvg-name="SV Werder Bremen Vs Hamburger SV" tvg-logo="/api/public/ls-image/ls-cukxjy" group-title="Live Sports",SV Werder Bremen Vs Hamburger SV
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1n64kaq" tvg-name="Karlsruher SC Vs VfL Osnabrück" tvg-logo="/api/public/ls-image/ls-1n64kaq" group-title="Live Sports",Karlsruher SC Vs VfL Osnabrück
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1u510k2" tvg-name="France U17 Vs Saudi Arabia U17" tvg-logo="/api/public/ls-image/ls-1u510k2" group-title="Live Sports",France U17 Vs Saudi Arabia U17
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-15ec2l9" tvg-name="South Korea U17 Vs New Caledonia U17" tvg-logo="/api/public/ls-image/ls-15ec2l9" group-title="Live Sports",South Korea U17 Vs New Caledonia U17
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1l4ovtu" tvg-name="Argentina U17 Vs Mozambique U17" tvg-logo="/api/public/ls-image/ls-1l4ovtu" group-title="Live Sports",Argentina U17 Vs Mozambique U17
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-kemnce" tvg-name="Qatar U17 Vs Egypt U17" tvg-logo="/api/public/ls-image/ls-kemnce" group-title="Live Sports",Qatar U17 Vs Egypt U17
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-cjth4g" tvg-name="Uruguay U17 Vs Haiti U17" tvg-logo="/api/public/ls-image/ls-cjth4g" group-title="Live Sports",Uruguay U17 Vs Haiti U17
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-n1fvh9" tvg-name="Ecuador U17 Vs Uganda U17" tvg-logo="/api/public/ls-image/ls-n1fvh9" group-title="Live Sports",Ecuador U17 Vs Uganda U17
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-4r5ug5" tvg-name="Burnley Vs Blackburn Rovers" tvg-logo="/api/public/ls-image/ls-4r5ug5" group-title="Live Sports",Burnley Vs Blackburn Rovers
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-115dsj8" tvg-name="Denmark U17 Vs Australia U17" tvg-logo="/api/public/ls-image/ls-115dsj8" group-title="Live Sports",Denmark U17 Vs Australia U17
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-ia6cit" tvg-name="Greece U17 Vs Panama U17" tvg-logo="/api/public/ls-image/ls-ia6cit" group-title="Live Sports",Greece U17 Vs Panama U17
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1dnaoas" tvg-name="Sparta Rotterdam Vs AZ Alkmaar" tvg-logo="/api/public/ls-image/ls-1dnaoas" group-title="Live Sports",Sparta Rotterdam Vs AZ Alkmaar
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-xtodqn" tvg-name="Go Ahead Eagles Vs Fortuna Sittard" tvg-logo="/api/public/ls-image/ls-xtodqn" group-title="Live Sports",Go Ahead Eagles Vs Fortuna Sittard
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-8d2mv1" tvg-name="AFC Ajax Vs ADO Den Haag" tvg-logo="/api/public/ls-image/ls-8d2mv1" group-title="Live Sports",AFC Ajax Vs ADO Den Haag
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1ipevex" tvg-name="FC Twente Vs Willem II Tilburg" tvg-logo="/api/public/ls-image/ls-1ipevex" group-title="Live Sports",FC Twente Vs Willem II Tilburg
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-vn0z9w" tvg-name="Club Sporting Cristal Vs Cienciano" tvg-logo="/api/public/ls-image/ls-vn0z9w" group-title="Live Sports",Club Sporting Cristal Vs Cienciano
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-faa6cw" tvg-name="Sport Huancayo Vs Universitario de Deportes" tvg-logo="/api/public/ls-image/ls-faa6cw" group-title="Live Sports",Sport Huancayo Vs Universitario de Deportes
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1lclyav" tvg-name="Colo-Colo Vs Universidad Católica" tvg-logo="/api/public/ls-image/ls-1lclyav" group-title="Live Sports",Colo-Colo Vs Universidad Católica
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-iok3lv" tvg-name="Huachipato Vs Deportes Concepción" tvg-logo="/api/public/ls-image/ls-iok3lv" group-title="Live Sports",Huachipato Vs Deportes Concepción
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1wgz8gd" tvg-name="Deportes Limache Vs Deportes La Serena" tvg-logo="/api/public/ls-image/ls-1wgz8gd" group-title="Live Sports",Deportes Limache Vs Deportes La Serena
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1bxedlb" tvg-name="IK Sirius Vs Djurgårdens IF" tvg-logo="/api/public/ls-image/ls-1bxedlb" group-title="Live Sports",IK Sirius Vs Djurgårdens IF
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-13olmva" tvg-name="IF Brommapojkarna Vs Halmstads BK" tvg-logo="/api/public/ls-image/ls-13olmva" group-title="Live Sports",IF Brommapojkarna Vs Halmstads BK
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-xc7glp" tvg-name="BK Häcken Vs IF Elfsborg" tvg-logo="/api/public/ls-image/ls-xc7glp" group-title="Live Sports",BK Häcken Vs IF Elfsborg
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-vedx3a" tvg-name="Arezzo Vs Padova" tvg-logo="/api/public/ls-image/ls-vedx3a" group-title="Live Sports",Arezzo Vs Padova
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1jf328m" tvg-name="US Avellino 1912 Vs Mantova" tvg-logo="/api/public/ls-image/ls-1jf328m" group-title="Live Sports",US Avellino 1912 Vs Mantova
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-ovajlq" tvg-name="Querétaro FC Vs Club Necaxa" tvg-logo="/api/public/ls-image/ls-ovajlq" group-title="Live Sports",Querétaro FC Vs Club Necaxa
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-wb3skb" tvg-name="CD Guadalajara Vs Cruz Azul" tvg-logo="/api/public/ls-image/ls-wb3skb" group-title="Live Sports",CD Guadalajara Vs Cruz Azul
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-xb5cg8" tvg-name="Red Bull Bragantino Vs Vasco da Gama" tvg-logo="/api/public/ls-image/ls-xb5cg8" group-title="Live Sports",Red Bull Bragantino Vs Vasco da Gama
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-vyvsbl" tvg-name="Fluminense Vs Mirassol" tvg-logo="/api/public/ls-image/ls-vyvsbl" group-title="Live Sports",Fluminense Vs Mirassol
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-gwfnpo" tvg-name="Athletico Vs Remo" tvg-logo="/api/public/ls-image/ls-gwfnpo" group-title="Live Sports",Athletico Vs Remo
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-ek55o8" tvg-name="Kasımpaşa Vs Alanyaspor" tvg-logo="/api/public/ls-image/ls-ek55o8" group-title="Live Sports",Kasımpaşa Vs Alanyaspor
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-5ivpbw" tvg-name="Trabzonspor Vs Eyüpspor" tvg-logo="/api/public/ls-image/ls-5ivpbw" group-title="Live Sports",Trabzonspor Vs Eyüpspor
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1lg152c" tvg-name="Erzurumspor FK Vs Göztepe" tvg-logo="/api/public/ls-image/ls-1lg152c" group-title="Live Sports",Erzurumspor FK Vs Göztepe
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1i7vu55" tvg-name="Konyaspor Vs Beşiktaş JK" tvg-logo="/api/public/ls-image/ls-1i7vu55" group-title="Live Sports",Konyaspor Vs Beşiktaş JK
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-173qo3z" tvg-name="Manchester City Vs Tottenham FC" tvg-logo="/api/public/ls-image/ls-173qo3z" group-title="Live Sports",Manchester City Vs Tottenham FC
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1a25sj7" tvg-name="Arsenal Vs West Ham" tvg-logo="/api/public/ls-image/ls-1a25sj7" group-title="Live Sports",Arsenal Vs West Ham
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-153zvw7" tvg-name="Charlton Athletic WFC Vs Aston Villa" tvg-logo="/api/public/ls-image/ls-153zvw7" group-title="Live Sports",Charlton Athletic WFC Vs Aston Villa
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-92zd2p" tvg-name="Everton Vs Brighton" tvg-logo="/api/public/ls-image/ls-92zd2p" group-title="Live Sports",Everton Vs Brighton
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-jk6swz" tvg-name="Birmingham City W.F.C. Vs Manchester United" tvg-logo="/api/public/ls-image/ls-jk6swz" group-title="Live Sports",Birmingham City W.F.C. Vs Manchester United
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1d9swh0" tvg-name="RSC Anderlecht Vs Oud-Heverlee Leuven" tvg-logo="/api/public/ls-image/ls-1d9swh0" group-title="Live Sports",RSC Anderlecht Vs Oud-Heverlee Leuven
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-u8gfxe" tvg-name="Lommel SK Vs Standard Liège" tvg-logo="/api/public/ls-image/ls-u8gfxe" group-title="Live Sports",Lommel SK Vs Standard Liège
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1d2bfjw" tvg-name="KV Kortrijk Vs Royale Union Saint-Gilloise" tvg-logo="/api/public/ls-image/ls-1d2bfjw" group-title="Live Sports",KV Kortrijk Vs Royale Union Saint-Gilloise
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-mp00k2" tvg-name="SK Beveren Vs KAA Gent" tvg-logo="/api/public/ls-image/ls-mp00k2" group-title="Live Sports",SK Beveren Vs KAA Gent
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-yueotk" tvg-name="Richardson Vs Oxendine" tvg-logo="/api/public/ls-image/ls-yueotk" group-title="Live Sports",Richardson Vs Oxendine
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -4144,6 +4218,13 @@ https://chatgpt.hereisman.net/playlist/58881/load-playlist-multi?&.m3u8|User-Age
 https://navidrome.fromthyheart.site/dailymotion/live/playlist/4.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+#EXTINF:-1 tvg-id="ls-1tacul3" tvg-name="Snooker Vs Snooker" tvg-logo="/api/public/ls-image/ls-1tacul3" group-title="Live Sports",Snooker Vs Snooker
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
 #EXTINF:-1 tvg-id="ls-ytfur3" tvg-name="Horse Racing Vs Horse Racing" tvg-logo="/api/public/ls-image/ls-ytfur3" group-title="Live Sports",Horse Racing Vs Horse Racing
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
@@ -4151,104 +4232,92 @@ https://navidrome.fromthyheart.site/dailymotion/live/playlist/4.m3u8|User-Agent=
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1
-#EXTINF:-1 tvg-id="ls-1f0asw2" tvg-name="Newcastle United Vs Arsenal" tvg-logo="/api/public/ls-image/ls-1f0asw2" group-title="Live Sports",Newcastle United Vs Arsenal
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTINF:-1 tvg-id="ls-b77krc" tvg-name="Sevilla Vs Real Betis" tvg-logo="/api/public/ls-image/ls-b77krc" group-title="Live Sports",Sevilla Vs Real Betis
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a
-#EXTINF:-1 tvg-id="ls-xd7d5w" tvg-name="CD Castellón Vs CD Eldense" tvg-logo="/api/public/ls-image/ls-xd7d5w" group-title="Live Sports",CD Castellón Vs CD Eldense
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
-#EXTINF:-1 tvg-id="ls-4rpnz2" tvg-name="Parma Vs AS Roma" tvg-logo="/api/public/ls-image/ls-4rpnz2" group-title="Live Sports",Parma Vs AS Roma
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe
-#EXTINF:-1 tvg-id="ls-ser3xx" tvg-name="OGC Nice Vs Paris Saint-Germain" tvg-logo="/api/public/ls-image/ls-ser3xx" group-title="Live Sports",OGC Nice Vs Paris Saint-Germain
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901
-#EXTINF:-1 tvg-id="ls-1ny6iv9" tvg-name="FC Schalke 04 Vs VfB Stuttgart" tvg-logo="/api/public/ls-image/ls-1ny6iv9" group-title="Live Sports",FC Schalke 04 Vs VfB Stuttgart
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f
-#EXTINF:-1 tvg-id="ls-px3qq0" tvg-name="Chile U17 Vs Algeria U17" tvg-logo="/api/public/ls-image/ls-px3qq0" group-title="Live Sports",Chile U17 Vs Algeria U17
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411
-#EXTINF:-1 tvg-id="ls-fakeu2" tvg-name="Mexico U17 Vs Romania U17" tvg-logo="/api/public/ls-image/ls-fakeu2" group-title="Live Sports",Mexico U17 Vs Romania U17
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
-#EXTINF:-1 tvg-id="ls-19pos4w" tvg-name="NEC Nijmegen Vs PSV Eindhoven" tvg-logo="/api/public/ls-image/ls-19pos4w" group-title="Live Sports",NEC Nijmegen Vs PSV Eindhoven
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-6j93y4" tvg-name="SD Eibar Vs Club Atlético de Madrid" tvg-logo="/api/public/ls-image/ls-6j93y4" group-title="Live Sports",SD Eibar Vs Club Atlético de Madrid
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-ol7s9" tvg-name="United Vs Al-Wahda FC" tvg-logo="/api/public/ls-image/ls-ol7s9" group-title="Live Sports",United Vs Al-Wahda FC
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://file.genoads.com/ch1.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-dgfqtr" tvg-name="Zagłębie Lubin Vs Górnik Zabrze" tvg-logo="/api/public/ls-image/ls-dgfqtr" group-title="Live Sports",Zagłębie Lubin Vs Górnik Zabrze
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=hwQ5xTdvvKa3RjqhBJbFQQ&e=2095137026&scheme=https|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-c0tq29" tvg-name="Portugal Vs Uruguay" tvg-logo="/api/public/ls-image/ls-c0tq29" group-title="Live Sports",Portugal Vs Uruguay
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
-#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist//load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1 tvg-id="ls-1ntxw85" tvg-name="Ireland Vs South Africa" tvg-logo="/api/public/ls-image/ls-1ntxw85" group-title="Live Sports",Ireland Vs South Africa
+#EXTINF:-1 tvg-id="ls-1mwvcx1" tvg-name="DARTS PDC Vs DARTS PDC" tvg-logo="/api/public/ls-image/ls-1mwvcx1" group-title="Live Sports",DARTS PDC Vs DARTS PDC
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
 https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-p8306" tvg-name="Bucknell Bison Vs Siena Saints" tvg-logo="/api/public/ls-image/ls-p8306" group-title="Live Sports",Bucknell Bison Vs Siena Saints
+#EXTINF:-1 tvg-id="ls-1rh6b2q" tvg-name="Inter Miami CF Vs Columbus Crew" tvg-logo="/api/public/ls-image/ls-1rh6b2q" group-title="Live Sports",Inter Miami CF Vs Columbus Crew
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60607/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://chatgpt.hereisman.net/playlist/60677/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="ls-19vm8p1" tvg-name="Michigan State Spartans Vs Detroit Titans" tvg-logo="/api/public/ls-image/ls-19vm8p1" group-title="Live Sports",Michigan State Spartans Vs Detroit Titans
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#EXTINF:-1 tvg-id="ls-1dk94fg" tvg-name="Atlético Mineiro Vs Boca Juniors" tvg-logo="/api/public/ls-image/ls-1dk94fg" group-title="Live Sports",Atlético Mineiro Vs Boca Juniors
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
 #EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
-https://chatgpt.hereisman.net/playlist/60622/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-41og4x" tvg-name="Connecticut Huskies Vs Old Dominion Monarchs" tvg-logo="/api/public/ls-image/ls-41og4x" group-title="Live Sports",Connecticut Huskies Vs Old Dominion Monarchs
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60658/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-mzw7hf" tvg-name="Baylor Bears Vs Texas Tech Red Raiders" tvg-logo="/api/public/ls-image/ls-mzw7hf" group-title="Live Sports",Baylor Bears Vs Texas Tech Red Raiders
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60657/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
+#EXTINF:-1 tvg-id="ls-npkdwi" tvg-name="Tennessee Volunteers Vs LSU Tigers" tvg-logo="/api/public/ls-image/ls-npkdwi" group-title="Live Sports",Tennessee Volunteers Vs LSU Tigers
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-jk6plx" tvg-name="Michigan Wolverines Vs UCLA Bruins" tvg-logo="/api/public/ls-image/ls-jk6plx" group-title="Live Sports",Michigan Wolverines Vs UCLA Bruins
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60661/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-101al5o" tvg-name="Florida State Seminoles Vs North Carolina State Wolfpack" tvg-logo="/api/public/ls-image/ls-101al5o" group-title="Live Sports",Florida State Seminoles Vs North Carolina State Wolfpack
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60664/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
+#EXTINF:-1 tvg-id="ls-1fgx5cf" tvg-name="Penn State Nittany Lions Vs Rutgers Scarlet Knights" tvg-logo="/api/public/ls-image/ls-1fgx5cf" group-title="Live Sports",Penn State Nittany Lions Vs Rutgers Scarlet Knights
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-632jx9" tvg-name="Washington Huskies Vs Indiana Hoosiers" tvg-logo="/api/public/ls-image/ls-632jx9" group-title="Live Sports",Washington Huskies Vs Indiana Hoosiers
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60663/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1kp1klf" tvg-name="Oklahoma Sooners Vs Texas A&M Aggies" tvg-logo="/api/public/ls-image/ls-1kp1klf" group-title="Live Sports",Oklahoma Sooners Vs Texas A&M Aggies
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60665/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-g78tkj" tvg-name="Troy Trojans Vs Georgia Southern Eagles" tvg-logo="/api/public/ls-image/ls-g78tkj" group-title="Live Sports",Troy Trojans Vs Georgia Southern Eagles
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60670/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-1vhrx5c" tvg-name="Marshall Thundering Herd Vs Georgia State Panthers" tvg-logo="/api/public/ls-image/ls-1vhrx5c" group-title="Live Sports",Marshall Thundering Herd Vs Georgia State Panthers
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60667/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-uoqgg7" tvg-name="North Dakota State Bison Vs Northern Illinois Huskies" tvg-logo="/api/public/ls-image/ls-uoqgg7" group-title="Live Sports",North Dakota State Bison Vs Northern Illinois Huskies
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60669/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-4017ob" tvg-name="Southern Mississippi Golden Eagles Vs South Alabama Jaguars" tvg-logo="/api/public/ls-image/ls-4017ob" group-title="Live Sports",Southern Mississippi Golden Eagles Vs South Alabama Jaguars
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60666/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1 tvg-id="ls-101qs1u" tvg-name="Auburn Tigers Vs Samford Bulldogs" tvg-logo="/api/public/ls-image/ls-101qs1u" group-title="Live Sports",Auburn Tigers Vs Samford Bulldogs
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
+#EXTHTTP:{"User-Agent":"ExoPlayerLib/2.19.1"}
+https://chatgpt.hereisman.net/playlist/60659/load-playlist-multi?&.m3u8|User-Agent=ExoPlayerLib%2F2.19.1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1 tvg-id="ls-1crj65a" tvg-name="Monday Night RAW Vs Monday Night RAW" tvg-logo="/api/public/ls-image/ls-1crj65a" group-title="Live Sports",Monday Night RAW Vs Monday Night RAW
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/2.19.1
